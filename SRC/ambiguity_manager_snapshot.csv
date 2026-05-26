@@ -1,0 +1,8 @@
+epoch,sat_id,state_index,active,observable,lifecycle_state,lineage_id,generation,parent_lineage_id,sigma_mm,resets,accepts,rejects,born_epoch,lifetime_epochs,rejection_streak,acceptance_streak,continuous_active_epochs,continuous_filter_epochs,rolling_sigma_mm,convergence_score
+0,G01,5,1,1,ACTIVE,,,,20000.00,0,0,0,0,0,0,0,0,0,nan,0.0000
+0,G03,6,1,1,ACTIVE,,,,20000.00,0,0,0,0,0,0,0,0,0,nan,0.0000
+0,G04,7,1,1,ACTIVE,,,,20000.00,0,0,0,0,0,0,0,0,0,nan,0.0000
+0,G08,8,1,1,ACTIVE,,,,20000.00,0,0,0,0,0,0,0,0,0,nan,0.0000
+0,G16,9,1,1,ACTIVE,,,,20000.00,0,0,0,0,0,0,0,0,0,nan,0.0000
+0,G26,10,1,1,ACTIVE,,,,20000.00,0,0,0,0,0,0,0,0,0,nan,0.0000
+0,G27,11,1,1,ACTIVE,,,,20000.00,0,0,0,0,0,0,0,0,0,nan,0.0000

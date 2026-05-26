@@ -1,0 +1,49 @@
+$$ Ocean loading displacement
+$$
+$$ OTL provider: http://holt.oso.chalmers.se/loading/
+$$ Created by Scherneck & Bos
+$$
+$$ WARNING: All your longitudes were within -90 to +90 degrees
+$$ There is a risk that longitude and latitude were swapped
+$$ Please verify for yourself that this has not been the case
+$$
+$$ COLUMN ORDER:  M2  S2  N2  K2  K1  O1  P1  Q1  MF  MM SSA
+$$
+$$ ROW ORDER:
+$$ AMPLITUDES (m)
+$$   RADIAL
+$$   TANGENTL    EW
+$$   TANGENTL    NS
+$$ PHASES (degrees)
+$$   RADIAL
+$$   TANGENTL    EW
+$$   TANGENTL    NS
+$$
+$$ Displacement is defined positive in upwards, South and West direction.
+$$ The phase lag is relative to Greenwich and lags positive. The PREM
+$$ Green's function is used. The deficit of tidal water mass in the tide
+$$ model has been corrected by subtracting a uniform layer of water with
+$$ a certain phase lag globally.
+$$
+$$ CMC:  NO (corr.tide centre of mass)
+$$
+$$ A constant seawater density of 1030 kg/m^3 is used.
+$$
+$$ A thin tidal layer is subtracted to conserve water mass.
+$$
+$$ FES2022b: m2 s2 n2 k2 k1 o1
+$$ FES2022b: p1 q1 Mf Mm Ssa
+$$
+$$ END HEADER
+$$
+  IISC B
+$$ FES2022b ID:2026-04-16 05:27:41
+$$ Computed using CARGA
+$$ IISC B                  RADI TANG  lon/lat:  77.5704   13.0212   843.714
+  .00232 .00133 .00062 .00035 .00405 .00135 .00116 .00049 .00082 .00046 .00042
+  .00269 .00106 .00055 .00029 .00280 .00162 .00086 .00033 .00004 .00002 .00001
+  .00251 .00139 .00049 .00040 .00102 .00085 .00032 .00019 .00006 .00002 .00002
+   -13.8   62.2  -52.2   66.2  139.6  179.3  137.3 -158.3 -165.7 -171.4 -178.4
+  -148.5 -121.1 -163.8 -127.7    0.2   -6.0   -0.5  -13.9  -50.7 -109.1 -167.6
+   -91.9  -65.1  -92.0  -67.5   73.1   64.2   72.2   53.9   -3.5   -2.6    1.0
+$$ END TABLE

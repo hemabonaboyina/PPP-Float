@@ -1,0 +1,214 @@
+  [GPS_DBG] SOD=43170  nGPS_total=8  nGPS_used=7  nGPS_AR_capable=7
+[CHECK] candidates=2 selected=2 after_sigma=0
+[NL FIXED] G12  N1=245  N2=305  frac=-0.008  P_N1=21.3cm
+[NL FIXED] G05  N1=208  N2=268  frac=-0.007  P_N1=18.7cm
+[WL CHECK] G25 n=50 std=0.219 res=0.211 b_rec=+0.160(GF)
+[NL_STATS] SOD=44970  NL_count=1  mean_sigma_N1_m=0.3768  max_sigma_N1_m=0.7726  skipped_no_osb=0  skipped_bad_bias=0  skipped_high_range=0  skipped_sigma=0  skipped_no_ar=0  skipped_innov=5
+[NL_QUALITY] mean_sigma=0.3768 max_sigma=0.7726
+[SIG_STATS] SOD=44970  nGPS_total=2803  nGPS_used_ppp=2442  nGPS_ar_capable=2442  (window=300ep)
+[IONO VAR] min=0.00 max=0.66 mean=0.28
+[GPS_SUMMARY] SOD=45000  used_ppp=8  no_AR=0  ar_capable=8  gal_ppp=0
+[NL_FLOW] candidates=2  selected=2  after_sigma=0  fixed=1
+[NL_FLOW_CHECK] cand=2 sel=2 after_sigma=0 fixed=1
+[CHECK] candidates=2 selected=2 after_sigma=0
+[NL FIXED] G12  N1=245  N2=305  frac=-0.013  P_N1=18.5cm
+[WL FIXED] G25  N_WL=-70  mean=-70.200  std=0.208 b_rec=+0.160(GF) cyc
+[N1_JUMP] G05  N1 208→207  buf reset
+[NL FIXED] G25  N1=284  N2=354  frac=-0.003  P_N1=38.0cm
+[N1_JUMP] G05  N1 207→208  buf reset
+[N1_JUMP] G05  N1 208→207  buf reset
+[N1_JUMP] G12  N1 245→244  buf reset
+[CHECK] candidates=2 selected=2 after_sigma=0
+[NL FIXED] G05  N1=207  N2=267  frac=-0.019  P_N1=14.2cm
+[NL FIXED] G12  N1=244  N2=304  frac=-0.018  P_N1=15.3cm
+[WL CHECK] G15 n=50 std=0.276 res=0.075 b_rec=+0.160(GF)
+[NL_FLOW] candidates=1  selected=1  after_sigma=0  fixed=2
+[NL_FLOW_CHECK] cand=1 sel=1 after_sigma=0 fixed=2
+[CHECK] candidates=1 selected=1 after_sigma=0
+[NL_BIAS_FROZEN] G05  bias=+0.2658  frac_std=0.0039  corr_frac=-0.0108  buf_n=44
+[NL FIXED] G05  N1=207  N2=267  frac=-0.011  P_N1=10.3cm
+[WL FIXED] G15  N_WL=-60  mean=-59.966  std=0.250 b_rec=+0.160(GF) cyc
+[WL CHECK] G13 n=50 std=0.345 res=0.141 b_rec=+0.160(GF)
+[NL FIXED] G05  N1=207  N2=267  frac=+0.012  P_N1=10.2cm
+[NL FIXED] G15  N1=229  N2=289  frac=+0.016  P_N1=43.8cm
+[CHECK] candidates=2 selected=2 after_sigma=0
+[WL CHECK] G29 n=50 std=0.249 res=0.158 b_rec=+0.160(GF)
+[WL FIXED] G29  N_WL=-64  mean=-64.158  std=0.249 b_rec=+0.160(GF) cyc
+[NL FIXED] G05  N1=207  N2=267  frac=+0.003  P_N1=10.1cm
+  [FWD] SOD= 50370  N= 9(G9+E0)  3D=   120.2mm  WL=5  NL=2  ZHD=2.091m  ZWD=0.1188m  ZTD=2.2097m  CodeRMS=429.4mm  PhsRMS=220.40mm
+  [GPS_DBG] SOD=50370  nGPS_total=10  nGPS_used=9  nGPS_AR_capable=9
+[WL CHECK] G13 n=100 std=0.331 res=0.065 b_rec=+0.160(GF)
+[WL CHECK] G23 n=50 std=0.326 res=0.102 b_rec=+0.160(GF)
+[NL_FLOW] candidates=3  selected=3  after_sigma=0  fixed=2
+[NL_FLOW_CHECK] cand=3 sel=3 after_sigma=0 fixed=2
+[CHECK] candidates=3 selected=3 after_sigma=0
+[N1_JUMP] G29  N1 249→248  buf reset
+[N1_JUMP] G29  N1 248→249  buf reset
+[NL FIXED] G05  N1=207  N2=267  frac=+0.013  P_N1=9.9cm
+[N1_JUMP] G29  N1 249→248  buf reset
+[N1_JUMP] G15  N1 229→230  buf reset
+[N1_JUMP] G15  N1 230→229  buf reset
+[N1_JUMP] G15  N1 229→230  buf reset
+[N1_JUMP] G15  N1 230→229  buf reset
+[N1_JUMP] G29  N1 248→249  buf reset
+[WL CHECK] G18 n=50 std=0.411 res=0.089 b_rec=+0.160(GF)
+[N1_JUMP] G15  N1 229→230  buf reset
+[WL CHECK] G23 n=100 std=0.299 res=0.141 b_rec=+0.160(GF)
+[NL FIXED] G05  N1=207  N2=267  frac=-0.018  P_N1=9.8cm
+[CHECK] candidates=3 selected=3 after_sigma=0
+[NL FIXED] G29  N1=249  N2=313  frac=-0.014  P_N1=22.9cm
+[NL FIXED] G15  N1=230  N2=290  frac=+0.018  P_N1=23.0cm
+[WL CHECK] G18 n=100 std=0.403 res=0.177 b_rec=+0.160(GF)
+[NL FIXED] G29  N1=249  N2=313  frac=-0.002  P_N1=20.1cm
+[NL_STATS] SOD=53970  NL_count=1  mean_sigma_N1_m=0.3556  max_sigma_N1_m=0.7726  skipped_no_osb=0  skipped_bad_bias=0  skipped_high_range=0  skipped_sigma=0  skipped_no_ar=0  skipped_innov=11
+[NL_QUALITY] mean_sigma=0.3556 max_sigma=0.7726
+[SIG_STATS] SOD=53970  nGPS_total=3024  nGPS_used_ppp=2697  nGPS_ar_capable=2693  (window=300ep)
+[IONO VAR] min=0.00 max=0.75 mean=0.31
+[GPS_SUMMARY] SOD=54000  used_ppp=8  no_AR=0  ar_capable=8  gal_ppp=0
+[NL_FLOW] candidates=2  selected=2  after_sigma=0  fixed=1
+[NL_FLOW_CHECK] cand=2 sel=2 after_sigma=0 fixed=1
+[CHECK] candidates=2 selected=2 after_sigma=0
+[NL FIXED] G15  N1=230  N2=290  frac=-0.011  P_N1=22.4cm
+[NL FIXED] G29  N1=249  N2=313  frac=-0.015  P_N1=17.5cm
+[CHECK] candidates=2 selected=2 after_sigma=0
+[WL CHECK] G10 n=50 std=0.537 res=0.188 b_rec=+0.160(GF)
+[N1_JUMP] G29  N1 249→248  buf reset
+[NL FIXED] G15  N1=230  N2=290  frac=-0.018  P_N1=20.8cm
+[NL FIXED] G29  N1=248  N2=312  frac=-0.001  P_N1=16.0cm
+[NL_FLOW] candidates=2  selected=2  after_sigma=0  fixed=0
+[NL_FLOW_CHECK] cand=2 sel=2 after_sigma=0 fixed=0
+[CHECK] candidates=2 selected=2 after_sigma=0
+[WL CHECK] G10 n=100 std=0.463 res=0.234 b_rec=+0.160(GF)
+[N1_JUMP] G15  N1 230→229  buf reset
+  [FWD] SOD= 57570  N= 8(G8+E0)  3D=   132.0mm  WL=2  NL=0  ZHD=2.091m  ZWD=0.1178m  ZTD=2.2086m  CodeRMS=369.4mm  PhsRMS=131.54mm
+  [GPS_DBG] SOD=57570  nGPS_total=9  nGPS_used=8  nGPS_AR_capable=8
+[NL FIXED] G29  N1=248  N2=312  frac=-0.016  P_N1=15.1cm
+[WL CHECK] G24 n=50 std=0.484 res=0.275 b_rec=+0.160(GF)
+[WL FIXED] G23  N_WL=-23  mean=-23.181  std=0.250 b_rec=+0.160(GF) cyc
+[WL CHECK] G32 n=50 std=0.555 res=0.381 b_rec=+0.160(GF)
+[CHECK] candidates=3 selected=3 after_sigma=0
+[NL FIXED] G15  N1=229  N2=289  frac=+0.014  P_N1=18.6cm
+[NL FIXED] G29  N1=248  N2=312  frac=-0.019  P_N1=14.7cm
+[NL FIXED] G23  N1=207  N2=230  frac=+0.016  P_N1=16.3cm
+[WL CHECK] G24 n=100 std=0.412 res=0.207 b_rec=+0.160(GF)
+[NL FIXED] G23  N1=207  N2=230  frac=+0.003  P_N1=16.0cm
+[WL CHECK] G32 n=100 std=0.488 res=0.201 b_rec=+0.160(GF)
+[NL_FLOW] candidates=3  selected=3  after_sigma=0  fixed=0
+[NL_FLOW_CHECK] cand=3 sel=3 after_sigma=0 fixed=0
+[CHECK] candidates=3 selected=3 after_sigma=0
+[NL FIXED] G15  N1=229  N2=289  frac=-0.014  P_N1=17.9cm
+[NL FIXED] G29  N1=248  N2=312  frac=-0.007  P_N1=14.3cm
+[NL FIXED] G23  N1=207  N2=230  frac=+0.008  P_N1=15.7cm
+[CHECK] candidates=1 selected=1 after_sigma=0
+[NL FIXED] G29  N1=248  N2=312  frac=-0.000  P_N1=12.0cm
+[WL CHECK] G10 n=50 std=0.299 res=0.098 b_rec=+0.160(GF)
+[NL_BIAS_FROZEN] G29  bias=+0.3540  frac_std=0.0057  corr_frac=-0.0111  buf_n=82
+[NL FIXED] G29  N1=248  N2=312  frac=-0.011  P_N1=11.9cm
+[NL_STATS] SOD=62970  NL_count=1  mean_sigma_N1_m=0.3607  max_sigma_N1_m=0.8068  skipped_no_osb=0  skipped_bad_bias=0  skipped_high_range=0  skipped_sigma=0  skipped_no_ar=0  skipped_innov=13
+[NL_QUALITY] mean_sigma=0.3607 max_sigma=0.8068
+[SIG_STATS] SOD=62970  nGPS_total=2519  nGPS_used_ppp=2211  nGPS_ar_capable=2210  (window=300ep)
+[IONO VAR] min=0.00 max=0.84 mean=0.36
+[GPS_SUMMARY] SOD=63000  used_ppp=7  no_AR=0  ar_capable=7  gal_ppp=0
+[NL_FLOW] candidates=1  selected=1  after_sigma=0  fixed=1
+[NL_FLOW_CHECK] cand=1 sel=1 after_sigma=0 fixed=1
+[CHECK] candidates=1 selected=1 after_sigma=0
+[CHECK] candidates=0 selected=0 after_sigma=0
+[WL CHECK] G10 n=50 std=0.355 res=0.126 b_rec=+0.160(GF)
+  [FWD] SOD= 64770  N= 8(G8+E0)  3D=   132.8mm  WL=1  NL=1  ZHD=2.091m  ZWD=0.1196m  ZTD=2.2104m  CodeRMS=331.3mm  PhsRMS=331.61mm
+  [GPS_DBG] SOD=64770  nGPS_total=8  nGPS_used=8  nGPS_AR_capable=8
+[WL CHECK] G27 n=50 std=0.385 res=0.014 b_rec=+0.160(GF)
+[WL CHECK] G28 n=50 std=0.489 res=0.437 b_rec=+0.160(GF)
+[NL_FLOW] candidates=0  selected=0  after_sigma=0  fixed=1
+[NL_FLOW_CHECK] cand=0 sel=0 after_sigma=0 fixed=1
+[CHECK] candidates=0 selected=0 after_sigma=0
+[WL CHECK] G10 n=100 std=0.360 res=0.067 b_rec=+0.160(GF)
+[WL CHECK] G27 n=100 std=0.379 res=0.080 b_rec=+0.160(GF)
+[WL CHECK] G28 n=100 std=0.411 res=0.477 b_rec=+0.160(GF)
+[CHECK] candidates=0 selected=0 after_sigma=0
+[NL_FLOW] candidates=0  selected=0  after_sigma=0  fixed=1
+[NL_FLOW_CHECK] cand=0 sel=0 after_sigma=0 fixed=1
+[CHECK] candidates=0 selected=0 after_sigma=0
+[CHECK] candidates=0 selected=0 after_sigma=0
+[WL CHECK] G31 n=50 std=0.335 res=0.253 b_rec=+0.160(GF)
+[WL CHECK] G27 n=50 std=0.451 res=0.156 b_rec=+0.160(GF)
+[WL CHECK] G02 n=50 std=0.545 res=0.172 b_rec=+0.160(GF)
+[NL_STATS] SOD=71970  NL_count=1  mean_sigma_N1_m=0.3332  max_sigma_N1_m=0.8066  skipped_no_osb=0  skipped_bad_bias=0  skipped_high_range=0  skipped_sigma=0  skipped_no_ar=0  skipped_innov=0
+[NL_QUALITY] mean_sigma=0.3332 max_sigma=0.8066
+[SIG_STATS] SOD=71970  nGPS_total=2607  nGPS_used_ppp=2277  nGPS_ar_capable=2275  (window=300ep)
+  [FWD] SOD= 71970  N=10(G10+E0)  3D=   108.9mm  WL=1  NL=1  ZHD=2.091m  ZWD=0.1221m  ZTD=2.2129m  CodeRMS=871.0mm  PhsRMS=482.59mm
+  [GPS_DBG] SOD=71970  nGPS_total=11  nGPS_used=10  nGPS_AR_capable=10
+[IONO VAR] min=0.00 max=0.93 mean=0.32
+[GPS_SUMMARY] SOD=72000  used_ppp=10  no_AR=0  ar_capable=10  gal_ppp=0
+[NL_FLOW] candidates=0  selected=0  after_sigma=0  fixed=1
+[NL_FLOW_CHECK] cand=0 sel=0 after_sigma=0 fixed=1
+[CHECK] candidates=0 selected=0 after_sigma=0
+[WL CHECK] G31 n=100 std=0.302 res=0.247 b_rec=+0.160(GF)
+[WL CHECK] G27 n=100 std=0.448 res=0.188 b_rec=+0.160(GF)
+[WL CHECK] G02 n=100 std=0.499 res=0.197 b_rec=+0.160(GF)
+[CHECK] candidates=0 selected=0 after_sigma=0
+[NL_FLOW] candidates=0  selected=0  after_sigma=0  fixed=0
+[NL_FLOW_CHECK] cand=0 sel=0 after_sigma=0 fixed=0
+[CHECK] candidates=0 selected=0 after_sigma=0
+[WL CHECK] G23 n=50 std=0.706 res=0.407 b_rec=+0.160(GF)
+[WL CHECK] G26 n=50 std=0.522 res=0.381 b_rec=+0.160(GF)
+[WL FIXED] G31  N_WL=16  mean=15.800  std=0.242 b_rec=+0.160(GF) cyc
+[WL CHECK] G01 n=50 std=0.647 res=0.332 b_rec=+0.160(GF)
+[CHECK] candidates=1 selected=1 after_sigma=0
+[WL CHECK] G26 n=100 std=0.446 res=0.252 b_rec=+0.160(GF)
+[NL FIXED] G31  N1=65  N2=49  frac=+0.015  P_N1=23.7cm
+[DBG v56] G01 SOD=77910 L1m-P1 mean=-3.105m range=38.5525m  L2m-P2 mean=-9.327m range=60.2245m  I_est=0.340m σ_I=0.090m
+[DBG v56]  → equatorial iono (IISC/EIA): range 38.6/60.2m is NORMAL — not a model error (use σ_I above to verify tracking)
+[WL CHECK] G01 n=100 std=0.539 res=0.458 b_rec=+0.160(GF)
+[NL_FLOW] candidates=1  selected=1  after_sigma=0  fixed=0
+[NL_FLOW_CHECK] cand=1 sel=1 after_sigma=0 fixed=0
+[CHECK] candidates=1 selected=1 after_sigma=0
+[NL FIXED] G31  N1=66  N2=50  frac=+0.016  P_N1=22.9cm
+[N1_JUMP] G31  N1 65→66  buf reset
+  [FWD] SOD= 79170  N= 8(G8+E0)  3D=    98.1mm  WL=1  NL=0  ZHD=2.091m  ZWD=0.1217m  ZTD=2.2125m  CodeRMS=287.3mm  PhsRMS=90.21mm
+  [GPS_DBG] SOD=79170  nGPS_total=8  nGPS_used=8  nGPS_AR_capable=8
+[WL CHECK] G16 n=50 std=0.351 res=0.129 b_rec=+0.160(GF)
+[CHECK] candidates=1 selected=1 after_sigma=0
+[NL FIXED] G31  N1=66  N2=50  frac=+0.016  P_N1=17.4cm
+[WL CHECK] G03 n=50 std=0.437 res=0.007 b_rec=+0.160(GF)
+[WL CHECK] G16 n=100 std=0.314 res=0.063 b_rec=+0.160(GF)
+[NL_STATS] SOD=80970  NL_count=0  mean_sigma_N1_m=0.3013  max_sigma_N1_m=0.8572  skipped_no_osb=0  skipped_bad_bias=0  skipped_high_range=0  skipped_sigma=0  skipped_no_ar=0  skipped_innov=3
+[NL_QUALITY] mean_sigma=0.3013 max_sigma=0.8572
+[SIG_STATS] SOD=80970  nGPS_total=2938  nGPS_used_ppp=2562  nGPS_ar_capable=2558  (window=300ep)
+[IONO VAR] min=0.00 max=1.02 mean=0.29
+[GPS_SUMMARY] SOD=81000  used_ppp=10  no_AR=0  ar_capable=10  gal_ppp=0
+[NL_FLOW] candidates=1  selected=1  after_sigma=1  fixed=0
+[NL_FLOW_CHECK] cand=1 sel=1 after_sigma=1 fixed=0
+[CHECK] candidates=1 selected=1 after_sigma=1
+[NL FIXED] G31  N1=66  N2=50  frac=+0.019  P_N1=16.7cm
+[WL CHECK] G32 n=50 std=0.494 res=0.219 b_rec=+0.160(GF)
+[DBG v56] G01 SOD=81510 L1m-P1 mean=4.747m range=2.3372m  L2m-P2 mean=3.221m range=4.2832m  I_est=-0.651m σ_I=0.063m
+[DBG v56]  → WARNING range > 0.5m — possible model inconsistency
+[WL CHECK] G03 n=100 std=0.435 res=0.075 b_rec=+0.160(GF)
+[NL_BIAS_FROZEN] G31  bias=-0.1078  frac_std=0.0065  corr_frac=+0.0002  buf_n=51
+[CHECK] candidates=1 selected=1 after_sigma=1
+[NL FIXED] G31  N1=66  N2=50  frac=+0.000  P_N1=15.7cm
+[WL CHECK] G04 n=50 std=0.470 res=0.250 b_rec=+0.160(GF)
+[NL_FLOW] candidates=0  selected=0  after_sigma=0  fixed=1
+[NL_FLOW_CHECK] cand=0 sel=0 after_sigma=0 fixed=1
+[CHECK] candidates=0 selected=0 after_sigma=0
+[WL FIXED] G16  N_WL=13  mean=12.976  std=0.250 b_rec=+0.160(GF) cyc
+[N1_JUMP] G16  N1 18→0  buf reset
+[DBG v56] G01 SOD=85110 L1m-P1 mean=5.783m range=1.3296m  L2m-P2 mean=4.948m range=3.0922m  I_est=-1.004m σ_I=0.073m
+[DBG v56]  → WARNING range > 0.5m — possible model inconsistency
+[NL FIXED] G16  N1=0  N2=-13  frac=+0.011  P_N1=15.0cm
+[CHECK] candidates=1 selected=1 after_sigma=0
+  [FWD] SOD= 86370  N= 8(G8+E0)  3D=    64.0mm  WL=2  NL=1  ZHD=2.091m  ZWD=0.1223m  ZTD=2.2132m  CodeRMS=567.2mm  PhsRMS=690.84mm
+  [GPS_DBG] SOD=86370  nGPS_total=9  nGPS_used=8  nGPS_AR_capable=8
+[WL_DICT] size=2 keys=['G31', 'G16']
+[AMB INHERIT] 31/31 sats (excluded: {})
+[CSV]  nl_bias_debug.csv → C:\Users\HP\OneDrive\Desktop\PROJECT\src\nl_bias_debug.csv
+  2880 epochs  end_3D=64.0mm  ZWD=0.122m
+  WL fixed: ['G31', 'G16']  (2 sats)
+[SMOOTH] Running RTS smoother on 2880 epochs ...
+  DIAG 3D=76.7mm  dE=+63.4  dN=+8.2  dU=-42.4 mm
+
+  ── Metrics: GPS-only ──────────────────────────────────────────
+  RMS (E/N/U/3D): 64.9 / 44.4 / 65.0 / 102.0 mm  (3D<200mm subset)
+  Conv (5-ep sustain) <10cm: SOD=18090   <5cm: SOD=19620
+  WL-fixed epochs: 2337/2880  NL-fixed epochs: 1251/2880  First NL SOD: 10020.0
+  RTS RMS (E/N/U/3D): 51.8 / 37.2 / 50.9 / 81.6 mm

@@ -1,0 +1,10 @@
+SOD,event,sat,detail
+17940.0,NML_BAL_DIAG,,GPS%=44.4 cond=4.82e+02 sc_GPS=0.991 sc_Gal=1.009 hump_risk=0.048
+17940.0,SCALE_GUARD_BLOCK,,scale=1.0000 target=0.7000 ratio=0.500
+35940.0,NML_BAL_DIAG,,GPS%=39.5 cond=5.81e+02 sc_GPS=0.986 sc_Gal=1.014 hump_risk=0.063
+35940.0,SCALE_GUARD_BLOCK,,scale=1.0000 target=0.7000 ratio=0.222
+53940.0,NML_BAL_DIAG,,GPS%=91.1 cond=4.02e+03 sc_GPS=1.000 sc_Gal=1.000 hump_risk=0.713
+53940.0,SCALE_GUARD_BLOCK,,scale=1.0000 target=0.7000 ratio=0.263
+71940.0,NML_BAL_DIAG,,GPS%=37.8 cond=6.48e+02 sc_GPS=1.000 sc_Gal=1.000 hump_risk=0.087
+71940.0,SCALE_GUARD_BLOCK,,scale=1.0000 target=0.7000 ratio=0.257
+82680.0,NL_FIX,E33,corr_frac=-0.0291 sigma=0.067 refix=0  NL_STABLE

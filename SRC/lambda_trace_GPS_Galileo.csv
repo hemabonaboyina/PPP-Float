@@ -1,0 +1,2 @@
+epoch,sod,dim,sat_list,sys_list,cond_Q,det_Q,min_diag,max_diag,min_eig,covariance_units,float_vector_cyc,diag_Q_cyc2,success,info,ratio,sqnorm_best,sqnorm_second,fixed_count,ratio_thresh,ratio_pass
+0,0.0,5,"amb0,amb1,amb2,amb3,amb4","?,?,?,?,?",16688.5569,0.0,0.391341,0.41004334,0.00011829,cycles^2,"19.789101,101.849639,33.000000,28.160373,16.138817","0.39216836,0.39380113,0.39134100,0.39817692,0.41004334",True,0,1.0102,234.409865,236.795559,5,4.5,False

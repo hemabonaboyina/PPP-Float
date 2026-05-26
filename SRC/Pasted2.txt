@@ -1,0 +1,573 @@
+PS C:\Users\HP\OneDrive\Desktop\PROJECT\src> python gpscon.py
+========================================================================
+GPS+Galileo PPP v60 — Per-Satellite Fractional Bias | Consistency Gate | Metres sigma_N1
+========================================================================
+[OBS]  2880 epochs  ant_h=0.0780m  ant=ASH701945E_M    NONE 
+[SP3]  289 epochs  123 sats
+[CLK]  352264 entries  123 sats
+[BIA]  878 OSB entries (6982 code, 372 phase)  127 PRNs
+       G01 C1W=-1.5834m  C2W=-2.6077m  L1C=+0.061041m  L2W=+0.092987m
+       E01 C1C=+nanm  C5Q=+nanm  L1C=+nanm  L5Q=+nanm
+[ATX]  168 sat PRNs, 490 receiver types
+[ATX]  Receiver 'ASH701945E_M    NONE ' found
+[OBX]  123 sats  354363 records
+[BLQ] loaded station IISC
+[BLQ]  IISC: U_M2=+2.32mm U_K1=+4.05mm EW_K1=+2.80mm NS_K1=+1.02mm
+[BLQ]  1 station(s): ['IISC']
+[OTL]  Using station 'IISC' for BLQ look-up
+[OTL] corrections applied each epoch
+[INIT] ZHD=2.0909m  h=844m  lat=13.021deg
+[MODEL] SatPCO/PCV:168 PRNs  RecPCO/PCV:Y  OBX:123 sats  OSB:878 entries  OTL:Y (IISC)
+
+
+========================================================================
+[MODE] GPS-only  (constellation='G')
+[LOGS] Warning: could not remove logs dir: [WinError 5] Access is denied: 'C:\\Users\\HP\\OneDrive\\Desktop\\PROJECT\\src\\logs'
+[OTL_APPLY] SOD=0 G01 dE=-4.98 dN=-2.00 dU=-5.57 mm  rng_no_otl=23180857621.86mm rng_otl=23180857619.66mm  delta_rng=+2.20mm  otl_in_model=YES
+[OTL_APPLY] SOD=0 G03 dE=-4.98 dN=-2.00 dU=-5.57 mm  rng_no_otl=20766479601.35mm rng_otl=20766479605.10mm  delta_rng=-3.75mm  otl_in_model=YES
+[OTL_APPLY] SOD=0 G04 dE=-4.98 dN=-2.00 dU=-5.57 mm  rng_no_otl=23176946292.58mm rng_otl=23176946294.60mm  delta_rng=-2.02mm  otl_in_model=YES
+[OTL_APPLY] SOD=0 G08 dE=-4.98 dN=-2.00 dU=-5.57 mm  rng_no_otl=24108144617.22mm rng_otl=24108144617.19mm  delta_rng=+0.03mm  otl_in_model=YES
+[OTL_APPLY] SOD=0 G16 dE=-4.98 dN=-2.00 dU=-5.57 mm  rng_no_otl=20133486943.64mm rng_otl=20133486950.57mm  delta_rng=-6.93mm  otl_in_model=YES
+[OTL_APPLY] SOD=0 G26 dE=-4.98 dN=-2.00 dU=-5.57 mm  rng_no_otl=21698565930.14mm rng_otl=21698565937.40mm  delta_rng=-7.26mm  otl_in_model=YES
+[OTL_APPLY] SOD=0 G27 dE=-4.98 dN=-2.00 dU=-5.57 mm  rng_no_otl=23486581614.53mm rng_otl=23486581617.79mm  delta_rng=-3.26mm  otl_in_model=YES
+[OTL_APPLY] SOD=0 G31 dE=-4.98 dN=-2.00 dU=-5.57 mm  rng_no_otl=23053512231.13mm rng_otl=23053512237.25mm  delta_rng=-6.11mm  otl_in_model=YES
+  [FWD] SOD=     0  N= 8(G8+E0)  3D=  5206.1mm  WL=0  NL=0
+  [FWD] SOD=    30  N= 8(G8+E0)  3D=  2604.2mm  WL=0  NL=0
+  [FWD] SOD=    60  N= 8(G8+E0)  3D=  2054.8mm  WL=0  NL=0
+[B_REC FROZEN] G: b_rec=+0.1597 cyc median of 5 sats agree=4
+[WL FIXED] G03  N_WL=4  mean=4.114  std=0.133 b_rec=+0.160(GF) cyc
+[WL FIXED] G16  N_WL=1  mean=1.078  std=0.131 b_rec=+0.160(GF) cyc
+[SUMMARY] SOD=8970  sats=7  NL=0  WL=1  3D=263.6mm
+[ISB_DIAG] SOD=8970  ISB=+0.0000m  P_ISB=0.5090m²  GPS_code=411.5mm GPS_phase=84.142mm  Gal_code=nanmm Gal_phase=nanmm  nGPS=7 nGal=0  gal_sig_scale=1.000
+[ZWD_DIAG] SOD=8970 ZWD=0.1214m P_ZWD=0.000081m² Q_ZWD=7.500e-08m² sigma_U=70.0mm corr(U,ZWD)=-0.2614 run|corr|60ep=0.2594 decorr=OFF
+[ION_DIAG] SOD=8970 top-P_ion: G31:P=5.305m²/Q=3.00e-03  G16:P=4.329m²/Q=3.00e-03  G02:P=3.247m²/Q=3.00e-03  G01:P=2.742m²/Q=3.00e-03  G26:P=0.631m²/Q=3.00e-03  G14:P=0.236m²/Q=3.00e-03
+[NML_DIAG] SOD=8970 Up normal-eq: GPS=53.9387 (100.0%)  Gal=0.0000 (0.0%)  nGPS=7 nGal=0
+[NML_DIAG2] SOD=8970 elW_GPS=0.000 elW_Gal=0.000  cond(NM_pos)=3.8e+02  ZWD_decorr=OFF  Q_ZWD=nom
+[FUSION_DIAG] SOD=8970  ISB_obs=NO  ISB=+0.0000m P_ISB=0.5090m²  GPS_NE_frac=100.0%  Gal_leverage=37.401  sigma_U_comb=70.0mm sigma_U_GPS_only=2619.2mm  gal_scale=1.0000
+[OTL_APPLY] SOD=9000 G03 dE=-2.71 dN=-1.13 dU=-0.78 mm  rng_no_otl=22917653877.98mm rng_otl=22917653876.95mm  delta_rng=+1.03mm  otl_in_model=YES
+[OTL_APPLY] SOD=9000 G04 dE=-2.71 dN=-1.13 dU=-0.78 mm  rng_no_otl=20321942120.92mm rng_otl=20321942122.53mm  delta_rng=-1.61mm  otl_in_model=YES
+[OTL_APPLY] SOD=9000 G07 dE=-2.71 dN=-1.13 dU=-0.78 mm  rng_no_otl=23695530237.39mm rng_otl=23695530236.99mm  delta_rng=+0.40mm  otl_in_model=YES
+[OTL_APPLY] SOD=9000 G08 dE=-2.71 dN=-1.13 dU=-0.78 mm  rng_no_otl=20749249394.62mm rng_otl=20749249396.70mm  delta_rng=-2.08mm  otl_in_model=YES
+[OTL_APPLY] SOD=9000 G09 dE=-2.71 dN=-1.13 dU=-0.78 mm  rng_no_otl=20818866925.48mm rng_otl=20818866926.29mm  delta_rng=-0.81mm  otl_in_model=YES
+[OTL_APPLY] SOD=9000 G14 dE=-2.71 dN=-1.13 dU=-0.78 mm  rng_no_otl=24206956502.61mm rng_otl=24206956500.05mm  delta_rng=+2.57mm  otl_in_model=YES
+[OTL_APPLY] SOD=9000 G27 dE=-2.71 dN=-1.13 dU=-0.78 mm  rng_no_otl=22145985920.87mm rng_otl=22145985923.74mm  delta_rng=-2.87mm  otl_in_model=YES
+[WL FIXED] G04  N_WL=6  mean=5.825  std=0.250 b_rec=+0.160(GF) cyc
+[NL CHECK] G04 corr_frac=0.0145 sigma=0.047 buf=30
+[NL CHECK] G04 corr_frac=0.0106 sigma=0.047 buf=31
+[NL CHECK] G04 corr_frac=0.0045 sigma=0.047 buf=32
+[NL CHECK] G04 corr_frac=0.0049 sigma=0.047 buf=33
+[NL CHECK] G04 corr_frac=-0.0036 sigma=0.047 buf=34
+[NL CHECK] G04 corr_frac=-0.0091 sigma=0.047 buf=35
+[NL CHECK] G04 corr_frac=-0.0179 sigma=0.047 buf=36
+[NL CHECK] G04 corr_frac=-0.0254 sigma=0.047 buf=37
+[NL CHECK] G04 corr_frac=-0.0231 sigma=0.047 buf=38
+[NL CHECK] G04 corr_frac=-0.0197 sigma=0.047 buf=39
+[NL CHECK] G04 corr_frac=-0.0174 sigma=0.047 buf=40
+[NL CHECK] G04 corr_frac=-0.0180 sigma=0.047 buf=41
+[NL CHECK] G04 corr_frac=-0.0165 sigma=0.047 buf=42
+[NL CHECK] G04 corr_frac=-0.0216 sigma=0.047 buf=43
+[NL CHECK] G04 corr_frac=-0.0225 sigma=0.047 buf=44
+[NL CHECK] G04 corr_frac=-0.0240 sigma=0.047 buf=45
+[NL CHECK] G04 corr_frac=-0.0234 sigma=0.047 buf=46
+[NL CHECK] G04 corr_frac=-0.0216 sigma=0.047 buf=47
+[NL CHECK] G04 corr_frac=-0.0168 sigma=0.047 buf=48
+[NL CHECK] G04 corr_frac=-0.0182 sigma=0.047 buf=49
+[NL CHECK] G04 corr_frac=-0.0229 sigma=0.047 buf=50
+[NL CHECK] G04 corr_frac=-0.0261 sigma=0.047 buf=51
+[SUMMARY] SOD=17970  sats=9  NL=0  WL=0  3D=147.7mm
+[ISB_DIAG] SOD=17970  ISB=+0.0000m  P_ISB=0.5180m²  GPS_code=218.4mm GPS_phase=140.751mm  Gal_code=nanmm Gal_phase=nanmm  nGPS=9 nGal=0  gal_sig_scale=1.000
+[ZWD_DIAG] SOD=17970 ZWD=0.1214m P_ZWD=0.000051m² Q_ZWD=7.500e-08m² sigma_U=53.4mm corr(U,ZWD)=-0.2034 run|corr|60ep=0.2068 decorr=OFF
+[ION_DIAG] SOD=17970 top-P_ion: G27:P=7.258m²/Q=3.00e-03  G31:P=6.203m²/Q=3.00e-03  G16:P=5.227m²/Q=3.00e-03  G08:P=3.509m²/Q=3.00e-03  G03:P=2.074m²/Q=3.00e-03  G04:P=1.789m²/Q=3.00e-03
+[NML_DIAG] SOD=17970 Up normal-eq: GPS=68.3994 (100.0%)  Gal=0.0000 (0.0%)  nGPS=9 nGal=0
+[NML_DIAG2] SOD=17970 elW_GPS=0.000 elW_Gal=0.000  cond(NM_pos)=1.7e+03  ZWD_decorr=OFF  Q_ZWD=nom
+[FUSION_DIAG] SOD=17970  ISB_obs=NO  ISB=+0.0000m P_ISB=0.5180m²  GPS_NE_frac=100.0%  Gal_leverage=98.427  sigma_U_comb=53.4mm sigma_U_GPS_only=5260.8mm  gal_scale=1.0000
+[OTL_APPLY] SOD=18000 G01 dE=-0.73 dN=+1.03 dU=+0.98 mm  rng_no_otl=22881118947.67mm rng_otl=22881118948.09mm  delta_rng=-0.42mm  otl_in_model=YES
+[OTL_APPLY] SOD=18000 G02 dE=-0.73 dN=+1.03 dU=+0.98 mm  rng_no_otl=23410684066.41mm rng_otl=23410684066.37mm  delta_rng=+0.04mm  otl_in_model=YES
+[OTL_APPLY] SOD=18000 G07 dE=-0.73 dN=+1.03 dU=+0.98 mm  rng_no_otl=21160386934.64mm rng_otl=21160386933.58mm  delta_rng=+1.06mm  otl_in_model=YES
+[OTL_APPLY] SOD=18000 G09 dE=-0.73 dN=+1.03 dU=+0.98 mm  rng_no_otl=21836999802.11mm rng_otl=21836999802.24mm  delta_rng=-0.13mm  otl_in_model=YES
+[OTL_APPLY] SOD=18000 G14 dE=-0.73 dN=+1.03 dU=+0.98 mm  rng_no_otl=22482654211.21mm rng_otl=22482654209.64mm  delta_rng=+1.57mm  otl_in_model=YES
+[OTL_APPLY] SOD=18000 G17 dE=-0.73 dN=+1.03 dU=+0.98 mm  rng_no_otl=21011339178.56mm rng_otl=21011339177.99mm  delta_rng=+0.58mm  otl_in_model=YES
+[OTL_APPLY] SOD=18000 G19 dE=-0.73 dN=+1.03 dU=+0.98 mm  rng_no_otl=23320544935.26mm rng_otl=23320544935.17mm  delta_rng=+0.08mm  otl_in_model=YES
+[OTL_APPLY] SOD=18000 G22 dE=-0.73 dN=+1.03 dU=+0.98 mm  rng_no_otl=22759272625.19mm rng_otl=22759272623.75mm  delta_rng=+1.44mm  otl_in_model=YES
+[OTL_APPLY] SOD=18000 G30 dE=-0.73 dN=+1.03 dU=+0.98 mm  rng_no_otl=21877777538.04mm rng_otl=21877777536.52mm  delta_rng=+1.52mm  otl_in_model=YES
+[WL FIXED] G17  N_WL=-32  mean=-32.152  std=0.250 b_rec=+0.160(GF) cyc
+[NL CHECK] G17 corr_frac=0.0112 sigma=0.055 buf=30
+[NL CHECK] G17 corr_frac=0.0067 sigma=0.055 buf=31
+[NL CHECK] G17 corr_frac=0.0135 sigma=0.055 buf=32
+[NL CHECK] G17 corr_frac=0.0134 sigma=0.054 buf=33
+[NL CHECK] G17 corr_frac=0.0157 sigma=0.054 buf=34
+[NL CHECK] G17 corr_frac=0.0169 sigma=0.054 buf=35
+[NL CHECK] G17 corr_frac=0.0182 sigma=0.054 buf=36
+[NL CHECK] G17 corr_frac=-0.0033 sigma=0.054 buf=36
+[NL CHECK] G17 corr_frac=-0.0174 sigma=0.054 buf=37
+[NL CHECK] G17 corr_frac=-0.0134 sigma=0.054 buf=38
+[NL CHECK] G17 corr_frac=-0.0287 sigma=0.054 buf=39
+[NL CHECK] G17 corr_frac=-0.0159 sigma=0.052 buf=55
+[NL CHECK] G17 corr_frac=-0.0086 sigma=0.052 buf=56
+[NL CHECK] G17 corr_frac=-0.0037 sigma=0.052 buf=57
+[NL CHECK] G17 corr_frac=0.0087 sigma=0.052 buf=58
+[NL CHECK] G17 corr_frac=0.0082 sigma=0.051 buf=59
+[NL CHECK] G17 corr_frac=0.0015 sigma=0.051 buf=60
+[NL CHECK] G17 corr_frac=-0.0054 sigma=0.051 buf=61
+[NL_BIAS_FROZEN] G17  bias=+0.4484  frac_std=0.0097  corr_frac=-0.0036  buf_n=62
+[SUMMARY] SOD=26970  sats=9  NL=0  WL=1  3D=216.3mm
+[ISB_DIAG] SOD=26970  ISB=+0.0000m  P_ISB=0.5270m²  GPS_code=202.1mm GPS_phase=118.513mm  Gal_code=nanmm Gal_phase=nanmm  nGPS=9 nGal=0  gal_sig_scale=1.000
+[ZWD_DIAG] SOD=26970 ZWD=0.1203m P_ZWD=0.000044m² Q_ZWD=7.500e-08m² sigma_U=38.9mm corr(U,ZWD)=-0.2090 run|corr|60ep=0.2075 decorr=OFF
+[ION_DIAG] SOD=26970 top-P_ion: G09:P=11.447m²/Q=3.00e-03  G27:P=8.157m²/Q=3.00e-03  G01:P=7.280m²/Q=3.00e-03  G31:P=7.102m²/Q=3.00e-03  G16:P=6.126m²/Q=3.00e-03  G02:P=4.631m²/Q=3.00e-03
+[NML_DIAG] SOD=26970 Up normal-eq: GPS=56.2641 (100.0%)  Gal=0.0000 (0.0%)  nGPS=9 nGal=0
+[NML_DIAG2] SOD=26970 elW_GPS=0.000 elW_Gal=0.000  cond(NM_pos)=5.0e+02  ZWD_decorr=OFF  Q_ZWD=nom
+[FUSION_DIAG] SOD=26970  ISB_obs=NO  ISB=+0.0000m P_ISB=0.5270m²  GPS_NE_frac=100.0%  Gal_leverage=83.415  sigma_U_comb=38.9mm sigma_U_GPS_only=3246.3mm  gal_scale=1.0000
+[OTL_APPLY] SOD=27000 G06 dE=-1.18 dN=+0.45 dU=-0.40 mm  rng_no_otl=20828229804.53mm rng_otl=20828229805.14mm  delta_rng=-0.62mm  otl_in_model=YES
+[OTL_APPLY] SOD=27000 G07 dE=-1.18 dN=+0.45 dU=-0.40 mm  rng_no_otl=22379874704.82mm rng_otl=22379874705.93mm  delta_rng=-1.11mm  otl_in_model=YES
+[OTL_APPLY] SOD=27000 G11 dE=-1.18 dN=+0.45 dU=-0.40 mm  rng_no_otl=23812335606.38mm rng_otl=23812335606.47mm  delta_rng=-0.09mm  otl_in_model=YES
+[OTL_APPLY] SOD=27000 G13 dE=-1.18 dN=+0.45 dU=-0.40 mm  rng_no_otl=22788538821.37mm rng_otl=22788538820.63mm  delta_rng=+0.74mm  otl_in_model=YES
+[OTL_APPLY] SOD=27000 G14 dE=-1.18 dN=+0.45 dU=-0.40 mm  rng_no_otl=21824925004.29mm rng_otl=21824925004.76mm  delta_rng=-0.48mm  otl_in_model=YES
+[OTL_APPLY] SOD=27000 G17 dE=-1.18 dN=+0.45 dU=-0.40 mm  rng_no_otl=21774123009.98mm rng_otl=21774123009.95mm  delta_rng=+0.03mm  otl_in_model=YES
+[OTL_APPLY] SOD=27000 G19 dE=-1.18 dN=+0.45 dU=-0.40 mm  rng_no_otl=21248217461.81mm rng_otl=21248217461.48mm  delta_rng=+0.33mm  otl_in_model=YES
+[OTL_APPLY] SOD=27000 G22 dE=-1.18 dN=+0.45 dU=-0.40 mm  rng_no_otl=22317870778.53mm rng_otl=22317870778.63mm  delta_rng=-0.09mm  otl_in_model=YES
+[OTL_APPLY] SOD=27000 G30 dE=-1.18 dN=+0.45 dU=-0.40 mm  rng_no_otl=20611441168.19mm rng_otl=20611441169.02mm  delta_rng=-0.83mm  otl_in_model=YES
+[NL_BIAS_UNFREEZE] G17 corr_frac=0.1541 > 0.15 unfreezing and resetting buffer for re-convergence
+[NL CHECK] G17 corr_frac=0.0258 sigma=0.041 buf=34
+[NL CHECK] G17 corr_frac=0.0244 sigma=0.040 buf=35
+[NL CHECK] G17 corr_frac=0.0266 sigma=0.040 buf=36
+[NL CHECK] G17 corr_frac=0.0243 sigma=0.040 buf=37
+[NL CHECK] G17 corr_frac=0.0226 sigma=0.040 buf=38
+[NL CHECK] G17 corr_frac=0.0284 sigma=0.040 buf=39
+[NL CHECK] G17 corr_frac=0.0282 sigma=0.040 buf=41
+[NL CHECK] G17 corr_frac=0.0275 sigma=0.040 buf=42
+[NL CHECK] G17 corr_frac=0.0291 sigma=0.040 buf=43
+[NL CHECK] G17 corr_frac=0.0292 sigma=0.040 buf=46
+[NL CHECK] G17 corr_frac=0.0228 sigma=0.040 buf=47
+[NL CHECK] G17 corr_frac=0.0247 sigma=0.040 buf=48
+[NL CHECK] G17 corr_frac=0.0195 sigma=0.040 buf=49
+[NL CHECK] G17 corr_frac=0.0149 sigma=0.040 buf=50
+[NL CHECK] G17 corr_frac=0.0182 sigma=0.040 buf=51
+[NL CHECK] G17 corr_frac=0.0149 sigma=0.040 buf=52
+[NL CHECK] G17 corr_frac=0.0155 sigma=0.040 buf=53
+[NL CHECK] G17 corr_frac=0.0212 sigma=0.040 buf=54
+[NL CHECK] G17 corr_frac=0.0245 sigma=0.040 buf=55
+[NL CHECK] G17 corr_frac=0.0235 sigma=0.040 buf=56
+[NL CHECK] G17 corr_frac=0.0238 sigma=0.040 buf=57
+[NL CHECK] G17 corr_frac=0.0298 sigma=0.040 buf=59
+[NL CHECK] G17 corr_frac=0.0279 sigma=0.040 buf=60
+[NL CHECK] G17 corr_frac=0.0278 sigma=0.040 buf=61
+[NL CHECK] G17 corr_frac=0.0279 sigma=0.040 buf=62
+[NL CHECK] G17 corr_frac=0.0259 sigma=0.040 buf=63
+[NL CHECK] G17 corr_frac=0.0299 sigma=0.039 buf=64
+[NL CHECK] G17 corr_frac=0.0257 sigma=0.039 buf=65
+[NL CHECK] G17 corr_frac=0.0157 sigma=0.039 buf=66
+[NL CHECK] G17 corr_frac=0.0137 sigma=0.039 buf=67
+[NL CHECK] G17 corr_frac=0.0215 sigma=0.039 buf=68
+[NL CHECK] G17 corr_frac=0.0228 sigma=0.039 buf=69
+[NL CHECK] G17 corr_frac=0.0275 sigma=0.039 buf=70
+[NL FIX] SOD=31770  sat=G17  corr_frac=0.0275  sigma=0.039  [NL_STABLE]
+[NL_RELEASE_SPIKE_DIAG] SOD=34170 G17 resid_amb=0.000 phase_resid=20.728 sigma_N1=0.0008 → SLIP RESET
+[WL FIXED] G11  N_WL=-29  mean=-29.163  std=0.250 b_rec=+0.160(GF) cyc
+[SUMMARY] SOD=35970  sats=10  NL=0  WL=1  3D=139.4mm
+[ISB_DIAG] SOD=35970  ISB=+0.0000m  P_ISB=0.5360m²  GPS_code=292.2mm GPS_phase=133.099mm  Gal_code=nanmm Gal_phase=nanmm  nGPS=10 nGal=0  gal_sig_scale=1.000
+[ZWD_DIAG] SOD=35970 ZWD=0.1211m P_ZWD=0.000030m² Q_ZWD=7.500e-08m² sigma_U=32.5mm corr(U,ZWD)=-0.2332 run|corr|60ep=0.2286 decorr=OFF
+[ION_DIAG] SOD=35970 top-P_ion: G09:P=12.347m²/Q=3.00e-03  G27:P=9.057m²/Q=3.00e-03  G01:P=8.180m²/Q=3.00e-03  G31:P=8.001m²/Q=3.00e-03  G16:P=7.026m²/Q=3.00e-03  G02:P=5.531m²/Q=3.00e-03
+[NML_DIAG] SOD=35970 Up normal-eq: GPS=35.8042 (100.0%)  Gal=0.0000 (0.0%)  nGPS=10 nGal=0
+[NML_DIAG2] SOD=35970 elW_GPS=0.000 elW_Gal=0.000  cond(NM_pos)=3.1e+02  ZWD_decorr=OFF  Q_ZWD=nom
+[FUSION_DIAG] SOD=35970  ISB_obs=NO  ISB=+0.0000m P_ISB=0.5360m²  GPS_NE_frac=100.0%  Gal_leverage=48.996  sigma_U_comb=32.5mm sigma_U_GPS_only=1591.9mm  gal_scale=1.0000
+[OTL_APPLY] SOD=36000 G05 dE=-1.40 dN=-2.39 dU=-0.22 mm  rng_no_otl=23485360169.93mm rng_otl=23485360167.68mm  delta_rng=+2.25mm  otl_in_model=YES
+[OTL_APPLY] SOD=36000 G06 dE=-1.40 dN=-2.39 dU=-0.22 mm  rng_no_otl=21833493209.51mm rng_otl=21833493211.66mm  delta_rng=-2.15mm  otl_in_model=YES
+[OTL_APPLY] SOD=36000 G11 dE=-1.40 dN=-2.39 dU=-0.22 mm  rng_no_otl=20494918530.95mm rng_otl=20494918531.10mm  delta_rng=-0.15mm  otl_in_model=YES
+[OTL_APPLY] SOD=36000 G12 dE=-1.40 dN=-2.39 dU=-0.22 mm  rng_no_otl=23100204776.63mm rng_otl=23100204777.98mm  delta_rng=-1.34mm  otl_in_model=YES
+[OTL_APPLY] SOD=36000 G14 dE=-1.40 dN=-2.39 dU=-0.22 mm  rng_no_otl=22942950316.52mm rng_otl=22942950316.51mm  delta_rng=+0.01mm  otl_in_model=YES
+[OTL_APPLY] SOD=36000 G17 dE=-1.40 dN=-2.39 dU=-0.22 mm  rng_no_otl=24557720822.17mm rng_otl=24557720824.60mm  delta_rng=-2.43mm  otl_in_model=YES
+[OTL_APPLY] SOD=36000 G19 dE=-1.40 dN=-2.39 dU=-0.22 mm  rng_no_otl=22861514656.70mm rng_otl=22861514659.25mm  delta_rng=-2.55mm  otl_in_model=YES
+[OTL_APPLY] SOD=36000 G21 dE=-1.40 dN=-2.39 dU=-0.22 mm  rng_no_otl=21895853276.55mm rng_otl=21895853275.42mm  delta_rng=+1.13mm  otl_in_model=YES
+[OTL_APPLY] SOD=36000 G22 dE=-1.40 dN=-2.39 dU=-0.22 mm  rng_no_otl=22063473510.37mm rng_otl=22063473510.95mm  delta_rng=-0.58mm  otl_in_model=YES
+[OTL_APPLY] SOD=36000 G24 dE=-1.40 dN=-2.39 dU=-0.22 mm  rng_no_otl=22398126638.82mm rng_otl=22398126637.84mm  delta_rng=+0.98mm  otl_in_model=YES
+[NL CHECK] G11 corr_frac=0.0119 sigma=0.043 buf=30
+[NL FIX] SOD=37680  sat=G11  corr_frac=0.0119  sigma=0.043  [NL_STABLE]
+[WL FIXED] G05  N_WL=-60  mean=-60.100  std=0.249 b_rec=+0.160(GF) cyc
+[WL FIXED] G12  N_WL=-60  mean=-60.060  std=0.250 b_rec=+0.160(GF) cyc
+[SUMMARY] SOD=44970  sats=8  NL=1  WL=3  3D=125.7mm
+[ISB_DIAG] SOD=44970  ISB=+0.0000m  P_ISB=0.5450m²  GPS_code=369.1mm GPS_phase=86.920mm  Gal_code=nanmm Gal_phase=nanmm  nGPS=8 nGal=0  gal_sig_scale=1.000
+[ZWD_DIAG] SOD=44970 ZWD=0.1212m P_ZWD=0.000021m² Q_ZWD=7.500e-08m² sigma_U=29.3mm corr(U,ZWD)=-0.2469 run|corr|60ep=0.2469 decorr=OFF
+[ION_DIAG] SOD=44970 top-P_ion: G09:P=13.246m²/Q=3.00e-03  G27:P=9.956m²/Q=3.00e-03  G01:P=9.080m²/Q=3.00e-03  G31:P=8.901m²/Q=3.00e-03  G16:P=7.926m²/Q=3.00e-03  G02:P=6.431m²/Q=3.00e-03
+[NML_DIAG] SOD=44970 Up normal-eq: GPS=75.9843 (100.0%)  Gal=0.0000 (0.0%)  nGPS=8 nGal=0
+[NML_DIAG2] SOD=44970 elW_GPS=0.000 elW_Gal=0.000  cond(NM_pos)=3.2e+02  ZWD_decorr=OFF  Q_ZWD=nom
+[FUSION_DIAG] SOD=44970  ISB_obs=NO  ISB=+0.0000m P_ISB=0.5450m²  GPS_NE_frac=100.0%  Gal_leverage=54.027  sigma_U_comb=29.3mm sigma_U_GPS_only=1584.0mm  gal_scale=1.0000
+[OTL_APPLY] SOD=45000 G05 dE=+1.35 dN=-3.23 dU=+3.16 mm  rng_no_otl=20173107181.15mm rng_otl=20173107178.40mm  delta_rng=+2.75mm  otl_in_model=YES
+[OTL_APPLY] SOD=45000 G11 dE=+1.35 dN=-3.23 dU=+3.16 mm  rng_no_otl=23181361427.15mm rng_otl=23181361427.75mm  delta_rng=-0.60mm  otl_in_model=YES
+[OTL_APPLY] SOD=45000 G12 dE=+1.35 dN=-3.23 dU=+3.16 mm  rng_no_otl=20296513366.41mm rng_otl=20296513363.01mm  delta_rng=+3.40mm  otl_in_model=YES
+[OTL_APPLY] SOD=45000 G13 dE=+1.35 dN=-3.23 dU=+3.16 mm  rng_no_otl=23650356642.98mm rng_otl=23650356638.75mm  delta_rng=+4.23mm  otl_in_model=YES
+[OTL_APPLY] SOD=45000 G15 dE=+1.35 dN=-3.23 dU=+3.16 mm  rng_no_otl=23498943226.96mm rng_otl=23498943222.55mm  delta_rng=+4.41mm  otl_in_model=YES
+[OTL_APPLY] SOD=45000 G21 dE=+1.35 dN=-3.23 dU=+3.16 mm  rng_no_otl=21505399135.12mm rng_otl=21505399133.91mm  delta_rng=+1.21mm  otl_in_model=YES
+[OTL_APPLY] SOD=45000 G25 dE=+1.35 dN=-3.23 dU=+3.16 mm  rng_no_otl=21550925546.36mm rng_otl=21550925546.16mm  delta_rng=+0.20mm  otl_in_model=YES
+[OTL_APPLY] SOD=45000 G29 dE=+1.35 dN=-3.23 dU=+3.16 mm  rng_no_otl=23881435302.19mm rng_otl=23881435304.47mm  delta_rng=-2.28mm  otl_in_model=YES
+[WL FIXED] G25  N_WL=-70  mean=-70.200  std=0.208 b_rec=+0.160(GF) cyc
+[NL CHECK] G05 corr_frac=-0.0253 sigma=0.035 buf=41
+[NL CHECK] G05 corr_frac=-0.0229 sigma=0.034 buf=48
+[NL_CLUSTER] size=1 — consistency not yet active
+[NL FIX] SOD=46800  sat=G05  corr_frac=-0.0229  sigma=0.034  [NL_STABLE]
+[NL CHECK] G12 corr_frac=-0.0211 sigma=0.027 buf=30
+[NL_CLUSTER] size=2 circ_mean=-0.0055 new_cf=-0.0211 circ_diff=0.0157
+[NL FIX] SOD=47370  sat=G12  corr_frac=-0.0211  sigma=0.027  [NL_STABLE]
+[WL FIXED] G15  N_WL=-60  mean=-59.966  std=0.250 b_rec=+0.160(GF) cyc
+[NL_RELEASE_SPIKE_DIAG] SOD=48750 G11 resid_amb=0.000 phase_resid=2.001 sigma_N1=0.0007 → SLIP RESET
+[WL FIXED] G29  N_WL=-64  mean=-64.158  std=0.249 b_rec=+0.160(GF) cyc
+[NL CHECK] G25 corr_frac=0.0057 sigma=0.034 buf=30
+[NL CHECK] G25 corr_frac=0.0158 sigma=0.034 buf=31
+[NL_RELEASE_SPIKE_DIAG] SOD=53100 G12 resid_amb=0.000 phase_resid=4.190 sigma_N1=0.0007 → SLIP RESET
+[NL CHECK] G25 corr_frac=0.0110 sigma=0.034 buf=32
+[NL CHECK] G25 corr_frac=0.0071 sigma=0.034 buf=33
+[NL CHECK] G25 corr_frac=0.0041 sigma=0.034 buf=34
+[NL CHECK] G25 corr_frac=0.0023 sigma=0.034 buf=35
+[NL CHECK] G25 corr_frac=-0.0016 sigma=0.034 buf=36
+[NL CHECK] G25 corr_frac=-0.0049 sigma=0.034 buf=37
+[NL CHECK] G25 corr_frac=-0.0083 sigma=0.034 buf=38
+[NL CHECK] G25 corr_frac=-0.0066 sigma=0.034 buf=39
+[NL_BIAS_FROZEN] G25  bias=+0.3548  frac_std=0.0069  corr_frac=-0.0072  buf_n=40
+[SUMMARY] SOD=53970  sats=8  NL=1  WL=4  3D=157.6mm
+[ISB_DIAG] SOD=53970  ISB=+0.0000m  P_ISB=0.5540m²  GPS_code=208.1mm GPS_phase=213.503mm  Gal_code=nanmm Gal_phase=nanmm  nGPS=8 nGal=0  gal_sig_scale=1.000
+[ZWD_DIAG] SOD=53970 ZWD=0.1194m P_ZWD=0.000017m² Q_ZWD=7.500e-08m² sigma_U=27.4mm corr(U,ZWD)=-0.2563 run|corr|60ep=0.2562 decorr=OFF
+[ION_DIAG] SOD=53970 top-P_ion: G09:P=14.146m²/Q=3.00e-03  G27:P=10.856m²/Q=3.00e-03  G01:P=9.980m²/Q=3.00e-03  G31:P=9.801m²/Q=3.00e-03  G16:P=8.826m²/Q=3.00e-03  G02:P=7.331m²/Q=3.00e-03
+[NML_DIAG] SOD=53970 Up normal-eq: GPS=55.7972 (100.0%)  Gal=0.0000 (0.0%)  nGPS=8 nGal=0
+[NML_DIAG2] SOD=53970 elW_GPS=0.000 elW_Gal=0.000  cond(NM_pos)=3.4e+02  ZWD_decorr=OFF  Q_ZWD=nom
+[FUSION_DIAG] SOD=53970  ISB_obs=NO  ISB=+0.0000m P_ISB=0.5540m²  GPS_NE_frac=100.0%  Gal_leverage=56.482  sigma_U_comb=27.4mm sigma_U_GPS_only=1548.2mm  gal_scale=1.0000
+[OTL_APPLY] SOD=54000 G10 dE=+5.12 dN=-0.25 dU=+5.33 mm  rng_no_otl=24038070225.87mm rng_otl=24038070228.60mm  delta_rng=-2.73mm  otl_in_model=YES
+[OTL_APPLY] SOD=54000 G12 dE=+5.12 dN=-0.25 dU=+5.33 mm  rng_no_otl=24603807849.13mm rng_otl=24603807846.83mm  delta_rng=+2.30mm  otl_in_model=YES
+[OTL_APPLY] SOD=54000 G13 dE=+5.12 dN=-0.25 dU=+5.33 mm  rng_no_otl=22539576896.38mm rng_otl=22539576890.04mm  delta_rng=+6.34mm  otl_in_model=YES
+[OTL_APPLY] SOD=54000 G15 dE=+5.12 dN=-0.25 dU=+5.33 mm  rng_no_otl=20482625615.73mm rng_otl=20482625608.87mm  delta_rng=+6.86mm  otl_in_model=YES
+[OTL_APPLY] SOD=54000 G18 dE=+5.12 dN=-0.25 dU=+5.33 mm  rng_no_otl=23179205880.92mm rng_otl=23179205881.06mm  delta_rng=-0.13mm  otl_in_model=YES
+[OTL_APPLY] SOD=54000 G23 dE=+5.12 dN=-0.25 dU=+5.33 mm  rng_no_otl=21825571500.83mm rng_otl=21825571500.68mm  delta_rng=+0.15mm  otl_in_model=YES
+[OTL_APPLY] SOD=54000 G25 dE=+5.12 dN=-0.25 dU=+5.33 mm  rng_no_otl=23038995219.83mm rng_otl=23038995218.95mm  delta_rng=+0.89mm  otl_in_model=YES
+[OTL_APPLY] SOD=54000 G29 dE=+5.12 dN=-0.25 dU=+5.33 mm  rng_no_otl=20208887744.11mm rng_otl=20208887738.65mm  delta_rng=+5.46mm  otl_in_model=YES
+[NL_BIAS_UNFREEZE] G25 corr_frac=-0.1515 > 0.15 unfreezing and resetting buffer for re-convergence
+[NL CHECK] G15 corr_frac=-0.0254 sigma=0.037 buf=30
+[NL_CLUSTER] size=1 — consistency not yet active
+[NL FIX] SOD=56190  sat=G15  corr_frac=-0.0254  sigma=0.037  [NL_STABLE]
+[WL FIXED] G23  N_WL=-23  mean=-23.181  std=0.250 b_rec=+0.160(GF) cyc
+[NL CHECK] G29 corr_frac=0.0049 sigma=0.029 buf=30
+[NL CHECK] G29 corr_frac=0.0003 sigma=0.029 buf=31
+[NL CHECK] G29 corr_frac=-0.0005 sigma=0.029 buf=32
+[NL CHECK] G29 corr_frac=0.0031 sigma=0.029 buf=33
+[NL CHECK] G29 corr_frac=0.0065 sigma=0.029 buf=34
+[NL CHECK] G29 corr_frac=0.0098 sigma=0.029 buf=35
+[NL CHECK] G29 corr_frac=0.0105 sigma=0.029 buf=36
+[NL CHECK] G29 corr_frac=0.0097 sigma=0.028 buf=37
+[NL CHECK] G29 corr_frac=0.0065 sigma=0.028 buf=38
+[NL CHECK] G29 corr_frac=0.0028 sigma=0.028 buf=39
+[NL_BIAS_FROZEN] G29  bias=-0.3687  frac_std=0.0073  corr_frac=+0.0005  buf_n=40
+[NL CHECK] G23 corr_frac=-0.0122 sigma=0.043 buf=30
+[NL CHECK] G23 corr_frac=-0.0131 sigma=0.043 buf=31
+[NL CHECK] G23 corr_frac=-0.0114 sigma=0.043 buf=32
+[NL CHECK] G23 corr_frac=-0.0125 sigma=0.043 buf=33
+[NL CHECK] G23 corr_frac=-0.0149 sigma=0.043 buf=34
+[NL CHECK] G23 corr_frac=-0.0174 sigma=0.043 buf=35
+[NL CHECK] G23 corr_frac=-0.0240 sigma=0.043 buf=36
+[NL CHECK] G23 corr_frac=-0.0268 sigma=0.043 buf=37
+[NL CHECK] G23 corr_frac=-0.0286 sigma=0.043 buf=38
+[NL CHECK] G23 corr_frac=-0.0293 sigma=0.042 buf=43
+[NL CHECK] G23 corr_frac=-0.0237 sigma=0.042 buf=44
+[NL CHECK] G23 corr_frac=-0.0159 sigma=0.042 buf=45
+[NL CHECK] G23 corr_frac=-0.0152 sigma=0.042 buf=46
+[NL CHECK] G23 corr_frac=-0.0130 sigma=0.042 buf=47
+[NL CHECK] G23 corr_frac=-0.0071 sigma=0.042 buf=48
+[NL CHECK] G23 corr_frac=-0.0053 sigma=0.042 buf=49
+[NL CHECK] G23 corr_frac=-0.0038 sigma=0.042 buf=50
+[NL CHECK] G23 corr_frac=-0.0017 sigma=0.042 buf=51
+[NL CHECK] G23 corr_frac=-0.0002 sigma=0.042 buf=52
+[NL_BIAS_FROZEN] G23  bias=+0.2283  frac_std=0.0100  corr_frac=+0.0019  buf_n=53
+[SUMMARY] SOD=62970  sats=7  NL=2  WL=4  3D=183.8mm
+[ISB_DIAG] SOD=62970  ISB=+0.0000m  P_ISB=0.5630m²  GPS_code=393.8mm GPS_phase=189.401mm  Gal_code=nanmm Gal_phase=nanmm  nGPS=7 nGal=0  gal_sig_scale=1.000
+[ZWD_DIAG] SOD=62970 ZWD=0.1193m P_ZWD=0.000014m² Q_ZWD=7.500e-08m² sigma_U=26.6mm corr(U,ZWD)=-0.2572 run|corr|60ep=0.2550 decorr=OFF
+[ION_DIAG] SOD=62970 top-P_ion: G09:P=15.046m²/Q=3.00e-03  G12:P=13.663m²/Q=3.00e-03  G01:P=10.880m²/Q=3.00e-03  G31:P=10.701m²/Q=3.00e-03  G16:P=9.726m²/Q=3.00e-03  G02:P=8.231m²/Q=3.00e-03
+[NML_DIAG] SOD=62970 Up normal-eq: GPS=36.0886 (100.0%)  Gal=0.0000 (0.0%)  nGPS=7 nGal=0
+[NML_DIAG2] SOD=62970 elW_GPS=0.000 elW_Gal=0.000  cond(NM_pos)=4.9e+02  ZWD_decorr=OFF  Q_ZWD=nom
+[FUSION_DIAG] SOD=62970  ISB_obs=NO  ISB=+0.0000m P_ISB=0.5630m²  GPS_NE_frac=100.0%  Gal_leverage=111.564  sigma_U_comb=26.6mm sigma_U_GPS_only=2962.5mm  gal_scale=1.0000
+[OTL_APPLY] SOD=63000 G10 dE=+5.38 dN=+3.19 dU=+2.03 mm  rng_no_otl=23017224912.41mm rng_otl=23017224912.16mm  delta_rng=+0.25mm  otl_in_model=YES
+[OTL_APPLY] SOD=63000 G18 dE=+5.38 dN=+3.19 dU=+2.03 mm  rng_no_otl=20699515741.57mm rng_otl=20699515736.77mm  delta_rng=+4.80mm  otl_in_model=YES
+[OTL_APPLY] SOD=63000 G23 dE=+5.38 dN=+3.19 dU=+2.03 mm  rng_no_otl=22493329916.19mm rng_otl=22493329911.82mm  delta_rng=+4.37mm  otl_in_model=YES
+[OTL_APPLY] SOD=63000 G24 dE=+5.38 dN=+3.19 dU=+2.03 mm  rng_no_otl=22447174321.57mm rng_otl=22447174315.21mm  delta_rng=+6.36mm  otl_in_model=YES
+[OTL_APPLY] SOD=63000 G27 dE=+5.38 dN=+3.19 dU=+2.03 mm  rng_no_otl=23661925610.96mm rng_otl=23661925612.42mm  delta_rng=-1.47mm  otl_in_model=YES
+[OTL_APPLY] SOD=63000 G29 dE=+5.38 dN=+3.19 dU=+2.03 mm  rng_no_otl=23220441131.35mm rng_otl=23220441132.11mm  delta_rng=-0.76mm  otl_in_model=YES
+[OTL_APPLY] SOD=63000 G32 dE=+5.38 dN=+3.19 dU=+2.03 mm  rng_no_otl=21254660385.25mm rng_otl=21254660387.33mm  delta_rng=-2.08mm  otl_in_model=YES
+[NL_BIAS_UNFREEZE] G23 corr_frac=0.2656 > 0.15 unfreezing and resetting buffer for re-convergence
+[NL CHECK] G23 corr_frac=0.0290 sigma=0.038 buf=40
+[NL CHECK] G23 corr_frac=0.0275 sigma=0.038 buf=41
+[NL CHECK] G23 corr_frac=0.0257 sigma=0.038 buf=42
+[NL CHECK] G23 corr_frac=0.0253 sigma=0.038 buf=43
+[NL CHECK] G23 corr_frac=0.0245 sigma=0.038 buf=44
+[NL CHECK] G23 corr_frac=0.0286 sigma=0.038 buf=45
+[NL CHECK] G23 corr_frac=0.0245 sigma=0.038 buf=46
+[NL CHECK] G23 corr_frac=0.0234 sigma=0.038 buf=47
+[NL CHECK] G23 corr_frac=0.0213 sigma=0.038 buf=48
+[NL CHECK] G23 corr_frac=0.0236 sigma=0.038 buf=49
+[NL CHECK] G23 corr_frac=0.0194 sigma=0.038 buf=50
+[NL CHECK] G23 corr_frac=0.0118 sigma=0.038 buf=51
+[NL CHECK] G23 corr_frac=0.0091 sigma=0.038 buf=52
+[NL CHECK] G23 corr_frac=0.0091 sigma=0.038 buf=53
+[NL_BIAS_FROZEN] G23  bias=-0.3776  frac_std=0.0094  corr_frac=+0.0047  buf_n=54
+[NL_BIAS_UNFREEZE] G23 corr_frac=0.1798 > 0.15 unfreezing and resetting buffer for re-convergence
+[NL CHECK] G23 corr_frac=0.0041 sigma=0.036 buf=30
+[NL_CLUSTER] size=2 circ_mean=-0.0241 new_cf=0.0041 circ_diff=0.0282
+[NL FIX] SOD=68340  sat=G23  corr_frac=0.0041  sigma=0.036  [NL_STABLE]
+[GAL_SCALE_FROZEN] SOD=70110  nl_fixed=3  gal_scale locked at 1.0000
+[SUMMARY] SOD=71970  sats=10  NL=3  WL=3  3D=149.5mm
+[ISB_DIAG] SOD=71970  ISB=+0.0000m  P_ISB=0.5720m²  GPS_code=851.4mm GPS_phase=100.630mm  Gal_code=nanmm Gal_phase=nanmm  nGPS=10 nGal=0  gal_sig_scale=1.000
+[ZWD_DIAG] SOD=71970 ZWD=0.1204m P_ZWD=0.000027m² Q_ZWD=7.500e-08m² sigma_U=25.9mm corr(U,ZWD)=-0.1721 run|corr|60ep=0.1751 decorr=OFF
+[ION_DIAG] SOD=71970 top-P_ion: G09:P=15.946m²/Q=3.00e-03  G12:P=14.563m²/Q=3.00e-03  G01:P=11.780m²/Q=3.00e-03  G16:P=10.626m²/Q=3.00e-03  G03:P=7.474m²/Q=3.00e-03  G04:P=7.188m²/Q=3.00e-03
+[NML_DIAG] SOD=71970 Up normal-eq: GPS=44.8251 (100.0%)  Gal=0.0000 (0.0%)  nGPS=10 nGal=0
+[NML_DIAG2] SOD=71970 elW_GPS=0.000 elW_Gal=0.000  cond(NM_pos)=2.8e+02  ZWD_decorr=OFF  Q_ZWD=nom
+[FUSION_DIAG] SOD=71970  ISB_obs=NO  ISB=+0.0000m P_ISB=0.5720m²  GPS_NE_frac=100.0%  Gal_leverage=55.296  sigma_U_comb=25.9mm sigma_U_GPS_only=1432.6mm  gal_scale=1.0000
+[OTL_APPLY] SOD=72000 G02 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=23880806463.83mm rng_otl=23880806464.07mm  delta_rng=-0.23mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 G08 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=24749506074.04mm rng_otl=24749506076.30mm  delta_rng=-2.27mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 G10 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=21787679169.76mm rng_otl=21787679170.44mm  delta_rng=-0.68mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 G18 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=23567516105.47mm rng_otl=23567516108.92mm  delta_rng=-3.44mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 G23 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=22914822716.35mm rng_otl=22914822717.11mm  delta_rng=-0.76mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 G26 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=24166544747.50mm rng_otl=24166544751.67mm  delta_rng=-4.17mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 G27 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=23945482417.89mm rng_otl=23945482421.95mm  delta_rng=-4.06mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 G28 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=20265236892.95mm rng_otl=20265236897.68mm  delta_rng=-4.73mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 G31 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=21621800951.20mm rng_otl=21621800956.54mm  delta_rng=-5.34mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 G32 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=22184741309.60mm rng_otl=22184741310.06mm  delta_rng=-0.46mm  otl_in_model=YES
+[NL_RELEASE_SPIKE_DIAG] SOD=75270 G23 resid_amb=0.000 phase_resid=31.104 sigma_N1=0.0008 → SLIP RESET
+[WL FIXED] G31  N_WL=16  mean=15.800  std=0.242 b_rec=+0.160(GF) cyc
+[NL CHECK] G31 corr_frac=-0.0282 sigma=0.044 buf=31
+[NL_CLUSTER] size=2 circ_mean=-0.0241 new_cf=-0.0282 circ_diff=0.0040
+[NL FIX] SOD=78960  sat=G31  corr_frac=-0.0282  sigma=0.044  [NL_STABLE]
+[SUMMARY] SOD=80970  sats=10  NL=3  WL=3  3D=128.2mm
+[ISB_DIAG] SOD=80970  ISB=+0.0000m  P_ISB=0.5810m²  GPS_code=1214.0mm GPS_phase=645.005mm  Gal_code=nanmm Gal_phase=nanmm  nGPS=10 nGal=0  gal_sig_scale=1.000
+[ZWD_DIAG] SOD=80970 ZWD=0.1217m P_ZWD=0.000035m² Q_ZWD=7.500e-08m² sigma_U=24.4mm corr(U,ZWD)=-0.1682 run|corr|60ep=0.1664 decorr=OFF
+[ION_DIAG] SOD=80970 top-P_ion: G09:P=16.846m²/Q=3.00e-03  G04:P=16.431m²/Q=3.00e-03  G12:P=15.463m²/Q=3.00e-03  G07:P=6.471m²/Q=3.00e-03  G14:P=5.942m²/Q=3.00e-03  G22:P=5.865m²/Q=3.00e-03
+[NML_DIAG] SOD=80970 Up normal-eq: GPS=37.5417 (100.0%)  Gal=0.0000 (0.0%)  nGPS=10 nGal=0
+[NML_DIAG2] SOD=80970 elW_GPS=0.000 elW_Gal=0.000  cond(NM_pos)=3.9e+02  ZWD_decorr=OFF  Q_ZWD=nom
+[FUSION_DIAG] SOD=80970  ISB_obs=NO  ISB=+0.0000m P_ISB=0.5810m²  GPS_NE_frac=100.0%  Gal_leverage=78.937  sigma_U_comb=24.4mm sigma_U_GPS_only=1924.1mm  gal_scale=1.0000
+[OTL_APPLY] SOD=81000 G01 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=22394504984.20mm rng_otl=22394504985.49mm  delta_rng=-1.29mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 G02 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=22494877291.29mm rng_otl=22494877293.16mm  delta_rng=-1.86mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 G03 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=23216222581.06mm rng_otl=23216222582.20mm  delta_rng=-1.13mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 G04 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=24760507341.96mm rng_otl=24760507340.25mm  delta_rng=+1.71mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 G10 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=22955336075.27mm rng_otl=22955336080.56mm  delta_rng=-5.29mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 G16 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=21696105623.50mm rng_otl=21696105629.12mm  delta_rng=-5.61mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 G26 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=20541498584.89mm rng_otl=20541498592.62mm  delta_rng=-7.73mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 G28 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=22919418550.32mm rng_otl=22919418554.85mm  delta_rng=-4.53mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 G31 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=20793068364.83mm rng_otl=20793068370.47mm  delta_rng=-5.63mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 G32 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=23876819160.22mm rng_otl=23876819165.32mm  delta_rng=-5.10mm  otl_in_model=YES
+[WL FIXED] G16  N_WL=13  mean=12.976  std=0.250 b_rec=+0.160(GF) cyc
+[WL_DICT] 4 sats fixed
+[AMB INHERIT] 31/31 sats (excluded: {})
+[CSV]  nl_bias_debug.csv → C:\Users\HP\OneDrive\Desktop\PROJECT\src\nl_bias_debug.csv
+[TRANSITION_AUDIT] Change-point dU: SOD=1800  (0.50 h)
+[TRANSITION_AUDIT] Audit window: SOD 0–7200  (0.0–2.0 h)
+  [TE] SOD=1500 (0.42h)  WL_FIX              sat=G03   val=4  mean=4.114 std=0.133
+  [TE] SOD=1500 (0.42h)  WL_FIX              sat=G16   val=1  mean=1.078 std=0.131
+[TRANSITION_AUDIT] Plot saved → C:\Users\HP\OneDrive\Desktop\PROJECT\src\logs\transition_audit.png
+[CSV]  logs/ → nl.csv  float_diag.csv  nl_events.csv  summary.csv  isb.csv  fusion_diag.csv  hump_diag.csv
+[CSV]  logs/ → vdop_diag.csv  zwd_hump_diag.csv  ion_hump_diag.csv  fusion_obs_diag.csv  (DIAG_MODE=2)
+[CSV]  logs/ → transition_audit.csv  transition_events.csv  transition_audit.png
+  2880 epochs  end_3D=103.2mm  ZWD=0.123m
+  WL fixed: ['G05', 'G15', 'G31', 'G16']  (4 sats)
+[SMOOTH] Running RTS smoother on 2880 epochs ...
+  DIAG 3D=128.0mm  dE=+50.6  dN=+32.8  dU=-112.8 mm
+
+  ── Metrics: GPS-only ──────────────────────────────────────────
+  RMS (E/N/U/3D): 54.9 / 35.8 / 137.8 / 152.6 mm  (3D<200mm subset)
+  Conv (5-ep sustain) <10cm: not reached   <5cm: not reached
+  WL-fixed epochs: 2422/2880  NL-fixed epochs: 1704/2880  First NL SOD: 31770.0
+  RTS RMS (E/N/U/3D): 39.4 / 30.4 / 110.2 / 120.9 mm
+
+[MODE] Galileo-only  (constellation='E')
+[LOGS] Warning: could not remove logs dir: [WinError 5] Access is denied: 'C:\\Users\\HP\\OneDrive\\Desktop\\PROJECT\\src\\logs'
+[OTL_APPLY] SOD=0 E04 dE=-4.98 dN=-2.00 dU=-5.57 mm  rng_no_otl=26375543651.25mm rng_otl=26375543658.41mm  delta_rng=-7.16mm  otl_in_model=YES
+[OTL_APPLY] SOD=0 E09 dE=-4.98 dN=-2.00 dU=-5.57 mm  rng_no_otl=24998256770.42mm rng_otl=24998256776.58mm  delta_rng=-6.17mm  otl_in_model=YES
+[OTL_APPLY] SOD=0 E16 dE=-4.98 dN=-2.00 dU=-5.57 mm  rng_no_otl=23813725016.08mm rng_otl=23813725020.54mm  delta_rng=-4.46mm  otl_in_model=YES
+[OTL_APPLY] SOD=30 E04 dE=-4.97 dN=-2.00 dU=-5.55 mm  rng_no_otl=26377199544.71mm rng_otl=26377199551.85mm  delta_rng=-7.14mm  otl_in_model=YES
+[OTL_APPLY] SOD=30 E05 dE=-4.97 dN=-2.00 dU=-5.55 mm  rng_no_otl=26863439774.56mm rng_otl=26863439774.86mm  delta_rng=-0.31mm  otl_in_model=YES
+[OTL_APPLY] SOD=30 E09 dE=-4.97 dN=-2.00 dU=-5.55 mm  rng_no_otl=24994250663.24mm rng_otl=24994250669.41mm  delta_rng=-6.17mm  otl_in_model=YES
+[OTL_APPLY] SOD=30 E16 dE=-4.97 dN=-2.00 dU=-5.55 mm  rng_no_otl=23804904779.37mm rng_otl=23804904783.84mm  delta_rng=-4.46mm  otl_in_model=YES
+  [FWD] SOD=    30  N= 4(G0+E4)  3D=   993.9mm  WL=0  NL=0
+  [FWD] SOD=    60  N= 4(G0+E4)  3D=  2600.3mm  WL=0  NL=0
+  [FWD] SOD=    90  N= 4(G0+E4)  3D=  1828.6mm  WL=0  NL=0
+[SUMMARY] SOD=9000  sats=6  NL=0  WL=0  3D=90.0mm
+[ISB_DIAG] SOD=9000  ISB=+0.0000m  P_ISB=0.5090m²  GPS_code=nanmm GPS_phase=nanmm  Gal_code=174.2mm Gal_phase=89.552mm  nGPS=0 nGal=6  gal_sig_scale=1.000
+[ZWD_DIAG] SOD=9000 ZWD=0.1196m P_ZWD=0.000082m² Q_ZWD=7.500e-08m² sigma_U=97.8mm corr(U,ZWD)=-0.1637 run|corr|60ep=0.1527 decorr=OFF
+[ION_DIAG] SOD=9000 top-P_ion: E03:P=3.115m²/Q=3.00e-03  E18:P=1.890m²/Q=3.00e-03  E04:P=1.410m²/Q=3.00e-03  E02:P=0.383m²/Q=3.00e-03  E09:P=0.013m²/Q=3.00e-03  E16:P=0.011m²/Q=3.00e-03
+[NML_DIAG] SOD=9000 Up normal-eq: GPS=0.0000 (0.0%)  Gal=49.2775 (100.0%)  nGPS=0 nGal=6
+[NML_DIAG2] SOD=9000 elW_GPS=0.000 elW_Gal=0.000  cond(NM_pos)=6.7e+02  ZWD_decorr=OFF  Q_ZWD=nom
+[FUSION_DIAG] SOD=9000  ISB_obs=NO  ISB=+0.0000m P_ISB=0.5090m²  GPS_NE_frac=0.0%  Gal_leverage=nan  sigma_U_comb=97.8mm sigma_U_GPS_only=nanmm  gal_scale=1.0000
+[OTL_APPLY] SOD=9030 E02 dE=-2.70 dN=-1.12 dU=-0.77 mm  rng_no_otl=27268163320.70mm rng_otl=27268163318.23mm  delta_rng=+2.46mm  otl_in_model=YES
+[OTL_APPLY] SOD=9030 E03 dE=-2.70 dN=-1.12 dU=-0.77 mm  rng_no_otl=27510425297.75mm rng_otl=27510425297.33mm  delta_rng=+0.42mm  otl_in_model=YES
+[OTL_APPLY] SOD=9030 E05 dE=-2.70 dN=-1.12 dU=-0.77 mm  rng_no_otl=24010190404.72mm rng_otl=24010190405.92mm  delta_rng=-1.20mm  otl_in_model=YES
+[OTL_APPLY] SOD=9030 E09 dE=-2.70 dN=-1.12 dU=-0.77 mm  rng_no_otl=24405109174.17mm rng_otl=24405109176.23mm  delta_rng=-2.05mm  otl_in_model=YES
+[OTL_APPLY] SOD=9030 E16 dE=-2.70 dN=-1.12 dU=-0.77 mm  rng_no_otl=24276537175.39mm rng_otl=24276537177.10mm  delta_rng=-1.70mm  otl_in_model=YES
+[OTL_APPLY] SOD=9030 E25 dE=-2.70 dN=-1.12 dU=-0.77 mm  rng_no_otl=23731609124.75mm rng_otl=23731609124.20mm  delta_rng=+0.55mm  otl_in_model=YES
+[B_REC FROZEN] E: b_rec=+0.3187 cyc median of 5 sats agree=5
+[WL FIXED] E05  N_WL=23  mean=22.936  std=0.202 b_rec=+0.319(EF) cyc
+[WL FIXED] E09  N_WL=-9  mean=-8.943  std=0.155 b_rec=+0.319(EF) cyc
+[WL FIXED] E16  N_WL=22  mean=22.014  std=0.117 b_rec=+0.319(EF) cyc
+[WL FIXED] E25  N_WL=30  mean=29.862  std=0.176 b_rec=+0.319(EF) cyc
+[NL CHECK] E05 corr_frac=0.0255 sigma=0.053 buf=30
+[NL FIX] SOD=11430  sat=E05  corr_frac=0.0255  sigma=0.053  [NL_STABLE]
+[NL CHECK] E09 corr_frac=0.0287 sigma=0.068 buf=43
+[NL CHECK] E16 corr_frac=0.0300 sigma=0.036 buf=43
+[NL CHECK] E09 corr_frac=0.0202 sigma=0.067 buf=44
+[NL CHECK] E16 corr_frac=0.0210 sigma=0.036 buf=44
+[NL CHECK] E09 corr_frac=0.0149 sigma=0.067 buf=45
+[NL CHECK] E16 corr_frac=0.0133 sigma=0.036 buf=45
+[NL CHECK] E09 corr_frac=0.0130 sigma=0.067 buf=46
+[NL CHECK] E16 corr_frac=0.0080 sigma=0.035 buf=46
+[NL CHECK] E09 corr_frac=0.0015 sigma=0.067 buf=47
+[NL CHECK] E16 corr_frac=0.0031 sigma=0.035 buf=47
+[NL CHECK] E09 corr_frac=-0.0051 sigma=0.067 buf=48
+[NL_BIAS_FROZEN] E16  bias=+0.4682  frac_std=0.0053  corr_frac=-0.0031  buf_n=48
+[NL_BIAS_FROZEN] E09  bias=+0.2646  frac_std=0.0096  corr_frac=-0.0054  buf_n=49
+[NL CHECK] E25 corr_frac=0.0234 sigma=0.057 buf=46
+[NL_CLUSTER] size=1 — consistency not yet active
+[NL FIX] SOD=12060  sat=E25  corr_frac=0.0234  sigma=0.057  [NL_STABLE]
+[NL_RELEASE_SPIKE_DIAG] SOD=12090 E25 resid_amb=1.154 phase_resid=0.049 sigma_N1=0.0565 → SLIP RESET
+[NL CHECK] E25 corr_frac=-0.0029 sigma=0.054 buf=30
+[NL_CLUSTER] size=1 — consistency not yet active
+[NL FIX] SOD=15720  sat=E25  corr_frac=-0.0029  sigma=0.054  [NL_STABLE]
+[SUMMARY] SOD=18000  sats=4  NL=2  WL=2  3D=184.0mm
+[ISB_DIAG] SOD=18000  ISB=+0.0000m  P_ISB=0.5180m²  GPS_code=nanmm GPS_phase=nanmm  Gal_code=133.4mm Gal_phase=114.256mm  nGPS=0 nGal=4  gal_sig_scale=1.000
+[ZWD_DIAG] SOD=18000 ZWD=0.1192m P_ZWD=0.000051m² Q_ZWD=7.500e-08m² sigma_U=52.0mm corr(U,ZWD)=-0.1891 run|corr|60ep=0.1929 decorr=OFF
+[ION_DIAG] SOD=18000 top-P_ion: E18:P=2.787m²/Q=3.00e-03  E04:P=2.307m²/Q=3.00e-03  E16:P=1.515m²/Q=3.00e-03  E09:P=1.250m²/Q=3.00e-03  E02:P=0.027m²/Q=3.00e-03  E25:P=0.022m²/Q=3.00e-03
+[NML_DIAG] SOD=18000 Up normal-eq: GPS=0.0000 (0.0%)  Gal=29.9671 (100.0%)  nGPS=0 nGal=4
+[NML_DIAG2] SOD=18000 elW_GPS=0.000 elW_Gal=0.000  cond(NM_pos)=9.8e+02  ZWD_decorr=OFF  Q_ZWD=nom
+[FUSION_DIAG] SOD=18000  ISB_obs=NO  ISB=+0.0000m P_ISB=0.5180m²  GPS_NE_frac=0.0%  Gal_leverage=nan  sigma_U_comb=52.0mm sigma_U_GPS_only=nanmm  gal_scale=1.0000
+[OTL_APPLY] SOD=18030 E02 dE=-0.73 dN=+1.03 dU=+0.98 mm  rng_no_otl=25552184289.89mm rng_otl=25552184288.48mm  delta_rng=+1.41mm  otl_in_model=YES
+[OTL_APPLY] SOD=18030 E03 dE=-0.73 dN=+1.03 dU=+0.98 mm  rng_no_otl=23967569595.18mm rng_otl=23967569593.75mm  delta_rng=+1.43mm  otl_in_model=YES
+[OTL_APPLY] SOD=18030 E05 dE=-0.73 dN=+1.03 dU=+0.98 mm  rng_no_otl=23991611395.20mm rng_otl=23991611394.96mm  delta_rng=+0.24mm  otl_in_model=YES
+[OTL_APPLY] SOD=18030 E25 dE=-0.73 dN=+1.03 dU=+0.98 mm  rng_no_otl=25010381672.37mm rng_otl=25010381670.95mm  delta_rng=+1.42mm  otl_in_model=YES
+[WL FIXED] E03  N_WL=-15  mean=-14.893  std=0.250 b_rec=+0.319(EF) cyc
+[NL CHECK] E03 corr_frac=-0.0103 sigma=0.039 buf=30
+[NL_CLUSTER] size=2 circ_mean=0.0113 new_cf=-0.0103 circ_diff=0.0216
+[NL FIX] SOD=25410  sat=E03  corr_frac=-0.0103  sigma=0.039  [NL_STABLE]
+[SUMMARY] SOD=27000  sats=4  NL=3  WL=3  3D=221.4mm
+[ISB_DIAG] SOD=27000  ISB=+0.0000m  P_ISB=0.5270m²  GPS_code=nanmm GPS_phase=nanmm  Gal_code=157.7mm Gal_phase=75.158mm  nGPS=0 nGal=4  gal_sig_scale=1.000
+[ZWD_DIAG] SOD=27000 ZWD=0.1188m P_ZWD=0.000044m² Q_ZWD=7.500e-08m² sigma_U=41.9mm corr(U,ZWD)=-0.1688 run|corr|60ep=0.1701 decorr=OFF
+[ION_DIAG] SOD=27000 top-P_ion: E18:P=3.686m²/Q=3.00e-03  E04:P=3.206m²/Q=3.00e-03  E16:P=2.414m²/Q=3.00e-03  E09:P=2.150m²/Q=3.00e-03  E05:P=0.384m²/Q=3.00e-03  E25:P=0.033m²/Q=3.00e-03
+[NML_DIAG] SOD=27000 Up normal-eq: GPS=0.0000 (0.0%)  Gal=10.2439 (100.0%)  nGPS=0 nGal=4
+[NML_DIAG2] SOD=27000 elW_GPS=0.000 elW_Gal=0.000  cond(NM_pos)=1.5e+03  ZWD_decorr=OFF  Q_ZWD=nom
+[FUSION_DIAG] SOD=27000  ISB_obs=NO  ISB=+0.0000m P_ISB=0.5270m²  GPS_NE_frac=0.0%  Gal_leverage=nan  sigma_U_comb=41.9mm sigma_U_GPS_only=nanmm  gal_scale=1.0000
+[OTL_APPLY] SOD=27030 E02 dE=-1.19 dN=+0.45 dU=-0.41 mm  rng_no_otl=25252758490.82mm rng_otl=25252758490.61mm  delta_rng=+0.20mm  otl_in_model=YES
+[OTL_APPLY] SOD=27030 E03 dE=-1.19 dN=+0.45 dU=-0.41 mm  rng_no_otl=25554563224.50mm rng_otl=25554563224.60mm  delta_rng=-0.10mm  otl_in_model=YES
+[OTL_APPLY] SOD=27030 E25 dE=-1.19 dN=+0.45 dU=-0.41 mm  rng_no_otl=26024798160.51mm rng_otl=26024798161.39mm  delta_rng=-0.88mm  otl_in_model=YES
+[OTL_APPLY] SOD=27030 E34 dE=-1.19 dN=+0.45 dU=-0.41 mm  rng_no_otl=24678061178.29mm rng_otl=24678061178.95mm  delta_rng=-0.65mm  otl_in_model=YES
+[GAL_SCALE_FROZEN] SOD=27180  nl_fixed=3  gal_scale locked at 1.0000
+[WL FIXED] E34  N_WL=-32  mean=-31.894  std=0.250 b_rec=+0.319(EF) cyc
+[NL CHECK] E34 corr_frac=0.0048 sigma=0.041 buf=30
+[NL CHECK] E34 corr_frac=0.0087 sigma=0.041 buf=31
+[NL CHECK] E34 corr_frac=0.0122 sigma=0.041 buf=32
+[NL CHECK] E34 corr_frac=0.0170 sigma=0.041 buf=33
+[NL CHECK] E34 corr_frac=0.0167 sigma=0.041 buf=34
+[NL CHECK] E34 corr_frac=0.0229 sigma=0.041 buf=35
+[NL CHECK] E34 corr_frac=0.0256 sigma=0.041 buf=36
+[NL CHECK] E34 corr_frac=0.0288 sigma=0.040 buf=40
+[NL CHECK] E34 corr_frac=0.0263 sigma=0.040 buf=41
+[NL CHECK] E34 corr_frac=0.0249 sigma=0.040 buf=42
+[NL CHECK] E34 corr_frac=0.0245 sigma=0.040 buf=43
+[NL CHECK] E34 corr_frac=0.0178 sigma=0.040 buf=44
+[NL CHECK] E34 corr_frac=0.0141 sigma=0.040 buf=45
+[NL CHECK] E34 corr_frac=0.0132 sigma=0.040 buf=46
+[NL CHECK] E34 corr_frac=0.0094 sigma=0.040 buf=47
+[NL CHECK] E34 corr_frac=0.0122 sigma=0.040 buf=48
+[NL CHECK] E34 corr_frac=0.0163 sigma=0.040 buf=49
+[NL CHECK] E34 corr_frac=0.0173 sigma=0.040 buf=50
+[NL CHECK] E34 corr_frac=0.0165 sigma=0.040 buf=51
+[NL CHECK] E34 corr_frac=0.0246 sigma=0.039 buf=52
+[NL CHECK] E34 corr_frac=0.0209 sigma=0.039 buf=53
+[NL_BIAS_FROZEN] E34  bias=-0.3758  frac_std=0.0094  corr_frac=+0.0073  buf_n=54
+[SUMMARY] SOD=36000  sats=4  NL=3  WL=4  3D=222.8mm
+[ISB_DIAG] SOD=36000  ISB=+0.0000m  P_ISB=0.5360m²  GPS_code=nanmm GPS_phase=nanmm  Gal_code=129.1mm Gal_phase=131.507mm  nGPS=0 nGal=4  gal_sig_scale=1.000
+[ZWD_DIAG] SOD=36000 ZWD=0.1194m P_ZWD=0.000030m² Q_ZWD=7.500e-08m² sigma_U=36.8mm corr(U,ZWD)=-0.1890 run|corr|60ep=0.1909 decorr=OFF
+[ION_DIAG] SOD=36000 top-P_ion: E18:P=4.586m²/Q=3.00e-03  E04:P=4.106m²/Q=3.00e-03  E16:P=3.314m²/Q=3.00e-03  E09:P=3.050m²/Q=3.00e-03  E05:P=1.284m²/Q=3.00e-03  E03:P=0.694m²/Q=3.00e-03
+[NML_DIAG] SOD=36000 Up normal-eq: GPS=0.0000 (0.0%)  Gal=38.8694 (100.0%)  nGPS=0 nGal=4
+[NML_DIAG2] SOD=36000 elW_GPS=0.000 elW_Gal=0.000  cond(NM_pos)=1.0e+04  ZWD_decorr=OFF  Q_ZWD=nom
+[FUSION_DIAG] SOD=36000  ISB_obs=NO  ISB=+0.0000m P_ISB=0.5360m²  GPS_NE_frac=0.0%  Gal_leverage=nan  sigma_U_comb=36.8mm sigma_U_GPS_only=nanmm  gal_scale=1.0000
+[OTL_APPLY] SOD=36030 E02 dE=-1.40 dN=-2.40 dU=-0.22 mm  rng_no_otl=24035553824.12mm rng_otl=24035553825.39mm  delta_rng=-1.27mm  otl_in_model=YES
+[OTL_APPLY] SOD=36030 E14 dE=-1.40 dN=-2.40 dU=-0.22 mm  rng_no_otl=21300239837.52mm rng_otl=21300239839.79mm  delta_rng=-2.26mm  otl_in_model=YES
+[OTL_APPLY] SOD=36030 E30 dE=-1.40 dN=-2.40 dU=-0.22 mm  rng_no_otl=24958335186.65mm rng_otl=24958335188.22mm  delta_rng=-1.57mm  otl_in_model=YES
+[OTL_APPLY] SOD=36030 E34 dE=-1.40 dN=-2.40 dU=-0.22 mm  rng_no_otl=23599104840.32mm rng_otl=23599104841.47mm  delta_rng=-1.16mm  otl_in_model=YES
+[NL_BIAS_UNFREEZE] E34 corr_frac=0.2027 > 0.15 unfreezing and resetting buffer for re-convergence
+[NL CHECK] E34 corr_frac=0.0089 sigma=0.031 buf=30
+[NL_CLUSTER] size=3 circ_mean=0.0041 new_cf=0.0089 circ_diff=0.0047
+[NL FIX] SOD=40050  sat=E34  corr_frac=0.0089  sigma=0.031  [NL_STABLE]
+[SUMMARY] SOD=45000  sats=4  NL=4  WL=4  3D=172.0mm
+[ISB_DIAG] SOD=45000  ISB=+0.0000m  P_ISB=0.5450m²  GPS_code=nanmm GPS_phase=nanmm  Gal_code=328.0mm Gal_phase=80.636mm  nGPS=0 nGal=4  gal_sig_scale=1.000
+[ZWD_DIAG] SOD=45000 ZWD=0.1199m P_ZWD=0.000021m² Q_ZWD=7.500e-08m² sigma_U=32.9mm corr(U,ZWD)=-0.2078 run|corr|60ep=0.2041 decorr=OFF
+[ION_DIAG] SOD=45000 top-P_ion: E18:P=5.486m²/Q=3.00e-03  E04:P=5.006m²/Q=3.00e-03  E16:P=4.214m²/Q=3.00e-03  E09:P=3.950m²/Q=3.00e-03  E14:P=2.633m²/Q=3.00e-03  E05:P=2.184m²/Q=3.00e-03
+[NML_DIAG] SOD=45000 Up normal-eq: GPS=0.0000 (0.0%)  Gal=32.0125 (100.0%)  nGPS=0 nGal=4
+[NML_DIAG2] SOD=45000 elW_GPS=0.000 elW_Gal=0.000  cond(NM_pos)=2.1e+02  ZWD_decorr=OFF  Q_ZWD=nom
+[FUSION_DIAG] SOD=45000  ISB_obs=NO  ISB=+0.0000m P_ISB=0.5450m²  GPS_NE_frac=0.0%  Gal_leverage=nan  sigma_U_comb=32.9mm sigma_U_GPS_only=nanmm  gal_scale=1.0000
+[OTL_APPLY] SOD=45030 E02 dE=+1.37 dN=-3.23 dU=+3.18 mm  rng_no_otl=26270859623.03mm rng_otl=26270859618.52mm  delta_rng=+4.51mm  otl_in_model=YES
+[OTL_APPLY] SOD=45030 E13 dE=+1.37 dN=-3.23 dU=+3.18 mm  rng_no_otl=26069515559.17mm rng_otl=26069515558.92mm  delta_rng=+0.25mm  otl_in_model=YES
+[OTL_APPLY] SOD=45030 E30 dE=+1.37 dN=-3.23 dU=+3.18 mm  rng_no_otl=23330130073.27mm rng_otl=23330130069.52mm  delta_rng=+3.75mm  otl_in_model=YES
+[OTL_APPLY] SOD=45030 E34 dE=+1.37 dN=-3.23 dU=+3.18 mm  rng_no_otl=26819554165.29mm rng_otl=26819554166.12mm  delta_rng=-0.83mm  otl_in_model=YES
+[NL_RELEASE_SPIKE_DIAG] SOD=50370 E03 resid_amb=0.000 phase_resid=26.347 sigma_N1=0.0025 → SLIP RESET
+[REAL SLIP] E03  N1 19→167  buf reset  sigma=0.114m  cnt=3
+[WL FIXED] E07  N_WL=-39  mean=-38.840  std=0.249 b_rec=+0.319(EF) cyc
+[WL FIXED] E26  N_WL=0  mean=0.036  std=0.237 b_rec=+0.319(EF) cyc
+[SUMMARY] SOD=64740  sats=5  NL=3  WL=5  3D=165.7mm
+[ISB_DIAG] SOD=64740  ISB=+0.0000m  P_ISB=0.5647m²  GPS_code=nanmm GPS_phase=nanmm  Gal_code=118.7mm Gal_phase=40.417mm  nGPS=0 nGal=5  gal_sig_scale=1.000
+[ZWD_DIAG] SOD=64740 ZWD=0.1203m P_ZWD=0.000017m² Q_ZWD=7.500e-08m² sigma_U=34.1mm corr(U,ZWD)=-0.1881 run|corr|60ep=0.1885 decorr=OFF
+[ION_DIAG] SOD=64740 top-P_ion: E03:P=25.012m²/Q=3.00e-03  E04:P=6.980m²/Q=3.00e-03  E16:P=6.188m²/Q=3.00e-03  E09:P=5.924m²/Q=3.00e-03  E14:P=4.607m²/Q=3.00e-03  E05:P=4.158m²/Q=3.00e-03
+[NML_DIAG] SOD=64740 Up normal-eq: GPS=0.0000 (0.0%)  Gal=48.0997 (100.0%)  nGPS=0 nGal=5
+[NML_DIAG2] SOD=64740 elW_GPS=0.000 elW_Gal=0.000  cond(NM_pos)=5.6e+02  ZWD_decorr=OFF  Q_ZWD=nom
+[FUSION_DIAG] SOD=64740  ISB_obs=NO  ISB=+0.0000m P_ISB=0.5647m²  GPS_NE_frac=0.0%  Gal_leverage=nan  sigma_U_comb=34.1mm sigma_U_GPS_only=nanmm  gal_scale=1.0000
+[OTL_APPLY] SOD=64770 E07 dE=+4.83 dN=+3.52 dU=+0.83 mm  rng_no_otl=23427756060.68mm rng_otl=23427756058.97mm  delta_rng=+1.71mm  otl_in_model=YES
+[OTL_APPLY] SOD=64770 E13 dE=+4.83 dN=+3.52 dU=+0.83 mm  rng_no_otl=23958136517.30mm rng_otl=23958136513.53mm  delta_rng=+3.77mm  otl_in_model=YES
+[OTL_APPLY] SOD=64770 E18 dE=+4.83 dN=+3.52 dU=+0.83 mm  rng_no_otl=20094401964.87mm rng_otl=20094401967.31mm  delta_rng=-2.44mm  otl_in_model=YES
+[OTL_APPLY] SOD=64770 E26 dE=+4.83 dN=+3.52 dU=+0.83 mm  rng_no_otl=25490610593.34mm rng_otl=25490610591.46mm  delta_rng=+1.88mm  otl_in_model=YES
+[OTL_APPLY] SOD=64770 E29 dE=+4.83 dN=+3.52 dU=+0.83 mm  rng_no_otl=24810228027.70mm rng_otl=24810228031.41mm  delta_rng=-3.71mm  otl_in_model=YES
+[WL FIXED] E18  N_WL=-16  mean=-15.937  std=0.220 b_rec=+0.319(EF) cyc
+[NL CHECK] E07 corr_frac=-0.0275 sigma=0.050 buf=31
+[NL_CLUSTER] size=3 circ_mean=0.0105 new_cf=-0.0275 circ_diff=0.0380
+[NL FIX] SOD=67800  sat=E07  corr_frac=-0.0275  sigma=0.050  [NL_STABLE]
+[NL CHECK] E26 corr_frac=-0.0183 sigma=0.030 buf=30
+[NL_CLUSTER] size=4 circ_mean=0.0010 new_cf=-0.0183 circ_diff=0.0193
+[NL FIX] SOD=73080  sat=E26  corr_frac=-0.0183  sigma=0.030  [NL_STABLE]
+[WL FIXED] E33  N_WL=28  mean=27.929  std=0.250 b_rec=+0.319(EF) cyc
+[SUMMARY] SOD=73740  sats=6  NL=5  WL=7  3D=141.5mm
+[ISB_DIAG] SOD=73740  ISB=+0.0000m  P_ISB=0.5737m²  GPS_code=nanmm GPS_phase=nanmm  Gal_code=276.6mm Gal_phase=73.808mm  nGPS=0 nGal=6  gal_sig_scale=1.000
+[ZWD_DIAG] SOD=73740 ZWD=0.1211m P_ZWD=0.000031m² Q_ZWD=7.500e-08m² sigma_U=29.7mm corr(U,ZWD)=-0.1528 run|corr|60ep=0.1483 decorr=OFF
+[ION_DIAG] SOD=73740 top-P_ion: E03:P=25.012m²/Q=3.00e-03  E04:P=7.880m²/Q=3.00e-03  E16:P=7.088m²/Q=3.00e-03  E09:P=6.824m²/Q=3.00e-03  E14:P=5.506m²/Q=3.00e-03  E05:P=5.058m²/Q=3.00e-03
+[NML_DIAG] SOD=73740 Up normal-eq: GPS=0.0000 (0.0%)  Gal=4290.1233 (100.0%)  nGPS=0 nGal=6
+[NML_DIAG2] SOD=73740 elW_GPS=0.000 elW_Gal=0.000  cond(NM_pos)=1.0e+04  ZWD_decorr=OFF  Q_ZWD=nom
+[FUSION_DIAG] SOD=73740  ISB_obs=NO  ISB=+0.0000m P_ISB=0.5737m²  GPS_NE_frac=0.0%  Gal_leverage=nan  sigma_U_comb=29.7mm sigma_U_GPS_only=nanmm  gal_scale=1.0000
+[OTL_APPLY] SOD=73770 E07 dE=+0.13 dN=+2.64 dU=-5.24 mm  rng_no_otl=26306630450.54mm rng_otl=26306630450.65mm  delta_rng=-0.11mm  otl_in_model=YES
+[OTL_APPLY] SOD=73770 E13 dE=+0.13 dN=+2.64 dU=-5.24 mm  rng_no_otl=25646523487.09mm rng_otl=25646523491.84mm  delta_rng=-4.76mm  otl_in_model=YES
+[OTL_APPLY] SOD=73770 E18 dE=+0.13 dN=+2.64 dU=-5.24 mm  rng_no_otl=22524754246.74mm rng_otl=22524754251.02mm  delta_rng=-4.28mm  otl_in_model=YES
+[OTL_APPLY] SOD=73770 E26 dE=+0.13 dN=+2.64 dU=-5.24 mm  rng_no_otl=23265172840.12mm rng_otl=23265172845.57mm  delta_rng=-5.45mm  otl_in_model=YES
+[OTL_APPLY] SOD=73770 E29 dE=+0.13 dN=+2.64 dU=-5.24 mm  rng_no_otl=24530568170.33mm rng_otl=24530568172.85mm  delta_rng=-2.52mm  otl_in_model=YES
+[OTL_APPLY] SOD=73770 E33 dE=+0.13 dN=+2.64 dU=-5.24 mm  rng_no_otl=25277047559.98mm rng_otl=25277047561.60mm  delta_rng=-1.63mm  otl_in_model=YES
+[NL CHECK] E33 corr_frac=0.0015 sigma=0.059 buf=30
+[NL CHECK] E33 corr_frac=-0.0027 sigma=0.059 buf=31
+[NL CHECK] E33 corr_frac=-0.0132 sigma=0.059 buf=32
+[NL CHECK] E33 corr_frac=-0.0149 sigma=0.059 buf=33
+[NL CHECK] E33 corr_frac=-0.0116 sigma=0.059 buf=34
+[NL CHECK] E33 corr_frac=-0.0217 sigma=0.059 buf=35
+[NL CHECK] E33 corr_frac=-0.0286 sigma=0.057 buf=43
+[NL CHECK] E33 corr_frac=-0.0203 sigma=0.057 buf=44
+[NL CHECK] E33 corr_frac=-0.0127 sigma=0.056 buf=45
+[NL CHECK] E33 corr_frac=-0.0071 sigma=0.056 buf=46
+[NL CHECK] E33 corr_frac=-0.0004 sigma=0.056 buf=47
+[NL CHECK] E33 corr_frac=-0.0057 sigma=0.056 buf=48
+[NL CHECK] E33 corr_frac=-0.0113 sigma=0.055 buf=49
+[NL CHECK] E33 corr_frac=-0.0058 sigma=0.055 buf=50
+[NL_BIAS_FROZEN] E33  bias=+0.2801  frac_std=0.0093  corr_frac=+0.0036  buf_n=51
+[NL_RELEASE_SPIKE_DIAG] SOD=76050 E07 resid_amb=0.000 phase_resid=18.967 sigma_N1=0.0009 → SLIP RESET
+[WL FIXED] E23  N_WL=43  mean=43.086  std=0.211 b_rec=+0.319(EF) cyc
+[WL_DICT] 7 sats fixed
+[AMB INHERIT] 15/17 sats (excluded: {'E05': 'pt=30000.000', 'E25': 'pt=1.568'})
+[CSV]  nl_bias_debug.csv → C:\Users\HP\OneDrive\Desktop\PROJECT\src\nl_bias_debug.csv
+[TRANSITION_AUDIT] Change-point dU: SOD=4620  (1.28 h)
+[TRANSITION_AUDIT] Audit window: SOD 0–10020  (0.0–2.8 h)
+[TRANSITION_AUDIT] Plot saved → C:\Users\HP\OneDrive\Desktop\PROJECT\src\logs\transition_audit.png
+[CSV]  logs/ → nl.csv  float_diag.csv  nl_events.csv  summary.csv  isb.csv  fusion_diag.csv  hump_diag.csv
+[CSV]  logs/ → vdop_diag.csv  zwd_hump_diag.csv  ion_hump_diag.csv  fusion_obs_diag.csv  (DIAG_MODE=2)
+[CSV]  logs/ → transition_audit.csv  transition_events.csv  transition_audit.png
+  2175 epochs  end_3D=121.9mm  ZWD=0.122m
+  WL fixed: ['E05', 'E25', 'E34', 'E07', 'E26', 'E33', 'E23']  (7 sats)
+[SMOOTH] Running RTS smoother on 2175 epochs ...
+  DIAG 3D=126.9mm  dE=+6.4  dN=+26.4  dU=-124.0 mm
+
+  ── Metrics: Galileo-only ──────────────────────────────────────────
+  RMS (E/N/U/3D): 39.4 / 43.8 / 151.5 / 162.6 mm  (3D<200mm subset)
+  Conv (5-ep sustain) <10cm: SOD=7860   <5cm: not reached
+  WL-fixed epochs: 1824/2175  NL-fixed epochs: 1795/2175  First NL SOD: 11430.0
+  RTS RMS (E/N/U/3D): 3.5 / 29.2 / 131.7 / 135.0 mm

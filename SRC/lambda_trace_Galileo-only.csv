@@ -1,0 +1,1 @@
+epoch,sod,dim,sat_list,sys_list,cond_Q,det_Q,min_diag,max_diag,min_eig,covariance_units,float_vector_cyc,diag_Q_cyc2,success,info,ratio,sqnorm_best,sqnorm_second,fixed_count,ratio_thresh,ratio_pass

@@ -1,0 +1,1 @@
+epoch,sod,sat,lineage_id,generation,parent_lineage_id,old_state,new_state,reason,sigma_mm,state_index,active,observable,in_filter,gap_length_epochs,convergence_score,rolling_sigma_mm,rolling_residual_rms_mm,acceptance_ratio,continuous_active_epochs,continuous_filter_epochs

@@ -1,0 +1,29 @@
+================================================================================
+PHASE-3B AUTO-DIAGNOSIS
+================================================================================
+
+── Gate effect (Qclk=1 fixed, Gate A→B→C) ──
+  Gate A ( 50mm):  3D RMS=135.1mm  Rebirths=129  NL-epochs=0
+  Gate B (250mm):  3D RMS=127.3mm  Rebirths=131  NL-epochs=0
+  Gate C (500mm):  3D RMS=127.3mm  Rebirths=131  NL-epochs=0
+  3D improvement A→C: +7.8 mm
+  Rebirth reduction A→C: -2 (-2%)
+
+── Qclk effect (Gate=A fixed, Qclk 1→2→3) ──
+  Qclk 1 (coeff 1e+04):  3D RMS=135.1mm  Same-sign=76%  NL-epochs=0
+  Qclk 2 (coeff 1e+00):  3D RMS=121.7mm  Same-sign=76%  NL-epochs=0
+  Qclk 3 (coeff 1e-02):  3D RMS=122.8mm  Same-sign=76%  NL-epochs=0
+  3D improvement Qclk1→Qclk3: +12.3 mm
+
+── Elevation-stratified innovation RMS (Gate=A, Qclk=1) ──
+
+── CASE VERDICT ──
+  ✗ No NL fixing achieved in any run.
+  → CASE 4: Neither parameter alone explains the block. Hidden model inconsistency still present — revisit forensic summary.
+
+RECOMMENDED NEXT STEPS
+--------------------------------------------------------------------------------
+1. Examine the CASE verdict above for the dominant mechanism.
+2. If CASE 4: check the sat_apc_range offset (+293mm) from the forensic summary — this is a candidate source of ISB that prevents NL candidacy.
+3. Consider running post-fit innovation distributions at epoch level (not just binned) to find outlier satellites by name.
+================================================================================

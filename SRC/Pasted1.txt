@@ -1,0 +1,961 @@
+[GEOM_COND] SOD=66750 cond=5.2e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=66750 sat=E18 frac=0.805 downweighted
+[GEOM_COND] SOD=66780 cond=2.9e+04 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=66780 sat=G32 frac=0.483 downweighted
+[GEOM_COND] SOD=66810 cond=1.3e+04 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=66810 sat=G18 frac=0.646 downweighted
+[GEOM_COND] SOD=66840 cond=5.7e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=66870 cond=1.5e+04 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=66870 sat=G18 frac=0.918 downweighted
+[GEOM_COND] SOD=66900 cond=1.2e+04 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=66900 sat=E26 frac=0.950 downweighted
+[GEOM_COND] SOD=66930 cond=5.8e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=66960 cond=5.8e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=66990 cond=1.3e+04 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=66990 sat=E13 frac=0.436 downweighted
+[UP_LEVERAGE] SOD=66990 sat=G32 frac=0.404 downweighted
+[GEOM_COND] SOD=67020 cond=5.9e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=67050 cond=5.9e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=67080 cond=5.9e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=67110 cond=5.9e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=67140 cond=1.1e+04 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=67140 sat=E13 frac=0.492 downweighted
+[GEOM_COND] SOD=67170 cond=8.4e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=67170 sat=G32 frac=0.967 downweighted
+[GEOM_COND] SOD=67200 cond=2.3e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=67200 sat=G10 frac=0.669 downweighted
+[GEOM_COND] SOD=67230 cond=8.5e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=67230 sat=E13 frac=0.440 downweighted
+[UP_LEVERAGE] SOD=67230 sat=G18 frac=0.470 downweighted
+[GEOM_COND] SOD=67260 cond=6.2e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=67290 cond=6.4e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=67320 cond=4.6e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=67320 sat=E26 frac=0.793 downweighted
+[GEOM_COND] SOD=67350 cond=7.3e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=67350 sat=E26 frac=0.617 downweighted
+[GEOM_COND] SOD=67380 cond=6.5e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=67410 cond=6.5e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=67440 cond=2.3e+04 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=67440 sat=G32 frac=0.770 downweighted
+[GEOM_COND] SOD=67470 cond=6.5e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=67500 cond=6.6e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=67530 cond=6.6e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=67560 cond=6.7e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=67590 cond=6.7e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=67620 cond=6.7e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=67650 cond=6.8e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=67680 cond=1.4e+04 sat=G27 infl=10x
+[GEOM_COND] SOD=67710 cond=6.6e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=67740 cond=1.1e+04 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=67740 sat=E26 frac=0.383 downweighted
+[GEOM_COND] SOD=67770 cond=6.5e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=67770 sat=E26 frac=0.584 downweighted
+[GEOM_COND] SOD=67800 cond=6.6e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=67830 cond=8.2e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=67830 sat=G18 frac=0.926 downweighted
+[GEOM_COND] SOD=67860 cond=1.5e+04 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=67860 sat=E26 frac=0.413 downweighted
+[UP_LEVERAGE] SOD=67860 sat=G32 frac=0.569 downweighted
+[GEOM_COND] SOD=67890 cond=6.2e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=67920 cond=6.2e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=67950 cond=6.1e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=67980 cond=6.1e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=68010 cond=6.0e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=68040 cond=6.0e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=68070 cond=2.9e+04 sat=G31 infl=10x
+[UP_LEVERAGE] SOD=68070 sat=G32 frac=0.499 downweighted
+[GEOM_COND] SOD=68100 cond=9.1e+03 sat=G31 infl=10x
+[UP_LEVERAGE] SOD=68100 sat=E07 frac=0.947 downweighted
+[GEOM_COND] SOD=68130 cond=8.5e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=68160 cond=6.0e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=68190 cond=1.5e+04 sat=G31 infl=10x
+[UP_LEVERAGE] SOD=68190 sat=E13 frac=0.937 downweighted
+[GEOM_COND] SOD=68220 cond=1.8e+04 sat=G31 infl=10x
+[UP_LEVERAGE] SOD=68220 sat=G18 frac=0.450 downweighted
+[UP_LEVERAGE] SOD=68220 sat=G32 frac=0.531 downweighted
+[GEOM_COND] SOD=68250 cond=5.9e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=68280 cond=6.0e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=68310 cond=5.8e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=68340 cond=6.3e+03 sat=G31 infl=10x
+[UP_LEVERAGE] SOD=68340 sat=G18 frac=0.667 downweighted
+[GEOM_COND] SOD=68370 cond=1.6e+04 sat=G31 infl=10x
+[UP_LEVERAGE] SOD=68370 sat=E26 frac=0.518 downweighted
+[UP_LEVERAGE] SOD=68370 sat=E29 frac=0.466 downweighted
+[GEOM_COND] SOD=68400 cond=7.9e+03 sat=G31 infl=10x
+[UP_LEVERAGE] SOD=68400 sat=E26 frac=0.373 downweighted
+[GEOM_COND] SOD=68430 cond=2.1e+03 sat=G31 infl=10x
+[UP_LEVERAGE] SOD=68430 sat=G28 frac=0.733 downweighted
+[GEOM_COND] SOD=68460 cond=1.0e+04 sat=G31 infl=10x
+[UP_LEVERAGE] SOD=68460 sat=E13 frac=0.970 downweighted
+[GEOM_COND] SOD=68490 cond=5.7e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=68520 cond=1.4e+04 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=68520 sat=G32 frac=0.709 downweighted
+[GEOM_COND] SOD=68550 cond=7.9e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=68550 sat=E13 frac=0.379 downweighted
+[GEOM_COND] SOD=68580 cond=6.3e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=68610 cond=6.3e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=68640 cond=5.6e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=68670 cond=5.5e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=68700 cond=5.6e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=68730 cond=5.6e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=68760 cond=5.6e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=68790 cond=1.1e+03 sat=G31 infl=10x
+[GEOM_COND] SOD=68820 cond=4.3e+03 sat=G31 infl=10x
+[UP_LEVERAGE] SOD=68820 sat=G10 frac=0.470 downweighted
+[GEOM_COND] SOD=68850 cond=1.2e+04 sat=G31 infl=10x
+[UP_LEVERAGE] SOD=68850 sat=E13 frac=0.392 downweighted
+[UP_LEVERAGE] SOD=68850 sat=G32 frac=0.580 downweighted
+[GEOM_COND] SOD=68880 cond=4.6e+03 sat=G31 infl=10x
+[UP_LEVERAGE] SOD=68880 sat=G18 frac=0.858 downweighted
+[GEOM_COND] SOD=68910 cond=1.2e+04 sat=G31 infl=10x
+[UP_LEVERAGE] SOD=68910 sat=E13 frac=0.775 downweighted
+[GEOM_COND] SOD=68940 cond=5.8e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=68970 cond=5.5e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=69000 cond=5.7e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=69030 cond=5.5e+02 sat=G08 infl=4x
+[GEOM_COND] SOD=69060 cond=5.7e+02 sat=G08 infl=4x
+[GEOM_COND] SOD=69090 cond=5.6e+02 sat=G08 infl=4x
+[GEOM_COND] SOD=69120 cond=5.7e+02 sat=G08 infl=4x
+[GEOM_COND] SOD=69150 cond=6.0e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=69150 sat=G28 frac=0.458 downweighted
+[UP_LEVERAGE] SOD=69150 sat=G32 frac=0.418 downweighted
+[GEOM_COND] SOD=69180 cond=8.0e+03 sat=G08 infl=10x
+[GEOM_COND] SOD=69210 cond=7.6e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=69210 sat=G32 frac=0.799 downweighted
+[GEOM_COND] SOD=69240 cond=2.9e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=69240 sat=G10 frac=0.776 downweighted
+[GEOM_COND] SOD=69270 cond=5.5e+02 sat=G08 infl=4x
+[GEOM_COND] SOD=69300 cond=5.5e+02 sat=G08 infl=4x
+[GEOM_COND] SOD=69330 cond=5.5e+02 sat=G08 infl=4x
+[GEOM_COND] SOD=69360 cond=5.4e+02 sat=G08 infl=4x
+[GEOM_COND] SOD=69390 cond=9.8e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=69390 sat=G32 frac=0.395 downweighted
+[GEOM_COND] SOD=69420 cond=8.2e+03 sat=G31 infl=10x
+[UP_LEVERAGE] SOD=69420 sat=E29 frac=0.956 downweighted
+[GEOM_COND] SOD=69450 cond=5.1e+02 sat=G31 infl=4x
+[GEOM_COND] SOD=69480 cond=3.0e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=69480 sat=G18 frac=0.755 downweighted
+[GEOM_COND] SOD=69510 cond=5.0e+02 sat=G08 infl=4x
+[GEOM_COND] SOD=69540 cond=1.1e+04 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=69540 sat=G28 frac=0.534 downweighted
+[GEOM_COND] SOD=69570 cond=5.1e+02 sat=G08 infl=4x
+[GEOM_COND] SOD=69600 cond=1.3e+03 sat=G08 infl=10x
+[GEOM_COND] SOD=69630 cond=6.9e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=69630 sat=E13 frac=0.856 downweighted
+[GEOM_COND] SOD=69660 cond=5.0e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=69660 sat=E13 frac=0.724 downweighted
+[GEOM_COND] SOD=69720 cond=1.3e+04 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=69720 sat=E26 frac=0.539 downweighted
+[GEOM_COND] SOD=69870 cond=1.3e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=69870 sat=G31 frac=0.417 downweighted
+[GEOM_COND] SOD=69900 cond=8.8e+03 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=69900 sat=E26 frac=0.875 downweighted
+[GEOM_COND] SOD=69930 cond=1.6e+04 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=69930 sat=G28 frac=0.464 downweighted
+[GEOM_COND] SOD=69960 cond=1.5e+04 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=69960 sat=E26 frac=0.795 downweighted
+[GEOM_COND] SOD=69990 cond=2.1e+03 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=69990 sat=G18 frac=0.641 downweighted
+[GEOM_COND] SOD=70020 cond=5.2e+03 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=70020 sat=G28 frac=0.777 downweighted
+[GEOM_COND] SOD=70080 cond=1.4e+03 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=70080 sat=G31 frac=0.475 downweighted
+[GEOM_COND] SOD=70110 cond=9.5e+03 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=70110 sat=E07 frac=0.446 downweighted
+[UP_LEVERAGE] SOD=70110 sat=G32 frac=0.512 downweighted
+[GEOM_COND] SOD=70230 cond=1.1e+03 sat=G02 infl=10x
+[GEOM_COND] SOD=70260 cond=7.8e+03 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=70260 sat=E26 frac=0.741 downweighted
+[GEOM_COND] SOD=70320 cond=1.6e+03 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=70320 sat=G18 frac=0.546 downweighted
+[GEOM_COND] SOD=70410 cond=1.5e+03 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=70410 sat=G18 frac=0.524 downweighted
+[GEOM_COND] SOD=70440 cond=4.2e+03 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=70440 sat=E18 frac=0.413 downweighted
+[UP_LEVERAGE] SOD=70440 sat=G18 frac=0.400 downweighted
+[GEOM_COND] SOD=70530 cond=2.8e+03 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=70530 sat=G10 frac=0.822 downweighted
+[GEOM_COND] SOD=70560 cond=6.2e+03 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=70560 sat=E26 frac=0.684 downweighted
+[GEOM_COND] SOD=70590 cond=1.3e+03 sat=G26 infl=10x
+[UP_LEVERAGE] SOD=70590 sat=G18 frac=0.451 downweighted
+[GEOM_COND] SOD=70620 cond=6.6e+03 sat=G26 infl=10x
+[UP_LEVERAGE] SOD=70620 sat=E26 frac=0.527 downweighted
+[UP_LEVERAGE] SOD=70620 sat=E29 frac=0.423 downweighted
+[GEOM_COND] SOD=70710 cond=6.8e+03 sat=G26 infl=10x
+[UP_LEVERAGE] SOD=70710 sat=G28 frac=0.715 downweighted
+[GEOM_COND] SOD=70740 cond=9.5e+03 sat=G26 infl=10x
+[UP_LEVERAGE] SOD=70740 sat=E26 frac=0.458 downweighted
+[UP_LEVERAGE] SOD=70740 sat=G28 frac=0.377 downweighted
+[GEOM_COND] SOD=70800 cond=2.0e+04 sat=G26 infl=10x
+[UP_LEVERAGE] SOD=70800 sat=G28 frac=0.682 downweighted
+[GEOM_COND] SOD=70860 cond=6.9e+03 sat=G26 infl=10x
+[UP_LEVERAGE] SOD=70860 sat=E26 frac=0.629 downweighted
+[GEOM_COND] SOD=70890 cond=3.0e+03 sat=G26 infl=10x
+[UP_LEVERAGE] SOD=70890 sat=E13 frac=0.847 downweighted
+[GEOM_COND] SOD=70920 cond=1.8e+03 sat=G26 infl=10x
+[UP_LEVERAGE] SOD=70920 sat=G31 frac=0.698 downweighted
+[GEOM_COND] SOD=70950 cond=5.3e+03 sat=G26 infl=10x
+[UP_LEVERAGE] SOD=70950 sat=E26 frac=0.766 downweighted
+[GEOM_COND] SOD=70980 cond=1.4e+03 sat=G26 infl=10x
+[GEOM_COND] SOD=71010 cond=5.2e+02 sat=G26 infl=4x
+[GEOM_COND] SOD=71040 cond=6.9e+03 sat=G26 infl=10x
+[UP_LEVERAGE] SOD=71040 sat=G28 frac=0.962 downweighted
+[GEOM_COND] SOD=71160 cond=9.3e+02 sat=G26 infl=4x
+[GEOM_COND] SOD=71220 cond=6.7e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=71220 sat=E29 frac=0.503 downweighted
+[GEOM_COND] SOD=71280 cond=2.9e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=71280 sat=G32 frac=0.859 downweighted
+[GEOM_COND] SOD=71310 cond=2.7e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=71310 sat=G31 frac=0.680 downweighted
+[GEOM_COND] SOD=71370 cond=4.6e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=71370 sat=E26 frac=0.799 downweighted
+[GEOM_COND] SOD=71400 cond=5.2e+02 sat=G08 infl=4x
+[GEOM_COND] SOD=71490 cond=1.1e+03 sat=G08 infl=10x
+[GEOM_COND] SOD=71550 cond=5.3e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=71550 sat=E13 frac=0.832 downweighted
+[GEOM_COND] SOD=71910 cond=4.6e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=71910 sat=E29 frac=0.587 downweighted
+[GEOM_COND] SOD=71970 cond=6.5e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=71970 sat=E26 frac=0.986 downweighted
+[NML_BAL_DIAG] SOD=71970 GPS_Up%=29.6 Gal_Up%=70.4 cond=1.80e+03 sc_GPS=1.000 sc_Gal=1.000 hump_risk=0.284
+[SUMMARY] SOD=71970  sats=16  NL=5  WL=10  3D=155.4mm
+[ISB_DIAG] SOD=71970  ISB=+1.4934m  P_ISB=0.0017m²  GPS_code=917.8mm GPS_phase=149.343mm  Gal_code=193.7mm Gal_phase=58.692mm  nGPS=10 nGal=6  gal_sig_scale=0.990
+[ZWD_DIAG] SOD=71970 ZWD=0.1209m P_ZWD=0.000027m² Q_ZWD=7.500e-08m² sigma_U=22.2mm corr(U,ZWD)=-0.1980 run|corr|60ep=0.1988 decorr=OFF
+[ION_DIAG] SOD=71970 top-P_ion: G01:P=25.012m²/Q=3.00e-03  G12:P=25.012m²/Q=3.00e-03  E03:P=23.094m²/Q=3.00e-03  G09:P=16.055m²/Q=3.00e-03  G16:P=10.709m²/Q=3.00e-03  G08:P=7.814m²/Q=3.00e-03
+[NML_DIAG] SOD=71970 Up normal-eq: GPS=44.7952 (4.0%)  Gal=1069.1764 (96.0%)  nGPS=10 nGal=6
+[NML_DIAG2] SOD=71970 elW_GPS=0.000 elW_Gal=0.000  cond(NM_pos)=1.8e+03  ZWD_decorr=OFF  Q_ZWD=nom
+[FUSION_DIAG] SOD=71970  ISB_obs=YES  ISB=+1.4934m P_ISB=0.0017m²  GPS_NE_frac=4.0%  Gal_leverage=75.566  sigma_U_comb=22.2mm sigma_U_GPS_only=1676.2mm  gal_scale=0.9900
+[NML_BALANCED] SOD=71970 balanced Up: GPS=26.8771 (1.5%)  Gal=1781.9607 (98.5%)  scale_GPS=0.775 scale_Gal=1.291
+[OTL_APPLY] SOD=72000 E07 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=25706506584.03mm rng_otl=25706506583.49mm  delta_rng=+0.54mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 E13 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=24877839772.18mm rng_otl=24877839776.44mm  delta_rng=-4.25mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 E18 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=21048802432.92mm rng_otl=21048802437.74mm  delta_rng=-4.83mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 E26 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=23296386933.35mm rng_otl=23296386937.19mm  delta_rng=-3.84mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 E29 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=24298766803.36mm rng_otl=24298766806.08mm  delta_rng=-2.72mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 E33 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=26059855367.85mm rng_otl=26059855368.14mm  delta_rng=-0.28mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 G02 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=23880806470.29mm rng_otl=23880806470.53mm  delta_rng=-0.23mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 G08 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=24749506086.39mm rng_otl=24749506088.66mm  delta_rng=-2.27mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 G10 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=21787679165.19mm rng_otl=21787679165.87mm  delta_rng=-0.68mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 G18 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=23567516103.83mm rng_otl=23567516107.27mm  delta_rng=-3.44mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 G23 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=22914822707.50mm rng_otl=22914822708.26mm  delta_rng=-0.76mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 G26 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=24166544751.64mm rng_otl=24166544755.81mm  delta_rng=-4.17mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 G27 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=23945482429.77mm rng_otl=23945482433.83mm  delta_rng=-4.06mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 G28 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=20265236896.75mm rng_otl=20265236901.47mm  delta_rng=-4.73mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 G31 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=21621800958.95mm rng_otl=21621800964.29mm  delta_rng=-5.34mm  otl_in_model=YES
+[OTL_APPLY] SOD=72000 G32 dE=+1.17 dN=+3.10 dU=-4.24 mm  rng_no_otl=22184741309.76mm rng_otl=22184741310.22mm  delta_rng=-0.46mm  otl_in_model=YES
+[GEOM_COND] SOD=72000 cond=2.6e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=72000 sat=E13 frac=0.844 downweighted
+[UP_LEVERAGE] SOD=72030 sat=E26 frac=0.357 downweighted
+[UP_LEVERAGE] SOD=72060 sat=E26 frac=0.359 downweighted
+[UP_LEVERAGE] SOD=72090 sat=E26 frac=0.361 downweighted
+[GEOM_COND] SOD=72120 cond=3.9e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=72120 sat=G10 frac=0.869 downweighted
+[GEOM_COND] SOD=72210 cond=7.4e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=72210 sat=G28 frac=0.699 downweighted
+[GEOM_COND] SOD=72270 cond=5.4e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=72270 sat=G10 frac=0.739 downweighted
+[GEOM_COND] SOD=72300 cond=2.9e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=72300 sat=G31 frac=0.885 downweighted
+[GEOM_COND] SOD=72330 cond=6.6e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=72330 sat=E26 frac=0.986 downweighted
+[GEOM_COND] SOD=72390 cond=9.0e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=72390 sat=E29 frac=0.642 downweighted
+[GEOM_COND] SOD=72420 cond=7.7e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=72420 sat=G28 frac=0.740 downweighted
+[GEOM_COND] SOD=72450 cond=8.0e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=72450 sat=E26 frac=0.867 downweighted
+[GEOM_COND] SOD=72480 cond=3.3e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=72480 sat=G28 frac=0.756 downweighted
+[GEOM_COND] SOD=72540 cond=6.3e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=72540 sat=E26 frac=0.979 downweighted
+[GEOM_COND] SOD=72630 cond=4.3e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=72630 sat=E29 frac=0.689 downweighted
+[GEOM_COND] SOD=72660 cond=6.5e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=72660 sat=G28 frac=0.984 downweighted
+[GEOM_COND] SOD=72750 cond=4.1e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=72750 sat=E26 frac=0.768 downweighted
+[GEOM_COND] SOD=72840 cond=5.6e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=72840 sat=G31 frac=0.521 downweighted
+[GEOM_COND] SOD=72870 cond=1.3e+04 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=72870 sat=E26 frac=0.502 downweighted
+[UP_LEVERAGE] SOD=72870 sat=G28 frac=0.494 downweighted
+[GEOM_COND] SOD=72900 cond=6.6e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=72900 sat=G28 frac=0.972 downweighted
+[GEOM_COND] SOD=72960 cond=7.0e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=72960 sat=G28 frac=0.770 downweighted
+[GEOM_COND] SOD=73020 cond=1.9e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=73020 sat=E13 frac=0.478 downweighted
+[GEOM_COND] SOD=73050 cond=1.9e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=73050 sat=E07 frac=0.499 downweighted
+[NL CHECK] E26 corr_frac=-0.0054 sigma=0.039 buf=30
+[GEOM_COND] SOD=73110 cond=1.4e+04 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=73110 sat=E26 frac=0.901 downweighted
+[NL CHECK] E26 corr_frac=-0.0064 sigma=0.039 buf=31
+[GEOM_COND] SOD=73140 cond=8.3e+02 sat=G25 infl=4x
+[NL CHECK] E26 corr_frac=-0.0004 sigma=0.039 buf=32
+[NL CHECK] E26 corr_frac=-0.0007 sigma=0.039 buf=33
+[NL CHECK] E26 corr_frac=-0.0022 sigma=0.039 buf=34
+[NL CHECK] E26 corr_frac=-0.0058 sigma=0.039 buf=35
+[NL CHECK] E26 corr_frac=-0.0021 sigma=0.039 buf=36
+[GEOM_COND] SOD=73290 cond=1.6e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=73290 sat=G32 frac=0.635 downweighted
+[NL CHECK] E26 corr_frac=-0.0026 sigma=0.039 buf=37
+[WL FIXED] E33  N_WL=28  mean=27.929  std=0.250 b_rec=+0.319(EF) cyc
+[NL CHECK] E26 corr_frac=-0.0027 sigma=0.039 buf=38
+[GEOM_COND] SOD=73350 cond=5.2e+02 sat=G25 infl=4x
+[NL CHECK] E26 corr_frac=0.0019 sigma=0.039 buf=39
+[GEOM_COND] SOD=73380 cond=1.1e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=73380 sat=G02 frac=0.422 downweighted
+[NL_BIAS_FROZEN] E26  bias=+0.3997  frac_std=0.0050  corr_frac=+0.0052  buf_n=40
+[GEOM_COND] SOD=73530 cond=3.2e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=73530 sat=E29 frac=0.898 downweighted
+[GEOM_COND] SOD=73620 cond=4.8e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=73620 sat=E29 frac=0.604 downweighted
+[GEOM_COND] SOD=73650 cond=3.0e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=73650 sat=G10 frac=0.827 downweighted
+[GEOM_COND] SOD=73710 cond=5.0e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=73710 sat=G31 frac=0.951 downweighted
+[GEOM_COND] SOD=73770 cond=9.8e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=73770 sat=G31 frac=0.853 downweighted
+[GEOM_COND] SOD=73950 cond=7.3e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=73950 sat=E26 frac=0.984 downweighted
+[GEOM_COND] SOD=73980 cond=5.8e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=73980 sat=E26 frac=0.911 downweighted
+[GEOM_COND] SOD=74070 cond=1.7e+03 sat=G27 infl=10x
+[NL CHECK] E18 corr_frac=0.0078 sigma=0.054 buf=30
+[NL_CLUSTER] size=5 circ_mean=0.0038 new_cf=-0.1875 circ_diff=0.1912
+[NL_CONSISTENCY_REJECT] E18 corr_frac=-0.1875 cluster_mean=0.0038 circ_diff=0.1912 thresh=0.12
+[GEOM_COND] SOD=74130 cond=5.2e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=74130 sat=G31 frac=0.808 downweighted
+[NL CHECK] E18 corr_frac=0.0148 sigma=0.054 buf=31
+[NL_CLUSTER] size=5 circ_mean=0.0038 new_cf=-0.1840 circ_diff=0.1877
+[NL_CONSISTENCY_REJECT] E18 corr_frac=-0.1840 cluster_mean=0.0038 circ_diff=0.1877 thresh=0.12
+[NL CHECK] E18 corr_frac=0.0147 sigma=0.054 buf=32
+[NL_CLUSTER] size=5 circ_mean=0.0038 new_cf=0.0913 circ_diff=0.0875
+[NL FIX] SOD=74160  sat=E18  corr_frac=0.0147  sigma=0.054  refix=0  [NL_STABLE]
+[GEOM_COND] SOD=74220 cond=1.5e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=74220 sat=G02 frac=0.588 downweighted
+[GEOM_COND] SOD=74250 cond=2.7e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=74250 sat=E29 frac=0.840 downweighted
+[GEOM_COND] SOD=74310 cond=3.3e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=74310 sat=E29 frac=0.871 downweighted
+[GEOM_COND] SOD=74460 cond=5.1e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=74460 sat=G28 frac=0.582 downweighted
+[UP_LEVERAGE] SOD=74460 sat=G31 frac=0.352 downweighted
+[GEOM_COND] SOD=74490 cond=3.1e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=74490 sat=E29 frac=0.734 downweighted
+[GEOM_COND] SOD=74610 cond=7.3e+02 sat=G27 infl=4x
+[GEOM_COND] SOD=74640 cond=7.8e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=74640 sat=G10 frac=0.495 downweighted
+[GEOM_COND] SOD=74670 cond=1.5e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=74670 sat=G32 frac=0.401 downweighted
+[NL CHECK] E33 corr_frac=-0.0201 sigma=0.060 buf=42
+[GEOM_COND] SOD=74790 cond=1.5e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=74790 sat=G32 frac=0.478 downweighted
+[NL CHECK] E33 corr_frac=-0.0038 sigma=0.060 buf=43
+[GEOM_COND] SOD=74820 cond=4.5e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=74820 sat=G10 frac=0.874 downweighted
+[NL CHECK] E33 corr_frac=-0.0029 sigma=0.060 buf=44
+[GEOM_COND] SOD=74850 cond=1.9e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=74850 sat=G02 frac=0.682 downweighted
+[NL CHECK] E33 corr_frac=-0.0010 sigma=0.060 buf=45
+[GEOM_COND] SOD=74880 cond=6.9e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=74880 sat=G28 frac=0.980 downweighted
+[NL CHECK] E33 corr_frac=-0.0073 sigma=0.059 buf=46
+[NL CHECK] E33 corr_frac=-0.0023 sigma=0.059 buf=47
+[NL CHECK] E33 corr_frac=0.0099 sigma=0.059 buf=48
+[NL CHECK] E33 corr_frac=0.0094 sigma=0.059 buf=49
+[GEOM_COND] SOD=75000 cond=3.9e+03 sat=G01 infl=10x
+[UP_LEVERAGE] SOD=75000 sat=E26 frac=0.369 downweighted
+[UP_LEVERAGE] SOD=75000 sat=G28 frac=0.352 downweighted
+[NL CHECK] E33 corr_frac=0.0056 sigma=0.058 buf=50
+[NL CHECK] E33 corr_frac=-0.0070 sigma=0.058 buf=51
+[NL CHECK] E33 corr_frac=0.0039 sigma=0.057 buf=52
+[GEOM_COND] SOD=75090 cond=6.0e+03 sat=G01 infl=10x
+[UP_LEVERAGE] SOD=75090 sat=G28 frac=0.779 downweighted
+[NL CHECK] E33 corr_frac=-0.0079 sigma=0.057 buf=53
+[GEOM_COND] SOD=75210 cond=3.5e+03 sat=G01 infl=10x
+[UP_LEVERAGE] SOD=75210 sat=E29 frac=0.861 downweighted
+[GEOM_COND] SOD=75240 cond=7.1e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=75240 sat=G31 frac=0.946 downweighted
+[GEOM_COND] SOD=75270 cond=1.1e+04 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=75270 sat=G31 frac=0.583 downweighted
+[GEOM_COND] SOD=75300 cond=3.4e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=75300 sat=E33 frac=0.864 downweighted
+[GEOM_COND] SOD=75360 cond=6.0e+02 sat=G25 infl=4x
+[GEOM_COND] SOD=75390 cond=2.8e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=75390 sat=G28 frac=0.380 downweighted
+[UP_LEVERAGE] SOD=75390 sat=G31 frac=0.389 downweighted
+[GEOM_COND] SOD=75450 cond=2.5e+03 sat=G16 infl=10x
+[UP_LEVERAGE] SOD=75450 sat=G02 frac=0.746 downweighted
+[GEOM_COND] SOD=75480 cond=2.5e+03 sat=G16 infl=10x
+[UP_LEVERAGE] SOD=75480 sat=G02 frac=0.748 downweighted
+[GEOM_COND] SOD=75810 cond=4.7e+03 sat=G16 infl=10x
+[UP_LEVERAGE] SOD=75810 sat=E29 frac=0.777 downweighted
+[WL FIXED] G31  N_WL=16  mean=15.800  std=0.242 b_rec=+0.160(GF) cyc
+[GEOM_COND] SOD=75870 cond=2.8e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=75870 sat=G28 frac=0.759 downweighted
+[GEOM_COND] SOD=75900 cond=4.7e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=75900 sat=G10 frac=0.813 downweighted
+[NL CHECK] E33 corr_frac=-0.0284 sigma=0.054 buf=80
+[NL CHECK] E33 corr_frac=-0.0210 sigma=0.053 buf=81
+[GEOM_COND] SOD=76020 cond=2.0e+04 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=76020 sat=E26 frac=0.605 downweighted
+[UP_LEVERAGE] SOD=76020 sat=G31 frac=0.391 downweighted
+[NL CHECK] E33 corr_frac=-0.0184 sigma=0.053 buf=82
+[NL CHECK] E33 corr_frac=-0.0140 sigma=0.053 buf=83
+[GEOM_COND] SOD=76080 cond=9.2e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=76080 sat=G31 frac=0.687 downweighted
+[NL CHECK] E33 corr_frac=-0.0149 sigma=0.053 buf=84
+[GEOM_COND] SOD=76110 cond=8.5e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=76110 sat=G28 frac=0.641 downweighted
+[NL CHECK] E33 corr_frac=-0.0114 sigma=0.053 buf=85
+[GEOM_COND] SOD=76140 cond=8.1e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=76140 sat=G10 frac=0.931 downweighted
+[NL CHECK] E33 corr_frac=-0.0164 sigma=0.052 buf=86
+[GEOM_COND] SOD=76170 cond=1.4e+04 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=76170 sat=G31 frac=0.753 downweighted
+[NL CHECK] E33 corr_frac=-0.0058 sigma=0.052 buf=87
+[GEOM_COND] SOD=76200 cond=5.2e+03 sat=G25 infl=10x
+[UP_LEVERAGE] SOD=76200 sat=G31 frac=0.730 downweighted
+[NL CHECK] E33 corr_frac=0.0152 sigma=0.051 buf=87
+[NL CHECK] E33 corr_frac=0.0171 sigma=0.051 buf=88
+[NL_BIAS_FROZEN] E33  bias=+0.4476  frac_std=0.0100  corr_frac=-0.0046  buf_n=88
+[GEOM_COND] SOD=76380 cond=2.3e+03 sat=G16 infl=10x
+[UP_LEVERAGE] SOD=76380 sat=G26 frac=0.757 downweighted
+[GEOM_COND] SOD=76470 cond=4.9e+03 sat=G16 infl=10x
+[UP_LEVERAGE] SOD=76470 sat=G28 frac=0.460 downweighted
+[UP_LEVERAGE] SOD=76470 sat=G31 frac=0.431 downweighted
+[GEOM_COND] SOD=76500 cond=2.1e+04 sat=G16 infl=10x
+[UP_LEVERAGE] SOD=76500 sat=E26 frac=0.657 downweighted
+[GEOM_COND] SOD=76680 cond=1.5e+04 sat=G16 infl=10x
+[UP_LEVERAGE] SOD=76680 sat=E26 frac=0.970 downweighted
+[GEOM_COND] SOD=76740 cond=5.5e+03 sat=G16 infl=10x
+[UP_LEVERAGE] SOD=76740 sat=E33 frac=0.928 downweighted
+[GEOM_COND] SOD=76770 cond=7.5e+03 sat=G16 infl=10x
+[UP_LEVERAGE] SOD=76770 sat=G31 frac=0.897 downweighted
+[GEOM_COND] SOD=76800 cond=5.8e+03 sat=G16 infl=10x
+[UP_LEVERAGE] SOD=76800 sat=E33 frac=0.682 downweighted
+[UP_LEVERAGE] SOD=76890 sat=G31 frac=0.351 downweighted
+[UP_LEVERAGE] SOD=76920 sat=G31 frac=0.353 downweighted
+[UP_LEVERAGE] SOD=76950 sat=G31 frac=0.354 downweighted
+[UP_LEVERAGE] SOD=76980 sat=G31 frac=0.356 downweighted
+[UP_LEVERAGE] SOD=77010 sat=G31 frac=0.357 downweighted
+[UP_LEVERAGE] SOD=77040 sat=G31 frac=0.358 downweighted
+[GEOM_COND] SOD=77070 cond=4.7e+03 sat=G01 infl=10x
+[UP_LEVERAGE] SOD=77070 sat=E33 frac=0.935 downweighted
+[GEOM_COND] SOD=77100 cond=1.6e+04 sat=G01 infl=10x
+[UP_LEVERAGE] SOD=77100 sat=G31 frac=0.803 downweighted
+[UP_LEVERAGE] SOD=77130 sat=G31 frac=0.362 downweighted
+[UP_LEVERAGE] SOD=77160 sat=G31 frac=0.363 downweighted
+[GEOM_COND] SOD=77190 cond=4.1e+03 sat=G01 infl=10x
+[UP_LEVERAGE] SOD=77190 sat=G10 frac=0.853 downweighted
+[UP_LEVERAGE] SOD=77220 sat=G31 frac=0.363 downweighted
+[GEOM_COND] SOD=77250 cond=3.1e+03 sat=G16 infl=10x
+[UP_LEVERAGE] SOD=77250 sat=G02 frac=0.849 downweighted
+[UP_LEVERAGE] SOD=77280 sat=G31 frac=0.366 downweighted
+[UP_LEVERAGE] SOD=77310 sat=G31 frac=0.367 downweighted
+[GEOM_COND] SOD=77340 cond=1.9e+04 sat=G01 infl=10x
+[UP_LEVERAGE] SOD=77340 sat=G31 frac=0.752 downweighted
+[GEOM_COND] SOD=77370 cond=1.6e+04 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=77370 sat=E26 frac=0.410 downweighted
+[UP_LEVERAGE] SOD=77370 sat=G31 frac=0.482 downweighted
+[UP_LEVERAGE] SOD=77400 sat=G31 frac=0.371 downweighted
+[UP_LEVERAGE] SOD=77430 sat=G31 frac=0.371 downweighted
+[UP_LEVERAGE] SOD=77460 sat=G31 frac=0.372 downweighted
+[UP_LEVERAGE] SOD=77490 sat=G31 frac=0.373 downweighted
+[GEOM_COND] SOD=77520 cond=4.8e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=77520 sat=G28 frac=0.922 downweighted
+[GEOM_COND] SOD=77550 cond=1.2e+04 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=77550 sat=E33 frac=0.607 downweighted
+[GEOM_COND] SOD=77580 cond=1.4e+04 sat=G32 infl=10x
+[GEOM_COND] SOD=77610 cond=1.6e+04 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=77640 sat=G31 frac=0.376 downweighted
+[UP_LEVERAGE] SOD=77670 sat=G31 frac=0.377 downweighted
+[UP_LEVERAGE] SOD=77700 sat=G31 frac=0.377 downweighted
+[GEOM_COND] SOD=77730 cond=1.0e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=77760 sat=G31 frac=0.378 downweighted
+[GEOM_COND] SOD=77790 cond=5.9e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=77790 sat=E33 frac=0.711 downweighted
+[GEOM_COND] SOD=77820 cond=1.4e+04 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=77820 sat=E26 frac=0.493 downweighted
+[UP_LEVERAGE] SOD=77820 sat=G28 frac=0.357 downweighted
+[GEOM_COND] SOD=77850 cond=2.7e+04 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=77850 sat=E26 frac=0.465 downweighted
+[GEOM_COND] SOD=77880 cond=3.4e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=77880 sat=G26 frac=0.870 downweighted
+[GEOM_COND] SOD=77910 cond=1.1e+04 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=77910 sat=E26 frac=0.400 downweighted
+[UP_LEVERAGE] SOD=77910 sat=G28 frac=0.569 downweighted
+[GEOM_COND] SOD=77940 cond=3.4e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=77940 sat=E29 frac=0.812 downweighted
+[GEOM_COND] SOD=77970 cond=9.8e+03 sat=G16 infl=10x
+[UP_LEVERAGE] SOD=77970 sat=E33 frac=0.642 downweighted
+[UP_LEVERAGE] SOD=78000 sat=G31 frac=0.378 downweighted
+[UP_LEVERAGE] SOD=78030 sat=G31 frac=0.378 downweighted
+[GEOM_COND] SOD=78060 cond=3.3e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=78060 sat=G02 frac=0.865 downweighted
+[UP_LEVERAGE] SOD=78090 sat=G31 frac=0.378 downweighted
+[GEOM_COND] SOD=78120 cond=1.2e+04 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=78120 sat=G31 frac=0.937 downweighted
+[UP_LEVERAGE] SOD=78150 sat=G31 frac=0.377 downweighted
+[GEOM_COND] SOD=78180 cond=9.9e+02 sat=G32 infl=4x
+[UP_LEVERAGE] SOD=78180 sat=G31 frac=0.358 downweighted
+[UP_LEVERAGE] SOD=78210 sat=G31 frac=0.377 downweighted
+[GEOM_COND] SOD=78240 cond=6.6e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=78240 sat=G31 frac=0.987 downweighted
+[GEOM_COND] SOD=78270 cond=1.2e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=78270 sat=G01 frac=0.447 downweighted
+[GEOM_COND] SOD=78300 cond=1.3e+04 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=78300 sat=G31 frac=0.758 downweighted
+[UP_LEVERAGE] SOD=78330 sat=G31 frac=0.376 downweighted
+[GEOM_COND] SOD=78360 cond=1.1e+04 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=78360 sat=G31 frac=0.884 downweighted
+[GEOM_COND] SOD=78390 cond=1.4e+04 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=78390 sat=E33 frac=0.978 downweighted
+[UP_LEVERAGE] SOD=78420 sat=G31 frac=0.374 downweighted
+[UP_LEVERAGE] SOD=78450 sat=G31 frac=0.374 downweighted
+[UP_LEVERAGE] SOD=78480 sat=G31 frac=0.373 downweighted
+[GEOM_COND] SOD=78510 cond=4.6e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=78510 sat=G26 frac=0.912 downweighted
+[GEOM_COND] SOD=78540 cond=6.2e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=78540 sat=E29 frac=0.526 downweighted
+[UP_LEVERAGE] SOD=78540 sat=G02 frac=0.413 downweighted
+[GEOM_COND] SOD=78570 cond=8.4e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=78570 sat=E33 frac=0.821 downweighted
+[GEOM_COND] SOD=78600 cond=9.4e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=78600 sat=G02 frac=0.422 downweighted
+[UP_LEVERAGE] SOD=78600 sat=G28 frac=0.547 downweighted
+[GEOM_COND] SOD=78630 cond=5.7e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=78630 sat=E26 frac=0.932 downweighted
+[GEOM_COND] SOD=78660 cond=5.1e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=78660 sat=G31 frac=0.914 downweighted
+[GEOM_COND] SOD=78690 cond=1.3e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=78690 sat=G16 frac=0.420 downweighted
+[UP_LEVERAGE] SOD=78720 sat=G31 frac=0.368 downweighted
+[GEOM_COND] SOD=78750 cond=7.9e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=78750 sat=E26 frac=0.398 downweighted
+[GEOM_COND] SOD=78780 cond=1.7e+04 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=78780 sat=G31 frac=0.843 downweighted
+[GEOM_COND] SOD=78810 cond=7.4e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=78810 sat=E33 frac=0.961 downweighted
+[UP_LEVERAGE] SOD=78840 sat=G31 frac=0.364 downweighted
+[UP_LEVERAGE] SOD=78870 sat=G31 frac=0.363 downweighted
+[UP_LEVERAGE] SOD=78900 sat=G31 frac=0.362 downweighted
+[NL CHECK] G31 corr_frac=-0.0151 sigma=0.042 buf=30
+[GEOM_COND] SOD=78930 cond=4.4e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=78930 sat=E26 frac=0.826 downweighted
+[NL CHECK] G31 corr_frac=-0.0178 sigma=0.042 buf=31
+[GEOM_COND] SOD=78960 cond=1.4e+04 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=78960 sat=E33 frac=0.980 downweighted
+[NL CHECK] G31 corr_frac=-0.0168 sigma=0.042 buf=32
+[UP_LEVERAGE] SOD=78990 sat=G31 frac=0.358 downweighted
+[NL CHECK] G31 corr_frac=-0.0171 sigma=0.042 buf=33
+[GEOM_COND] SOD=79020 cond=7.7e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=79020 sat=G26 frac=0.496 downweighted
+[NL CHECK] G31 corr_frac=-0.0250 sigma=0.042 buf=34
+[GEOM_COND] SOD=79050 cond=3.6e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=79050 sat=G28 frac=0.629 downweighted
+[NL CHECK] G31 corr_frac=-0.0272 sigma=0.042 buf=35
+[GEOM_COND] SOD=79080 cond=9.4e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=79080 sat=E33 frac=0.406 downweighted
+[UP_LEVERAGE] SOD=79080 sat=G26 frac=0.390 downweighted
+[NL CHECK] G31 corr_frac=-0.0213 sigma=0.042 buf=36
+[GEOM_COND] SOD=79110 cond=2.5e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=79110 sat=G10 frac=0.730 downweighted
+[NL CHECK] G31 corr_frac=-0.0244 sigma=0.042 buf=37
+[UP_LEVERAGE] SOD=79140 sat=G31 frac=0.352 downweighted
+[NL CHECK] G31 corr_frac=-0.0240 sigma=0.042 buf=38
+[UP_LEVERAGE] SOD=79170 sat=G31 frac=0.350 downweighted
+[NL CHECK] G31 corr_frac=-0.0234 sigma=0.042 buf=39
+[GEOM_COND] SOD=79200 cond=2.7e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=79200 sat=E29 frac=0.802 downweighted
+[NL CHECK] G31 corr_frac=-0.0211 sigma=0.042 buf=40
+[NL CHECK] G31 corr_frac=-0.0267 sigma=0.042 buf=41
+[NL CHECK] G31 corr_frac=-0.0292 sigma=0.042 buf=42
+[NL CHECK] G31 corr_frac=-0.0250 sigma=0.042 buf=43
+[GEOM_COND] SOD=79320 cond=1.6e+04 sat=G03 infl=10x
+[UP_LEVERAGE] SOD=79320 sat=G31 frac=0.628 downweighted
+[NL CHECK] G31 corr_frac=-0.0216 sigma=0.042 buf=44
+[GEOM_COND] SOD=79350 cond=1.7e+03 sat=G03 infl=10x
+[UP_LEVERAGE] SOD=79350 sat=G01 frac=0.641 downweighted
+[NL CHECK] G31 corr_frac=-0.0191 sigma=0.042 buf=45
+[GEOM_COND] SOD=79380 cond=3.7e+03 sat=G03 infl=10x
+[UP_LEVERAGE] SOD=79380 sat=G10 frac=0.453 downweighted
+[UP_LEVERAGE] SOD=79380 sat=G16 frac=0.352 downweighted
+[NL CHECK] G31 corr_frac=-0.0192 sigma=0.042 buf=46
+[GEOM_COND] SOD=79410 cond=7.3e+03 sat=G03 infl=10x
+[UP_LEVERAGE] SOD=79410 sat=E33 frac=0.964 downweighted
+[NL CHECK] G31 corr_frac=-0.0165 sigma=0.042 buf=47
+[GEOM_COND] SOD=79440 cond=7.6e+03 sat=G03 infl=10x
+[UP_LEVERAGE] SOD=79440 sat=G31 frac=0.985 downweighted
+[NL CHECK] G31 corr_frac=-0.0092 sigma=0.042 buf=48
+[GEOM_COND] SOD=79470 cond=1.4e+04 sat=G03 infl=10x
+[UP_LEVERAGE] SOD=79470 sat=E33 frac=0.981 downweighted
+[NL CHECK] G31 corr_frac=-0.0042 sigma=0.042 buf=49
+[GEOM_COND] SOD=79500 cond=6.0e+03 sat=G03 infl=10x
+[UP_LEVERAGE] SOD=79500 sat=G31 frac=0.944 downweighted
+[NL CHECK] G31 corr_frac=0.0012 sigma=0.042 buf=50
+[GEOM_COND] SOD=79530 cond=4.7e+03 sat=G03 infl=10x
+[UP_LEVERAGE] SOD=79530 sat=G31 frac=0.751 downweighted
+[NL_BIAS_FROZEN] G31  bias=+0.2352  frac_std=0.0093  corr_frac=+0.0060  buf_n=51
+[GEOM_COND] SOD=79560 cond=8.2e+03 sat=G03 infl=10x
+[UP_LEVERAGE] SOD=79560 sat=E33 frac=0.824 downweighted
+[GEOM_COND] SOD=79650 cond=4.3e+03 sat=G03 infl=10x
+[UP_LEVERAGE] SOD=79650 sat=G02 frac=0.550 downweighted
+[UP_LEVERAGE] SOD=79650 sat=G28 frac=0.363 downweighted
+[GEOM_COND] SOD=79680 cond=5.0e+03 sat=G03 infl=10x
+[UP_LEVERAGE] SOD=79680 sat=G26 frac=0.491 downweighted
+[GEOM_COND] SOD=79830 cond=2.5e+03 sat=G03 infl=10x
+[UP_LEVERAGE] SOD=79830 sat=G28 frac=0.772 downweighted
+[GEOM_COND] SOD=79920 cond=4.1e+03 sat=G03 infl=10x
+[UP_LEVERAGE] SOD=79920 sat=E26 frac=0.554 downweighted
+[UP_LEVERAGE] SOD=79920 sat=E29 frac=0.361 downweighted
+[GEOM_COND] SOD=80010 cond=6.9e+03 sat=G03 infl=10x
+[UP_LEVERAGE] SOD=80010 sat=E33 frac=0.965 downweighted
+[GEOM_COND] SOD=80130 cond=2.7e+03 sat=G03 infl=10x
+[UP_LEVERAGE] SOD=80130 sat=E29 frac=0.800 downweighted
+[GEOM_COND] SOD=80280 cond=1.9e+04 sat=G03 infl=10x
+[UP_LEVERAGE] SOD=80280 sat=G26 frac=0.834 downweighted
+[GEOM_COND] SOD=80310 cond=1.4e+04 sat=G03 infl=10x
+[UP_LEVERAGE] SOD=80310 sat=G26 frac=0.440 downweighted
+[UP_LEVERAGE] SOD=80310 sat=G31 frac=0.451 downweighted
+[GEOM_COND] SOD=80370 cond=1.4e+04 sat=G03 infl=10x
+[UP_LEVERAGE] SOD=80370 sat=E33 frac=0.881 downweighted
+[GEOM_COND] SOD=80400 cond=1.1e+04 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=80400 sat=E33 frac=0.961 downweighted
+[GEOM_COND] SOD=80430 cond=4.0e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=80430 sat=G26 frac=0.724 downweighted
+[GEOM_COND] SOD=80520 cond=3.0e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=80520 sat=G01 frac=0.528 downweighted
+[GEOM_COND] SOD=80610 cond=3.6e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=80610 sat=G16 frac=0.722 downweighted
+[GEOM_COND] SOD=80640 cond=8.7e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=80640 sat=G16 frac=0.527 downweighted
+[GEOM_COND] SOD=80670 cond=9.2e+02 sat=G32 infl=4x
+[GEOM_COND] SOD=80730 cond=4.9e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=80730 sat=G01 frac=0.868 downweighted
+[GEOM_COND] SOD=80790 cond=5.9e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=80790 sat=G16 frac=0.438 downweighted
+[GEOM_COND] SOD=80880 cond=1.3e+04 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=80880 sat=E33 frac=0.981 downweighted
+[NML_BAL_DIAG] SOD=80970 GPS_Up%=46.3 Gal_Up%=53.7 cond=4.33e+02 sc_GPS=1.000 sc_Gal=1.000 hump_risk=0.043
+[SUMMARY] SOD=80970  sats=13  NL=6  WL=10  3D=105.6mm
+[ISB_DIAG] SOD=80970  ISB=+1.3840m  P_ISB=0.0017m²  GPS_code=1214.6mm GPS_phase=644.649mm  Gal_code=278.1mm Gal_phase=50.925mm  nGPS=10 nGal=3  gal_sig_scale=0.990
+[ZWD_DIAG] SOD=80970 ZWD=0.1239m P_ZWD=0.000035m² Q_ZWD=7.500e-08m² sigma_U=21.0mm corr(U,ZWD)=-0.1939 run|corr|60ep=0.1946 decorr=OFF
+[ION_DIAG] SOD=80970 top-P_ion: G12:P=25.012m²/Q=3.00e-03  E03:P=23.994m²/Q=3.00e-03  G09:P=16.954m²/Q=3.00e-03  G04:P=16.429m²/Q=3.00e-03  E04:P=8.606m²/Q=3.00e-03  G11:P=8.269m²/Q=3.00e-03
+[NML_DIAG] SOD=80970 Up normal-eq: GPS=37.5417 (75.2%)  Gal=12.3540 (24.8%)  nGPS=10 nGal=3
+[NML_DIAG2] SOD=80970 elW_GPS=0.000 elW_Gal=0.000  cond(NM_pos)=4.3e+02  ZWD_decorr=OFF  Q_ZWD=nom
+[FUSION_DIAG] SOD=80970  ISB_obs=YES  ISB=+1.3840m P_ISB=0.0017m²  GPS_NE_frac=75.2%  Gal_leverage=91.652  sigma_U_comb=21.0mm sigma_U_GPS_only=1924.1mm  gal_scale=0.9900
+[NML_BALANCED] SOD=80970 balanced Up: GPS=11.2625 (21.5%)  Gal=41.1800 (78.5%)  scale_GPS=0.548 scale_Gal=1.826
+[OTL_APPLY] SOD=81000 E26 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=25586933877.16mm rng_otl=25586933880.99mm  delta_rng=-3.84mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 E29 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=25392148456.18mm rng_otl=25392148461.05mm  delta_rng=-4.87mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 E33 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=24354647530.87mm rng_otl=24354647534.34mm  delta_rng=-3.46mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 G01 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=22394504967.55mm rng_otl=22394504968.85mm  delta_rng=-1.29mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 G02 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=22494877269.58mm rng_otl=22494877271.44mm  delta_rng=-1.86mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 G03 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=23216222578.29mm rng_otl=23216222579.42mm  delta_rng=-1.13mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 G04 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=24760507336.36mm rng_otl=24760507334.65mm  delta_rng=+1.71mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 G10 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=22955336066.71mm rng_otl=22955336072.01mm  delta_rng=-5.29mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 G16 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=21696105605.07mm rng_otl=21696105610.68mm  delta_rng=-5.61mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 G26 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=20541498571.64mm rng_otl=20541498579.37mm  delta_rng=-7.73mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 G28 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=22919418553.72mm rng_otl=22919418558.25mm  delta_rng=-4.53mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 G31 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=20793068355.98mm rng_otl=20793068361.62mm  delta_rng=-5.63mm  otl_in_model=YES
+[OTL_APPLY] SOD=81000 G32 dE=-3.39 dN=+0.16 dU=-7.00 mm  rng_no_otl=23876819166.52mm rng_otl=23876819171.62mm  delta_rng=-5.10mm  otl_in_model=YES
+[GEOM_COND] SOD=81030 cond=1.1e+03 sat=G04 infl=10x
+[GEOM_COND] SOD=81150 cond=4.9e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=81150 sat=G26 frac=0.735 downweighted
+[GEOM_COND] SOD=81300 cond=1.3e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=81300 sat=G03 frac=0.383 downweighted
+[GEOM_COND] SOD=81360 cond=2.4e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=81360 sat=G03 frac=0.573 downweighted
+[GEOM_COND] SOD=81450 cond=5.4e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=81450 sat=G01 frac=0.879 downweighted
+[GEOM_COND] SOD=81480 cond=4.9e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=81480 sat=G01 frac=0.586 downweighted
+[GEOM_COND] SOD=81510 cond=2.7e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=81510 sat=E29 frac=0.601 downweighted
+[GEOM_COND] SOD=81540 cond=1.8e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=81540 sat=E26 frac=0.623 downweighted
+[GEOM_COND] SOD=81600 cond=8.3e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=81600 sat=G26 frac=0.985 downweighted
+[GEOM_COND] SOD=81630 cond=4.3e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=81630 sat=E29 frac=0.396 downweighted
+[UP_LEVERAGE] SOD=81660 sat=G26 frac=0.352 downweighted
+[GEOM_COND] SOD=81690 cond=1.2e+04 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=81690 sat=E33 frac=0.978 downweighted
+[UP_LEVERAGE] SOD=81720 sat=G26 frac=0.354 downweighted
+[GEOM_COND] SOD=81750 cond=2.9e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=81750 sat=G01 frac=0.794 downweighted
+[UP_LEVERAGE] SOD=81780 sat=G26 frac=0.352 downweighted
+[GEOM_COND] SOD=81810 cond=2.3e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=81810 sat=G03 frac=0.491 downweighted
+[UP_LEVERAGE] SOD=81840 sat=G26 frac=0.356 downweighted
+[GEOM_COND] SOD=81870 cond=3.7e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=81870 sat=G03 frac=0.747 downweighted
+[GEOM_COND] SOD=81900 cond=4.7e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=81900 sat=G26 frac=0.655 downweighted
+[GEOM_COND] SOD=81930 cond=5.0e+02 sat=G04 infl=4x
+[UP_LEVERAGE] SOD=81930 sat=G26 frac=0.357 downweighted
+[GEOM_COND] SOD=81960 cond=5.2e+02 sat=G04 infl=4x
+[UP_LEVERAGE] SOD=81960 sat=G26 frac=0.357 downweighted
+[GEOM_COND] SOD=81990 cond=2.7e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=81990 sat=E26 frac=0.683 downweighted
+[GEOM_COND] SOD=82020 cond=5.0e+02 sat=G04 infl=4x
+[UP_LEVERAGE] SOD=82020 sat=G26 frac=0.353 downweighted
+[GEOM_COND] SOD=82050 cond=8.1e+02 sat=G04 infl=4x
+[GEOM_COND] SOD=82080 cond=8.0e+02 sat=G04 infl=4x
+[GEOM_COND] SOD=82110 cond=1.2e+04 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=82110 sat=G26 frac=0.992 downweighted
+[GEOM_COND] SOD=82140 cond=6.2e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=82140 sat=G16 frac=0.547 downweighted
+[UP_LEVERAGE] SOD=82140 sat=G31 frac=0.376 downweighted
+[GEOM_COND] SOD=82170 cond=9.8e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=82170 sat=G16 frac=0.578 downweighted
+[UP_LEVERAGE] SOD=82170 sat=G31 frac=0.383 downweighted
+[GEOM_COND] SOD=82200 cond=3.0e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=82200 sat=G02 frac=0.512 downweighted
+[GEOM_COND] SOD=82230 cond=8.4e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=82230 sat=G31 frac=0.773 downweighted
+[GEOM_COND] SOD=82260 cond=5.2e+02 sat=G04 infl=4x
+[UP_LEVERAGE] SOD=82260 sat=G26 frac=0.356 downweighted
+[GEOM_COND] SOD=82290 cond=5.2e+02 sat=G04 infl=4x
+[UP_LEVERAGE] SOD=82290 sat=G26 frac=0.354 downweighted
+[GEOM_COND] SOD=82320 cond=5.2e+02 sat=G04 infl=4x
+[UP_LEVERAGE] SOD=82320 sat=G26 frac=0.352 downweighted
+[GEOM_COND] SOD=82350 cond=1.6e+04 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=82350 sat=G31 frac=0.969 downweighted
+[GEOM_COND] SOD=82380 cond=1.2e+04 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=82380 sat=G16 frac=0.972 downweighted
+[GEOM_COND] SOD=82410 cond=6.2e+02 sat=G04 infl=4x
+[UP_LEVERAGE] SOD=82410 sat=G26 frac=0.355 downweighted
+[GEOM_COND] SOD=82440 cond=7.5e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=82440 sat=E33 frac=0.755 downweighted
+[GEOM_COND] SOD=82470 cond=2.8e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=82470 sat=G02 frac=0.546 downweighted
+[GEOM_COND] SOD=82500 cond=6.5e+02 sat=G04 infl=4x
+[UP_LEVERAGE] SOD=82500 sat=G26 frac=0.352 downweighted
+[GEOM_COND] SOD=82530 cond=3.4e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=82530 sat=G02 frac=0.430 downweighted
+[GEOM_COND] SOD=82560 cond=3.8e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=82560 sat=G03 frac=0.786 downweighted
+[GEOM_COND] SOD=82590 cond=5.6e+02 sat=G04 infl=4x
+[GEOM_COND] SOD=82620 cond=3.7e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=82620 sat=E29 frac=0.811 downweighted
+[GEOM_COND] SOD=82650 cond=5.6e+02 sat=G04 infl=4x
+[GEOM_COND] SOD=82680 cond=5.6e+02 sat=G04 infl=4x
+[GEOM_COND] SOD=82710 cond=9.2e+02 sat=G04 infl=4x
+[GEOM_COND] SOD=82740 cond=5.6e+02 sat=G04 infl=4x
+[GEOM_COND] SOD=82770 cond=5.6e+02 sat=G04 infl=4x
+[GEOM_COND] SOD=82800 cond=5.6e+02 sat=G04 infl=4x
+[GEOM_COND] SOD=82830 cond=5.5e+02 sat=G04 infl=4x
+[GEOM_COND] SOD=82860 cond=5.5e+02 sat=G04 infl=4x
+[GEOM_COND] SOD=82890 cond=5.5e+02 sat=G04 infl=4x
+[GEOM_COND] SOD=82920 cond=5.5e+02 sat=G04 infl=4x
+[GEOM_COND] SOD=82950 cond=5.5e+02 sat=G04 infl=4x
+[GEOM_COND] SOD=82980 cond=8.4e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=82980 sat=G16 frac=0.979 downweighted
+[GEOM_COND] SOD=83010 cond=5.7e+02 sat=G32 infl=4x
+[GEOM_COND] SOD=83040 cond=5.6e+02 sat=G32 infl=4x
+[GEOM_COND] SOD=83070 cond=2.2e+04 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=83070 sat=G16 frac=0.991 downweighted
+[GEOM_COND] SOD=83100 cond=5.1e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=83100 sat=G03 frac=0.747 downweighted
+[GEOM_COND] SOD=83130 cond=5.7e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=83130 sat=G16 frac=0.830 downweighted
+[GEOM_COND] SOD=83160 cond=5.7e+02 sat=G32 infl=4x
+[GEOM_COND] SOD=83190 cond=6.5e+02 sat=G32 infl=4x
+[GEOM_COND] SOD=83220 cond=6.5e+02 sat=G32 infl=4x
+[GEOM_COND] SOD=83250 cond=6.3e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=83250 sat=E29 frac=0.899 downweighted
+[GEOM_COND] SOD=83280 cond=6.5e+02 sat=G32 infl=4x
+[GEOM_COND] SOD=83310 cond=6.4e+02 sat=G32 infl=4x
+[GEOM_COND] SOD=83340 cond=1.9e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=83340 sat=G02 frac=0.505 downweighted
+[GEOM_COND] SOD=83370 cond=6.1e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=83370 sat=E33 frac=0.917 downweighted
+[GEOM_COND] SOD=83400 cond=5.7e+02 sat=G32 infl=4x
+[UP_LEVERAGE] SOD=83400 sat=G16 frac=0.352 downweighted
+[GEOM_COND] SOD=83430 cond=5.6e+02 sat=G32 infl=4x
+[UP_LEVERAGE] SOD=83430 sat=G16 frac=0.355 downweighted
+[GEOM_COND] SOD=83460 cond=5.7e+02 sat=G32 infl=4x
+[UP_LEVERAGE] SOD=83460 sat=G16 frac=0.357 downweighted
+[GEOM_COND] SOD=83490 cond=5.7e+02 sat=G32 infl=4x
+[UP_LEVERAGE] SOD=83490 sat=G16 frac=0.360 downweighted
+[GEOM_COND] SOD=83520 cond=5.7e+02 sat=G32 infl=4x
+[UP_LEVERAGE] SOD=83520 sat=G16 frac=0.363 downweighted
+[GEOM_COND] SOD=83550 cond=5.5e+02 sat=G32 infl=4x
+[UP_LEVERAGE] SOD=83550 sat=G16 frac=0.365 downweighted
+[GEOM_COND] SOD=83580 cond=1.7e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=83580 sat=G02 frac=0.445 downweighted
+[GEOM_COND] SOD=83610 cond=5.3e+02 sat=G32 infl=4x
+[UP_LEVERAGE] SOD=83610 sat=G16 frac=0.371 downweighted
+[GEOM_COND] SOD=83640 cond=5.3e+02 sat=G32 infl=4x
+[UP_LEVERAGE] SOD=83640 sat=G16 frac=0.374 downweighted
+[GEOM_COND] SOD=83670 cond=5.3e+02 sat=G32 infl=4x
+[UP_LEVERAGE] SOD=83670 sat=G16 frac=0.376 downweighted
+[GEOM_COND] SOD=83700 cond=5.2e+02 sat=G32 infl=4x
+[UP_LEVERAGE] SOD=83700 sat=G16 frac=0.379 downweighted
+[GEOM_COND] SOD=83730 cond=5.2e+02 sat=G32 infl=4x
+[UP_LEVERAGE] SOD=83730 sat=G16 frac=0.381 downweighted
+[GEOM_COND] SOD=83760 cond=5.4e+02 sat=G32 infl=4x
+[UP_LEVERAGE] SOD=83760 sat=G16 frac=0.384 downweighted
+[GEOM_COND] SOD=83790 cond=4.3e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=83790 sat=E23 frac=0.500 downweighted
+[GEOM_COND] SOD=83820 cond=5.1e+02 sat=G32 infl=4x
+[UP_LEVERAGE] SOD=83820 sat=G16 frac=0.401 downweighted
+[GEOM_COND] SOD=83850 cond=5.1e+02 sat=G32 infl=4x
+[UP_LEVERAGE] SOD=83850 sat=G16 frac=0.403 downweighted
+[GEOM_COND] SOD=83880 cond=5.0e+02 sat=G32 infl=4x
+[UP_LEVERAGE] SOD=83880 sat=G16 frac=0.404 downweighted
+[UP_LEVERAGE] SOD=83910 sat=G16 frac=0.405 downweighted
+[UP_LEVERAGE] SOD=83940 sat=G16 frac=0.408 downweighted
+[UP_LEVERAGE] SOD=83970 sat=G16 frac=0.410 downweighted
+[UP_LEVERAGE] SOD=84000 sat=G16 frac=0.412 downweighted
+[GEOM_COND] SOD=84030 cond=9.3e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=84030 sat=G16 frac=0.989 downweighted
+[GEOM_COND] SOD=84060 cond=5.7e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=84060 sat=G03 frac=0.940 downweighted
+[UP_LEVERAGE] SOD=84090 sat=G16 frac=0.427 downweighted
+[UP_LEVERAGE] SOD=84120 sat=G16 frac=0.428 downweighted
+[UP_LEVERAGE] SOD=84150 sat=G16 frac=0.430 downweighted
+[GEOM_COND] SOD=84180 cond=2.6e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=84180 sat=G31 frac=0.780 downweighted
+[UP_LEVERAGE] SOD=84210 sat=G16 frac=0.437 downweighted
+[UP_LEVERAGE] SOD=84240 sat=G16 frac=0.438 downweighted
+[UP_LEVERAGE] SOD=84270 sat=G16 frac=0.439 downweighted
+[UP_LEVERAGE] SOD=84300 sat=G16 frac=0.440 downweighted
+[UP_LEVERAGE] SOD=84330 sat=G16 frac=0.441 downweighted
+[GEOM_COND] SOD=84360 cond=2.2e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=84360 sat=G31 frac=0.748 downweighted
+[GEOM_COND] SOD=84390 cond=5.4e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=84390 sat=G16 frac=0.911 downweighted
+[GEOM_COND] SOD=84420 cond=7.4e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=84420 sat=E33 frac=0.515 downweighted
+[UP_LEVERAGE] SOD=84420 sat=G01 frac=0.390 downweighted
+[GEOM_COND] SOD=84450 cond=4.4e+03 sat=G32 infl=10x
+[UP_LEVERAGE] SOD=84450 sat=G26 frac=0.829 downweighted
+[UP_LEVERAGE] SOD=84480 sat=G16 frac=0.456 downweighted
+[UP_LEVERAGE] SOD=84510 sat=G16 frac=0.456 downweighted
+[UP_LEVERAGE] SOD=84540 sat=G16 frac=0.457 downweighted
+[UP_LEVERAGE] SOD=84570 sat=G16 frac=0.457 downweighted
+[UP_LEVERAGE] SOD=84600 sat=G16 frac=0.458 downweighted
+[UP_LEVERAGE] SOD=84630 sat=G16 frac=0.458 downweighted
+[UP_LEVERAGE] SOD=84660 sat=G16 frac=0.459 downweighted
+[WL FIXED] G16  N_WL=13  mean=12.976  std=0.250 b_rec=+0.160(GF) cyc
+[GEOM_COND] SOD=84690 cond=9.5e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=84690 sat=E33 frac=0.678 downweighted
+[GEOM_COND] SOD=84720 cond=1.0e+04 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=84720 sat=E33 frac=0.658 downweighted
+[GEOM_COND] SOD=84750 cond=9.2e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=84750 sat=G03 frac=0.688 downweighted
+[GEOM_COND] SOD=84780 cond=9.7e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=84780 sat=G16 frac=0.860 downweighted
+[GEOM_COND] SOD=84810 cond=3.8e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=84810 sat=G01 frac=0.515 downweighted
+[WL FIXED] E23  N_WL=43  mean=43.086  std=0.211 b_rec=+0.319(EF) cyc
+[UP_LEVERAGE] SOD=84840 sat=G16 frac=0.474 downweighted
+[GEOM_COND] SOD=84870 cond=2.0e+04 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=84870 sat=G16 frac=0.930 downweighted
+[GEOM_COND] SOD=84900 cond=6.5e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=84900 sat=G26 frac=0.800 downweighted
+[UP_LEVERAGE] SOD=84930 sat=G16 frac=0.477 downweighted
+[GEOM_COND] SOD=84960 cond=4.5e+03 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=84960 sat=E33 frac=0.371 downweighted
+[UP_LEVERAGE] SOD=84960 sat=G31 frac=0.351 downweighted
+[UP_LEVERAGE] SOD=84990 sat=G16 frac=0.479 downweighted
+[UP_LEVERAGE] SOD=85020 sat=G16 frac=0.478 downweighted
+[UP_LEVERAGE] SOD=85050 sat=G16 frac=0.477 downweighted
+[UP_LEVERAGE] SOD=85080 sat=G16 frac=0.476 downweighted
+[GEOM_COND] SOD=85110 cond=4.2e+03 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=85110 sat=E23 frac=0.569 downweighted
+[UP_LEVERAGE] SOD=85140 sat=G16 frac=0.477 downweighted
+[GEOM_COND] SOD=85170 cond=7.4e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=85170 sat=G16 frac=0.886 downweighted
+[UP_LEVERAGE] SOD=85200 sat=G16 frac=0.477 downweighted
+[UP_LEVERAGE] SOD=85230 sat=G16 frac=0.478 downweighted
+[GEOM_COND] SOD=85260 cond=2.5e+03 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=85260 sat=E29 frac=0.647 downweighted
+[GEOM_COND] SOD=85290 cond=5.9e+03 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=85290 sat=G26 frac=0.631 downweighted
+[GEOM_COND] SOD=85320 cond=2.6e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=85320 sat=G01 frac=0.509 downweighted
+[GEOM_COND] SOD=85350 cond=7.2e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=85350 sat=G26 frac=0.926 downweighted
+[UP_LEVERAGE] SOD=85380 sat=G16 frac=0.478 downweighted
+[GEOM_COND] SOD=85410 cond=3.7e+03 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=85410 sat=E23 frac=0.756 downweighted
+[UP_LEVERAGE] SOD=85440 sat=G16 frac=0.480 downweighted
+[UP_LEVERAGE] SOD=85470 sat=G16 frac=0.478 downweighted
+[GEOM_COND] SOD=85500 cond=3.4e+03 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=85500 sat=G16 frac=0.780 downweighted
+[UP_LEVERAGE] SOD=85530 sat=G16 frac=0.478 downweighted
+[UP_LEVERAGE] SOD=85560 sat=G16 frac=0.476 downweighted
+[UP_LEVERAGE] SOD=85590 sat=G16 frac=0.474 downweighted
+[UP_LEVERAGE] SOD=85620 sat=G16 frac=0.472 downweighted
+[UP_LEVERAGE] SOD=85650 sat=G16 frac=0.470 downweighted
+[UP_LEVERAGE] SOD=85680 sat=G16 frac=0.468 downweighted
+[GEOM_COND] SOD=85710 cond=8.2e+03 sat=G02 infl=10x
+[UP_LEVERAGE] SOD=85710 sat=G26 frac=0.597 downweighted
+[UP_LEVERAGE] SOD=85740 sat=G16 frac=0.472 downweighted
+[GEOM_COND] SOD=85770 cond=1.6e+03 sat=G27 infl=10x
+[UP_LEVERAGE] SOD=85770 sat=E33 frac=0.634 downweighted
+[UP_LEVERAGE] SOD=85800 sat=G16 frac=0.465 downweighted
+[UP_LEVERAGE] SOD=85830 sat=G16 frac=0.468 downweighted
+[GEOM_COND] SOD=85860 cond=8.8e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=85860 sat=G03 frac=0.950 downweighted
+[UP_LEVERAGE] SOD=85890 sat=G16 frac=0.469 downweighted
+[UP_LEVERAGE] SOD=85920 sat=G16 frac=0.466 downweighted
+[UP_LEVERAGE] SOD=85950 sat=G16 frac=0.463 downweighted
+[GEOM_COND] SOD=85980 cond=8.1e+03 sat=G04 infl=10x
+[UP_LEVERAGE] SOD=85980 sat=G03 frac=0.730 downweighted
+[GEOM_COND] SOD=86010 cond=6.6e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=86010 sat=G03 frac=0.945 downweighted
+[GEOM_COND] SOD=86040 cond=6.1e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=86040 sat=E29 frac=0.474 downweighted
+[UP_LEVERAGE] SOD=86040 sat=G26 frac=0.465 downweighted
+[GEOM_COND] SOD=86070 cond=9.2e+02 sat=G08 infl=4x
+[GEOM_COND] SOD=86100 cond=6.0e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=86100 sat=G16 frac=0.928 downweighted
+[UP_LEVERAGE] SOD=86130 sat=G16 frac=0.452 downweighted
+[NL CHECK] E23 corr_frac=0.0246 sigma=0.070 buf=33
+[UP_LEVERAGE] SOD=86160 sat=G16 frac=0.448 downweighted
+[NL CHECK] E23 corr_frac=0.0166 sigma=0.070 buf=34
+[UP_LEVERAGE] SOD=86190 sat=G16 frac=0.445 downweighted
+[NL CHECK] E23 corr_frac=0.0104 sigma=0.069 buf=35
+[UP_LEVERAGE] SOD=86220 sat=G16 frac=0.442 downweighted
+[NL CHECK] E23 corr_frac=0.0052 sigma=0.069 buf=36
+[GEOM_COND] SOD=86250 cond=1.8e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=86250 sat=G01 frac=0.514 downweighted
+[NL CHECK] E23 corr_frac=-0.0056 sigma=0.069 buf=37
+[GEOM_COND] SOD=86280 cond=2.2e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=86280 sat=G01 frac=0.385 downweighted
+[NL CHECK] E23 corr_frac=-0.0140 sigma=0.069 buf=38
+[UP_LEVERAGE] SOD=86310 sat=G16 frac=0.440 downweighted
+[NL CHECK] E23 corr_frac=-0.0171 sigma=0.069 buf=39
+[GEOM_COND] SOD=86340 cond=2.1e+03 sat=G08 infl=10x
+[UP_LEVERAGE] SOD=86340 sat=E29 frac=0.783 downweighted
+[NL CHECK] E23 corr_frac=-0.0203 sigma=0.069 buf=40
+[UP_LEVERAGE] SOD=86370 sat=G16 frac=0.433 downweighted
+[WL_DICT] 12 sats fixed
+[AMB INHERIT] 46/48 sats (excluded: {'E09': 'pt=30000.000', 'E05': 'pt=21.932'})
+[CSV]  nl_bias_debug.csv → C:\Users\HP\OneDrive\Desktop\PROJECT\src\nl_bias_debug.csv
+[TRANSITION_AUDIT] Change-point dU: SOD=1800  (0.50 h)
+[TRANSITION_AUDIT] Audit window: SOD 0–7200  (0.0–2.0 h)
+  [TE] SOD=1500 (0.42h)  WL_FIX              sat=G03   val=4  mean=4.114 std=0.133
+  [TE] SOD=1500 (0.42h)  WL_FIX              sat=G16   val=1  mean=1.078 std=0.131
+[TRANSITION_AUDIT] Plot saved → C:\Users\HP\OneDrive\Desktop\PROJECT\src\logs\transition_audit.png
+[CSV]  logs/ → nl.csv  float_diag.csv  nl_events.csv  summary.csv  isb.csv  fusion_diag.csv  hump_diag.csv
+[CSV]  logs/ → vdop_diag.csv  zwd_hump_diag.csv  ion_hump_diag.csv  fusion_obs_diag.csv  geom_hump_diag.csv  (DIAG_MODE=2)
+[CSV]  logs/ → transition_audit.csv  transition_events.csv  transition_audit.png
+[CSV]  logs/ → amb_audit.csv  (ambiguity influence audit — diagnostic only)
+[CSV]  logs/ → sat_churn_diag.csv  (NL lifetime monitor — FIX 1/2/3/4/5)
+  2880 epochs  end_3D=85.8mm  ZWD=0.125m
+  WL fixed: ['E05', 'E09', 'E25', 'E34', 'G05', 'G15', 'E26', 'E18', 'E33', 'G31', 'G16', 'E23']  (12 sats)
+[SMOOTH] Running RTS smoother on 2880 epochs ...
+  DIAG 3D=112.9mm  dE=+34.2  dN=+31.8  dU=-102.8 mm
+
+  ── Metrics: GPS+Galileo ──────────────────────────────────────────
+  RMS (E/N/U/3D): 41.6 / 36.6 / 146.9 / 157.0 mm  (3D<200mm subset)
+  Conv (5-ep sustain) <10cm: SOD=5880   <5cm: not reached
+  WL-fixed epochs: 2823/2880  NL-fixed epochs: 2499/2880  First NL SOD: 11430.0
+  RTS RMS (E/N/U/3D): 26.1 / 31.3 / 115.7 / 122.7 mm

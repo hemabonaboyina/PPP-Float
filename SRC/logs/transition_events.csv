@@ -1,0 +1,33 @@
+SOD,event_type,sat,value,detail
+5400.0,WL_FIX,G16,1,mean=1.015 std=0.211
+5460.0,WL_FIX,G03,4,mean=4.050 std=0.152
+11460.0,WL_FIX,G08,1,mean=1.009 std=0.250
+17940.0,NML_BAL,,0.048,GPS%=44.4 cond=4.82e+02 sc_GPS=0.991 sc_Gal=1.009
+17940.0,SCALE_BLOCK,,1.0000,reason=event_hysteresis ratio=0.500
+22200.0,WL_FIX,G19,-24,mean=-24.109 std=0.248
+24060.0,WL_FIX,G30,-43,mean=-42.939 std=0.250
+24540.0,WL_FIX,G07,-1,mean=-1.072 std=0.250
+27120.0,WL_FIX,G17,-32,mean=-32.200 std=0.233
+28080.0,WL_FIX,G06,-50,mean=-49.956 std=0.187
+35940.0,NML_BAL,,0.063,GPS%=39.5 cond=5.81e+02 sc_GPS=0.986 sc_Gal=1.014
+35940.0,SCALE_BLOCK,,1.0000,reason=event_hysteresis ratio=0.222
+40800.0,WL_FIX,G05,-60,mean=-60.124 std=0.181
+43080.0,WL_FIX,G12,-60,mean=-60.081 std=0.152
+52200.0,WL_FIX,G15,-60,mean=-60.049 std=0.137
+53160.0,WL_FIX,G29,-64,mean=-64.120 std=0.157
+53940.0,NML_BAL,,0.713,GPS%=91.1 cond=4.02e+03 sc_GPS=1.000 sc_Gal=1.000
+53940.0,SCALE_BLOCK,,1.0000,reason=event_hysteresis ratio=0.263
+61020.0,WL_FIX,G29,-64,mean=-64.182 std=0.199
+64740.0,WL_FIX,G32,-16,mean=-16.019 std=0.169
+64980.0,WL_FIX,G18,-50,mean=-50.158 std=0.154
+68400.0,WL_FIX,E13,-58,mean=-58.044 std=0.113
+68400.0,WL_FIX,E18,-16,mean=-15.956 std=0.207
+68400.0,WL_FIX,E26,0,mean=0.128 std=0.151
+71940.0,NML_BAL,,0.087,GPS%=37.8 cond=6.48e+02 sc_GPS=1.000 sc_Gal=1.000
+71940.0,SCALE_BLOCK,,1.0000,reason=event_hysteresis ratio=0.257
+73500.0,WL_FIX,E33,28,mean=28.006 std=0.249
+77880.0,WL_FIX,G31,16,mean=15.801 std=0.189
+82680.0,NL_FIX,E33,-0.0291,sigma=0.0668 NL_total=2
+83160.0,WL_FIX,G16,13,mean=12.908 std=0.250
+83340.0,WL_FIX,G26,-21,mean=-21.124 std=0.250
+86340.0,WL_FIX,E23,43,mean=43.184 std=0.205

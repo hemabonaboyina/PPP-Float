@@ -1,0 +1,6 @@
+run_id,type,el_lo,el_hi,n,mean_mm,rms_mm,mad_mm,p95_mm
+GB_Q3,prior_innovation,0,15,0,nan,nan,nan,nan
+GB_Q3,prior_innovation,15,30,0,nan,nan,nan,nan
+GB_Q3,prior_innovation,30,45,0,nan,nan,nan,nan
+GB_Q3,prior_innovation,45,60,0,nan,nan,nan,nan
+GB_Q3,prior_innovation,60,90,0,nan,nan,nan,nan

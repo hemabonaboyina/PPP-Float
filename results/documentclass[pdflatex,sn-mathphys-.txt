@@ -1,0 +1,206 @@
+\documentclass[pdflatex,sn-mathphys-num]{sn-jnl}
+
+% Packages
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{amsthm}
+\usepackage{mathrsfs}
+\usepackage[title]{appendix}
+\usepackage{xcolor}
+\usepackage{textcomp}
+\usepackage{manyfoot}
+\usepackage{booktabs}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usepackage{float}
+\usepackage{placeins}
+
+\raggedbottom
+%========================================================
+% BULLET STYLE (JUSTIFIED + ALIGNED) - LARGE TEXT
+%========================================================
+\newcommand{\flowitem}[1]{%
+\par
+\noindent
+\makebox[4mm][l]{$\bullet$}%
+\parbox[t]{4.6cm}{#1} % Adjusted width to prevent text from spilling
+\par\vspace{2.2mm}
+}
+%========================================================
+% FIRST FLOWCHART (UNIFORM BOXES, BOUNDED, LARGE FONT)
+%========================================================
+
+\begin{figure*}[htbp]
+\centering
+
+% Define the strict layout command for uniform boxes and dividers
+\newcommand{\flowbox}[2]{%
+  \begin{minipage}[t][9.8cm][t]{\linewidth}% 1. Fixed total box height (taller to fit large text wrapping)
+    \begin{minipage}[t][2.8cm][c]{\linewidth}% 2. Fixed header height to keep line uniform
+      \centering \textbf{\LARGE #1}%
+    \end{minipage}\\[1mm]
+    \rule{\linewidth}{0.5pt}\\[3mm] % 3. Uniform dividing line
+    \raggedright
+    #2% 4. Bullet text
+  \end{minipage}%
+}
+
+\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[
+every node/.style={font=\Large}, % Force large text
+box/.style={
+  rectangle,
+  rounded corners=6pt,
+  draw=black,
+  thick,
+  minimum width=5.6cm, % Slightly narrower so the diagram doesn't shrink as much
+  text width=5.2cm,    
+  inner sep=8pt
+},
+arrow/.style={draw,thick,->}
+]
+
+%========================================================
+% FIRST ROW (4 Boxes) - Tighter X spacing (6.2 gap)
+%========================================================
+
+\node[box] (a) at (0,0) {
+\flowbox{INPUT FILES}{
+  \flowitem{RINEX OBS}
+  \flowitem{SP3 ORBIT}
+  \flowitem{CLK FILE}
+  \flowitem{ATX FILE}
+  \flowitem{BIAS PROD}
+}
+};
+
+\node[box] (b) at (6.2,0) {
+\flowbox{RINEX DATA EXTRACTION}{
+  \flowitem{Epochs}
+  \flowitem{Satellites}
+  \flowitem{Code Obs}
+  \flowitem{Phase Obs}
+}
+};
+
+\node[box] (c) at (12.4,0) {
+\flowbox{APPROXIMATE POSITION INITIALIZE}{
+  \flowitem{X,Y,Z Init}
+  \flowitem{Initial Geometry}
+}
+};
+
+\node[box] (d) at (18.6,0) {
+\flowbox{SATELLITE POSITION PROCESSING}{
+  \flowitem{SP3 Interpolation}
+  \flowitem{Satellite Coordinates}
+  \flowitem{Clock Synchronization}
+}
+};
+
+%========================================================
+% SECOND ROW (4 Boxes) - Tighter Y spacing
+%========================================================
+
+\node[box] (e) at (0,-13.5) {
+\flowbox{OBSERVATION PREPROCESSING}{
+  \flowitem{Dual Frequency Check}
+  \flowitem{Elevation Angle}
+  \flowitem{Invalid Obs Removal}
+}
+};
+
+\node[box] (f) at (6.2,-13.5) {
+\flowbox{ERROR MODELS \& CORRECTIONS}{
+  \flowitem{Orbit Correction}
+  \flowitem{Clock Correction}
+  \flowitem{Tropospheric Corr.}
+  \flowitem{Earth Rotation Corr.}
+  \flowitem{Relativistic Corr.}
+  \flowitem{Antenna Correction}
+}
+};
+
+\node[box] (g) at (12.4,-13.5) {
+\flowbox{IONOSPHERE-FREE COMBINATION}{
+  \flowitem{IF Pseudorange}
+  \flowitem{IF Carrier Phase}
+  \flowitem{Ionosphere Removal}
+}
+};
+
+\node[box] (h) at (18.6,-13.5) {
+\flowbox{GEOMETRIC RANGE COMPUTATION}{
+  \flowitem{Satellite-Receiver Distance}
+  \flowitem{Residual Computation}
+  \flowitem{Linearized Equations}
+}
+};
+
+%========================================================
+% THIRD ROW (3 Boxes) - Centered under the tighter grid
+%========================================================
+
+\node[box] (i) at (3.1,-27) {
+\flowbox{KALMAN FILTER ESTIMATION}{
+  \flowitem{Receiver Coordinates}
+  \flowitem{Receiver Clock Bias}
+  \flowitem{Tropospheric Parameters}
+  \flowitem{Carrier Ambiguities}
+}
+};
+
+\node[box] (j) at (9.3,-27) {
+\flowbox{PPP SOLUTION OUTPUT}{
+  \flowitem{Refined Coordinates}
+  \flowitem{ENU Components}
+  \flowitem{Residual Analysis}
+  \flowitem{Convergence Analysis}
+}
+};
+
+\node[box] (k) at (15.5,-27) {
+\flowbox{PERFORMANCE VALIDATION}{
+  \flowitem{RTKLIB Comparison}
+  \flowitem{gLAB Comparison}
+  \flowitem{3D Error Analysis}
+  \flowitem{RMS Evaluation}
+}
+};
+
+%========================================================
+% ARROWS
+%========================================================
+
+% Row 1
+\draw[arrow] (a.east) -- (b.west);
+\draw[arrow] (b.east) -- (c.west);
+\draw[arrow] (c.east) -- (d.west);
+
+% Transition Row 1 -> Row 2 
+\draw[arrow] (d.south) -- +(0,-1.8) -| (e.north);
+
+% Row 2
+\draw[arrow] (e.east) -- (f.west);
+\draw[arrow] (f.east) -- (g.west);
+\draw[arrow] (g.east) -- (h.west);
+
+% Transition Row 2 -> Row 3 
+\draw[arrow] (h.south) -- +(0,-1.8) -| (i.north);
+
+% Row 3
+\draw[arrow] (i.east) -- (j.west);
+\draw[arrow] (j.east) -- (k.west);
+
+\end{tikzpicture}%
+} % End of resizebox
+
+\caption{\protect\centering Overall processing flowchart of the developed GPS-only PPP framework.}
+\label{fig:first_flowchart}
+\end{figure*}
