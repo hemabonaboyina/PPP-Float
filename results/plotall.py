@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # =====================================================
 
 plt.rcParams['font.family'] = 'serif'
-plt.rcParams['font.size'] = 12
+plt.rcParams['font.size'] = 10
 
 # =====================================================
 # FILE PATHS
@@ -155,18 +155,18 @@ def style_plot():
     ax = plt.gca()
 
     # -------------------------------------------------
-    # GRID
+    # LIGHT GRID
     # -------------------------------------------------
 
     plt.grid(
         True,
         linestyle='--',
-        linewidth=0.7,
-        alpha=0.35
+        linewidth=0.5,
+        alpha=0.20
     )
 
     # -------------------------------------------------
-    # THICK BORDERS
+    # THICK BLACK BORDERS
     # -------------------------------------------------
 
     for spine in ax.spines.values():
@@ -184,44 +184,73 @@ def style_plot():
 
         direction='in',
 
-        length=6,
-        width=1.8,
+        length=7,
+        width=2.2,
 
         colors='black',
 
-        labelsize=11
+        labelsize=10,
 
+        pad=10
     )
+
+    # -------------------------------------------------
+    # BOLD X AXIS VALUES
+    # -------------------------------------------------
+
+    for label in ax.get_xticklabels():
+
+        label.set_fontweight('bold')
+
+    # -------------------------------------------------
+    # BOLD Y AXIS VALUES
+    # -------------------------------------------------
+
+    for label in ax.get_yticklabels():
+
+        label.set_fontweight('bold')
 
     # -------------------------------------------------
     # X AXIS
     # -------------------------------------------------
 
+    ticks = np.arange(0,25,6)
+
     plt.xticks(
 
-        ticks=range(0,25,4),
+        ticks=ticks,
 
-        labels=[f"{i:02d}:00" for i in range(0,25,4)]
+        labels=[f"{int(i):02d}:00" for i in ticks]
 
     )
 
     plt.xlim(0,24)
 
     # -------------------------------------------------
-    # LEGEND STYLE
+    # LEGEND
     # -------------------------------------------------
 
     legend = plt.legend(
 
+        loc='upper right',
+
         frameon=True,
 
-        fontsize=10,
+        fontsize=11,
 
         edgecolor='black'
 
     )
 
-    legend.get_frame().set_linewidth(1.5)
+    legend.get_frame().set_linewidth(1.6)
+
+    # -------------------------------------------------
+    # BOLD LEGEND TEXT
+    # -------------------------------------------------
+
+    for text in legend.get_texts():
+
+        text.set_fontweight('bold')
 
 # =====================================================
 # PPP METRICS
@@ -269,82 +298,6 @@ ppp_df["3D_cm"] = np.sqrt(
     ppp_df["Up_cm"]**2
 
 )
-
-ppp_conv = convergence_time(
-    ppp_df["SOD"],
-    ppp_df["3D_cm"]
-)
-
-print("\n======================================")
-print("        PROPOSED PPP METRICS")
-print("======================================")
-
-print(f"\nPPP East RMS  : {rms(ppp_df['East_cm']):.2f} cm")
-print(f"PPP North RMS : {rms(ppp_df['North_cm']):.2f} cm")
-print(f"PPP Up RMS    : {rms(ppp_df['Up_cm']):.2f} cm")
-
-print(f"\nPPP 3D RMS        : {rms(ppp_df['3D_cm']):.2f} cm")
-print(f"PPP Mean 3D Error : {np.mean(ppp_df['3D_cm']):.2f} cm")
-print(f"PPP Max 3D Error  : {np.max(ppp_df['3D_cm']):.2f} cm")
-
-print(f"\nPPP Convergence Time : {ppp_conv:.2f} min")
-
-print(f"\nPPP Availability : {(len(ppp_df)/2880)*100:.2f}%")
-
-# =====================================================
-# PPP COORDINATE TABLES
-# =====================================================
-
-ppp_df["UTC"] = pd.to_datetime(
-    ppp_df["SOD"],
-    unit='s'
-).dt.strftime('%H:%M:%S')
-
-# =====================================================
-# ALL EPOCH COORDINATES
-# =====================================================
-
-ppp_all_epochs = ppp_df[[
-
-    "UTC",
-    "SOD",
-
-    "Computed_X",
-    "Computed_Y",
-    "Computed_Z"
-
-]].copy()
-
-ppp_all_epochs.columns = [
-
-    "UTC",
-    "SOD",
-
-    "X_Component_m",
-    "Y_Component_m",
-    "Z_Component_m"
-
-]
-
-ppp_all_epochs.to_csv(
-    r"D:\PROJECT\results\ppp_all_epochs_coordinates.csv",
-    index=False
-)
-
-print("\nSaved: ppp_all_epochs_coordinates.csv")
-
-# =====================================================
-# 2-HOUR COORDINATE TABLE
-# =====================================================
-
-ppp_2hr = ppp_all_epochs.iloc[::240].copy()
-
-ppp_2hr.to_csv(
-    r"D:\PROJECT\results\ppp_2hour_coordinates.csv",
-    index=False
-)
-
-print("Saved: ppp_2hour_coordinates.csv")
 
 # =====================================================
 # RTK METRICS
@@ -401,27 +354,6 @@ rtk_df["3D_cm"] = np.sqrt(
 
 )
 
-rtk_conv = convergence_time(
-    rtk_df["SOD"],
-    rtk_df["3D_cm"]
-)
-
-print("\n======================================")
-print("          RTKLIB METRICS")
-print("======================================")
-
-print(f"\nRTK East RMS  : {rms(rtk_df['East_cm']):.2f} cm")
-print(f"RTK North RMS : {rms(rtk_df['North_cm']):.2f} cm")
-print(f"RTK Up RMS    : {rms(rtk_df['Up_cm']):.2f} cm")
-
-print(f"\nRTK 3D RMS        : {rms(rtk_df['3D_cm']):.2f} cm")
-print(f"RTK Mean 3D Error : {np.mean(rtk_df['3D_cm']):.2f} cm")
-print(f"RTK Max 3D Error  : {np.max(rtk_df['3D_cm']):.2f} cm")
-
-print(f"\nRTK Convergence Time : {rtk_conv:.2f} min")
-
-print(f"\nRTK Availability : {(len(rtk_df)/2880)*100:.2f}%")
-
 # =====================================================
 # gLAB METRICS
 # =====================================================
@@ -475,27 +407,6 @@ glab_df["3D_cm"] = np.sqrt(
 
 )
 
-glab_conv = convergence_time(
-    glab_df["SOD"],
-    glab_df["3D_cm"]
-)
-
-print("\n======================================")
-print("            gLAB METRICS")
-print("======================================")
-
-print(f"\ngLAB East RMS  : {rms(glab_df['East_cm']):.2f} cm")
-print(f"gLAB North RMS : {rms(glab_df['North_cm']):.2f} cm")
-print(f"gLAB Up RMS    : {rms(glab_df['Up_cm']):.2f} cm")
-
-print(f"\ngLAB 3D RMS        : {rms(glab_df['3D_cm']):.2f} cm")
-print(f"gLAB Mean 3D Error : {np.mean(glab_df['3D_cm']):.2f} cm")
-print(f"gLAB Max 3D Error  : {np.max(glab_df['3D_cm']):.2f} cm")
-
-print(f"\ngLAB Convergence Time : {glab_conv:.2f} min")
-
-print(f"\ngLAB Availability : {(len(glab_df)/2880)*100:.2f}%")
-
 # =====================================================
 # PPP vs RTK PLOTS
 # =====================================================
@@ -513,19 +424,19 @@ time_hours_rtk = (
 
 plots_rtk = [
 
-    ("dX_cm_PPP", "dX_cm_RTK", "X Error (cm)", "x_component_plot.png.png"),
+    ("dX_cm_PPP", "dX_cm_RTK", "X Error (cm)", "x_component_plot"),
 
-    ("dY_cm_PPP", "dY_cm_RTK", "Y Error (cm)", "y_component_plot.png"),
+    ("dY_cm_PPP", "dY_cm_RTK", "Y Error (cm)", "y_component_plot"),
 
-    ("dZ_cm_PPP", "dZ_cm_RTK", "Z Error (cm)", "z_component_plot.png"),
+    ("dZ_cm_PPP", "dZ_cm_RTK", "Z Error (cm)", "z_component_plot"),
 
-    ("3D_cm_PPP", "3D_cm_RTK", "3D Error (cm)", "3d_error_cm_plot.png")
+    ("3D_cm_PPP", "3D_cm_RTK", "3D Error (cm)", "3d_error_cm_plot")
 
 ]
 
 for ppp_col, rtk_col, ylabel, fname in plots_rtk:
 
-    plt.figure(figsize=(10,4.5))
+    plt.figure(figsize=(10,6))
 
     plt.plot(
 
@@ -535,7 +446,7 @@ for ppp_col, rtk_col, ylabel, fname in plots_rtk:
 
         color='navy',
 
-        linewidth=2.0,
+        linewidth=2.5,
 
         label="Proposed PPP"
 
@@ -547,9 +458,9 @@ for ppp_col, rtk_col, ylabel, fname in plots_rtk:
 
         rtk_compare[rtk_col],
 
-        color='darkorange',
+        color='darkgreen',
 
-        linewidth=2.0,
+        linewidth=2.5,
 
         label="RTKLIB"
 
@@ -557,25 +468,53 @@ for ppp_col, rtk_col, ylabel, fname in plots_rtk:
 
     plt.xlabel(
         "Time (Hours)",
-        fontsize=12,
+        fontsize=13,
         fontweight='bold'
     )
 
     plt.ylabel(
         ylabel,
-        fontsize=12,
+        fontsize=13,
         fontweight='bold'
     )
 
+    # ============================================
+    # IMPROVED Y-AXIS SCALING
+    # ============================================
+
+    if "X Error" in ylabel:
+
+        plt.ylim(-35, 20)
+
+    elif "Y Error" in ylabel:
+
+        plt.ylim(-45, 70)
+
+    elif "Z Error" in ylabel:
+
+        plt.ylim(-15, 80)
+
+    elif "3D Error" in ylabel:
+
+        plt.ylim(0, 80)
+
     style_plot()
 
-    plt.tight_layout()
+    plt.tight_layout(pad=1.2)
 
     plt.savefig(
 
-        rf"D:\PROJECT\results\{fname}",
+        rf"D:\PROJECT\results\{fname}.png",
 
         dpi=600,
+
+        bbox_inches='tight'
+
+    )
+
+    plt.savefig(
+
+        rf"D:\PROJECT\results\{fname}.pdf",
 
         bbox_inches='tight'
 
@@ -598,19 +537,19 @@ time_hours_glab = (
 
 plots_glab = [
 
-    ("dX_cm_PPP", "dX_cm_gLAB", "X Error (cm)", "X_comparison.png.png"),
+    ("dX_cm_PPP", "dX_cm_gLAB", "X Error (cm)", "X_comparison"),
 
-    ("dY_cm_PPP", "dY_cm_gLAB", "Y Error (cm)", "Y_comparison.png.png"),
+    ("dY_cm_PPP", "dY_cm_gLAB", "Y Error (cm)", "Y_comparison"),
 
-    ("dZ_cm_PPP", "dZ_cm_gLAB", "Z Error (cm)", "Z_comparison.png.png"),
+    ("dZ_cm_PPP", "dZ_cm_gLAB", "Z Error (cm)", "Z_comparison"),
 
-    ("3D_cm_PPP", "3D_cm_gLAB", "3D Error (cm)", "3D_difference.png.png")
+    ("3D_cm_PPP", "3D_cm_gLAB", "3D Error (cm)", "3D_difference")
 
 ]
 
 for ppp_col, glab_col, ylabel, fname in plots_glab:
 
-    plt.figure(figsize=(10,4.5))
+    plt.figure(figsize=(10,6))
 
     plt.plot(
 
@@ -620,7 +559,7 @@ for ppp_col, glab_col, ylabel, fname in plots_glab:
 
         color='navy',
 
-        linewidth=2.0,
+        linewidth=2.5,
 
         label="Proposed PPP"
 
@@ -634,7 +573,7 @@ for ppp_col, glab_col, ylabel, fname in plots_glab:
 
         color='firebrick',
 
-        linewidth=2.0,
+        linewidth=2.5,
 
         label="gLAB"
 
@@ -642,25 +581,53 @@ for ppp_col, glab_col, ylabel, fname in plots_glab:
 
     plt.xlabel(
         "Time (Hours)",
-        fontsize=12,
+        fontsize=13,
         fontweight='bold'
     )
 
     plt.ylabel(
         ylabel,
-        fontsize=12,
+        fontsize=13,
         fontweight='bold'
     )
 
+    # ============================================
+    # IMPROVED Y-AXIS SCALING
+    # ============================================
+
+    if "X Error" in ylabel:
+
+        plt.ylim(-35, 20)
+
+    elif "Y Error" in ylabel:
+
+        plt.ylim(-45, 70)
+
+    elif "Z Error" in ylabel:
+
+        plt.ylim(-15, 80)
+
+    elif "3D Error" in ylabel:
+
+        plt.ylim(0, 80)
+
     style_plot()
 
-    plt.tight_layout()
+    plt.tight_layout(pad=1.2)
 
     plt.savefig(
 
-        rf"D:\PROJECT\results\{fname}",
+        rf"D:\PROJECT\results\{fname}.png",
 
         dpi=600,
+
+        bbox_inches='tight'
+
+    )
+
+    plt.savefig(
+
+        rf"D:\PROJECT\results\{fname}.pdf",
 
         bbox_inches='tight'
 
