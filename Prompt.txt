@@ -1,0 +1,222 @@
+# FORENSIC INSTRUMENTATION CLEANUP PASS
+
+## OBJECTIVE
+
+Before any GLAB/RTK validation, clean the forensic layer so every metric is:
+- epoch-local,
+- internally consistent,
+- numerically trustworthy,
+- incapable of leaking stale values.
+
+The current EKF is finally physically sane enough that broken diagnostics
+are now a bigger risk than the filter itself.
+
+## DO NOT TOUCH:
+
+EKF equations
+H/R/Q physics
+ambiguity logic
+birth logic
+clock model
+startup scaling
+Joseph form
+SP/SC
+RTS
+measurement models
+
+This pass is instrumentation-only.
+
+======================================================================
+PATCH 1 — EPOCH-LOCAL FORENSIC RESET BLOCK
+==========================================
+
+At the VERY TOP of the epoch loop, immediately after:
+sod = ...
+
+Create a dedicated reset section:
+
+# ============================================================
+
+# FORENSIC EPOCH RESET
+
+# ============================================================
+
+_p1_phase_info = 0.0
+_p1_code_info  = 0.0
+_p1_zwd_info   = 0.0
+
+_p1_phase_rows = 0
+_p1_code_rows  = 0
+
+_p2e_sr_KH     = float("nan")
+_p2e_eigs_KH   = None
+
+_au_cm_ratio   = float("nan")
+
+_info_rows_phase = []
+_info_rows_code  = []
+
+_epoch_phase_rms = float("nan")
+_epoch_code_rms  = float("nan")
+
+_epoch_clk_sig_before = float("nan")
+_epoch_clk_sig_after  = float("nan")
+
+_epoch_trace_before = float("nan")
+_epoch_trace_after  = float("nan")
+
+## IMPORTANT:
+
+Every forensic variable used later MUST be initialized here,
+even if normally overwritten later.
+
+No instrumentation variable may persist silently from a previous epoch.
+
+======================================================================
+PATCH 2 — STRICT CODE/PHASE ROW CLASSIFICATION
+==============================================
+
+Your current INFO decomposition is broken.
+
+Replace ALL heuristic classification like:
+if R_eff < threshold:
+or:
+if row < rr:
+or:
+if obs_type inferred from sigma:
+
+with EXPLICIT row tagging.
+
+At row construction time create:
+
+```
+row_kind.append("PHASE")
+```
+
+or
+row_kind.append("CODE")
+
+Then ALL later forensic blocks MUST use ONLY:
+row_kind[i]
+
+Never infer row type from R values.
+
+This is likely the source of the absurd:
+ph/code_info_ratio ~ 1e34
+
+======================================================================
+PATCH 3 — FORENSIC SANITY ASSERTS (NON-ABORTING)
+================================================
+
+Add one compact consistency block after INFO decomposition:
+
+# ============================================================
+
+# FORENSIC SANITY CHECK
+
+# ============================================================
+
+if _p1_code_rows > 0 and _p1_code_info <= 0:
+print("[FORENSIC-WARN] code rows exist but code_info <= 0")
+
+if _p1_phase_rows > 0 and _p1_phase_info <= 0:
+print("[FORENSIC-WARN] phase rows exist but phase_info <= 0")
+
+if np.isnan(_p2e_sr_KH):
+print("[FORENSIC-WARN] spectral_radius(KH)=NaN")
+
+if not np.isfinite(_epoch_phase_rms):
+print("[FORENSIC-WARN] phase_rms invalid")
+
+NO RuntimeErrors.
+Warnings only.
+
+======================================================================
+PATCH 4 — REMOVE DUPLICATE / DEAD FORENSIC STATE
+================================================
+
+Search entire file for:
+*ramp*
+*si*
+*p6*
+*rebirth*
+*au*
+*ncd*
+*startup*
+
+Delete ONLY:
+- variables no longer printed,
+- accumulators no longer consumed,
+- stale experiment remnants,
+- dead comparison tables.
+
+DO NOT remove active diagnostics.
+
+Goal:
+eliminate shadowed variables and stale reuse paths.
+
+======================================================================
+PATCH 5 — ONE CLEAN FORENSIC SUMMARY LINE
+=========================================
+
+At the END of each epoch print ONLY:
+
+[FORENSIC-SUMMARY]
+epoch=...
+phase_rows=...
+code_rows=...
+phase_info=...
+code_info=...
+ph/code_ratio=...
+clk_sig=...
+code_rms=...
+phase_rms=...
+spectral_radius=...
+
+This becomes the ONLY authoritative forensic snapshot.
+
+All other deep debug prints remain available,
+but this line is the primary truth source.
+
+======================================================================
+SUCCESS CRITERIA
+================
+
+SUCCESS means:
+
+1.
+
+code_info becomes finite and physically believable
+
+2.
+
+ph/code_info_ratio drops from absurd (~1e34)
+to something realistic
+
+3.
+
+metrics remain stable across epochs
+(no stale-value jumps)
+
+4.
+
+no NaN/ghost values appear
+
+5.
+
+same epoch produces internally consistent:
+code RMS
+code rows
+code info
+clock sigma
+
+## ONLY AFTER THIS:
+
+Run a clean PPP session and compare against:
+GLAB
+RTKLIB
+ENU truth
+convergence curves
+
+Validation before instrumentation cleanup risks optimizing against
+broken telemetry.
