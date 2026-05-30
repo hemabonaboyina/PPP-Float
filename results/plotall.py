@@ -633,6 +633,6 @@ for ppp_col, glab_col, ylabel, fname in plots_glab:
 
     )
 
-plt.show()
+plt.show()  # Display all plots at the end
 
 print("\nAll processing completed successfully.")

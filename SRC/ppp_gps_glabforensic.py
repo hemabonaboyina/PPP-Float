@@ -1790,6 +1790,17 @@ def _ppp_pass(epochs, sp3t, sp, sc, clkd, osb, ah, nom, iclk, izwd,
     _P_post_prev = None
     # ─────────────────────────────────────────────────────────────────────────
 
+    # ── STAGE-7: POS-FLOOR pass-level state ──────────────────────────────────
+    # Tracks the previous epoch's code-phase delta so the floor formula
+    # max(50, 0.15 * cp_delta) is available at the Joseph insertion point
+    # (OBS-BALANCE, which computes cp_delta, fires AFTER the Joseph block).
+    # Accumulators for the per-pass summary printed at pass end.
+    _pf_prev_cp_delta_mm  = float('nan')   # cp_delta from epoch N-1
+    _pf_floor_active_n    = 0              # epochs where floor fired on ≥1 axis
+    _pf_floor_mm_list     = []             # imposed floor values (mm)
+    _pf_sigma_orig_list   = []             # original pos sigma when floor fired
+    # ─────────────────────────────────────────────────────────────────────────
+
     # == REBIRTH-FORENSIC: audit engine construction ============================
     # Instrumentation ONLY -- no EKF/model changes.
     # Tracks every ambiguity birth, maintains +-5-epoch context windows,
@@ -4117,6 +4128,71 @@ def _ppp_pass(epochs, sp3t, sp, sc, clkd, osb, ah, nom, iclk, izwd,
         #           f"  floor={_CLK_SIGMA_FLOOR_M*1e3:.0f}mm")
         # ── END PATCH-CLK-FLOOR (commented out for PATCH2 experiment) ────────
 
+        # ══════════════════════════════════════════════════════════════════════
+        # STAGE-7B: POSITION COVARIANCE FLOOR — DIAGNOSTIC ONLY (NO P MUTATION)
+        # ══════════════════════════════════════════════════════════════════════
+        #
+        # CONTEXT
+        # ───────
+        # Stage-7 showed that the active floor genuinely cured covariance
+        # over-confidence (NIS 5.21→1.22, storms eliminated, phase-active 100%)
+        # but ENU instability persisted and postfit residuals worsened.
+        # Conclusion: premature collapse was REAL but NOT the sole blocker.
+        #
+        # STAGE-7B OBJECTIVE
+        # ──────────────────
+        # Remove ALL active P modification so covariance can evolve naturally.
+        # Retain the floor diagnostic so we can observe WHEN natural collapse
+        # would have triggered, giving a clean measurement of the underlying
+        # collapse rate without artificial forcing.
+        #
+        # P IS NEVER TOUCHED IN THIS BLOCK.
+        # Q, H, R, K, ambiguities, clock, ZWD, RTS: all unchanged.
+        #
+        # IMPLEMENTATION
+        # ──────────────
+        # Location : same as Stage-7 (immediately after Joseph symmetrisation).
+        # Mechanism: diagonal-only floor on P[0:3, 0:3] (ECEF position).
+        #            Off-diagonal terms, clock, ZWD, and ambiguities: UNTOUCHED.
+        # Formula  : _pos_floor_mm = max(50.0, 0.15 * cp_delta_mm)
+        #            where cp_delta_mm = mean |code_res - phase_res| from the
+        #            PREVIOUS epoch (OBS-BALANCE computes it after this block;
+        #            first epoch uses 50 mm safe default).
+        # Diagnostic only — floor value is computed and logged but NEVER applied
+        # to P.  Counter tracks how often natural P_pos is already below floor,
+        # giving the collapse-detection signal without perturbing the filter.
+        # ══════════════════════════════════════════════════════════════════════
+        try:
+            # Compute floor threshold (same formula as Stage-7; not applied)
+            if math.isfinite(_pf_prev_cp_delta_mm):
+                _pf_floor_mm = max(50.0, 0.15 * _pf_prev_cp_delta_mm)
+            else:
+                _pf_floor_mm = 50.0          # safe default for epoch 0
+            _pf_floor_m2 = (_pf_floor_mm * 1e-3) ** 2
+
+            # Natural pos_sigma — P is NOT modified
+            _pf_sigma_now_mm = math.sqrt(
+                sum(max(P[i, i], 0.) for i in range(3))) * 1e3
+
+            # Would the floor have fired?
+            _pf_would_fire = any(P[_pf_i, _pf_i] < _pf_floor_m2
+                                 for _pf_i in range(3))
+            if _pf_would_fire:
+                _pf_floor_active_n  += 1
+                _pf_floor_mm_list.append(_pf_floor_mm)
+                _pf_sigma_orig_list.append(_pf_sigma_now_mm)
+                print(f"  [POS-FLOOR-DIAG]  epoch={nproc}  sod={sod:.0f}"
+                      f"  diag-only"
+                      f"  sigma_now={_pf_sigma_now_mm:.1f}mm"
+                      f"  floor_target={_pf_floor_mm:.1f}mm"
+                      f"  cp_delta_prev={_pf_prev_cp_delta_mm:.1f}mm"
+                      f"  WOULD_FIRE=YES")
+        except Exception as _pf_ex:
+            print(f"[POS-FLOOR-DIAG-ERROR]  epoch={nproc}  sod={sod:.0f}  {_pf_ex}")
+        # ══════════════════════════════════════════════════════════════════════
+        # END STAGE-7B POS-FLOOR-DIAG
+        # ══════════════════════════════════════════════════════════════════════
+
         # ── PATCH 2: POST-EKF COVARIANCE SHRINK AUDIT ────────────────────────
         # Compare pre-update P diagonal (from _ekf_P_pre snapshot) with post-update.
         _p2_trace_before = float(np.trace(_ekf_P_pre))
@@ -4813,6 +4889,15 @@ def _ppp_pass(epochs, sp3t, sp, sc, clkd, osb, ah, nom, iclk, izwd,
         except Exception as _ob_ex:
             print(f"  [OBS-BALANCE-WARN] failed: {_ob_ex}")
         # ── END OBS-BALANCE ───────────────────────────────────────────────────
+
+        # ── STAGE-7: forward cp_delta to next epoch's POS-FLOOR ──────────────
+        # _obs_mean_abs_cp_delta_mm was just set (or left nan) by OBS-BALANCE.
+        # Store it so the floor formula can use it at the NEXT epoch's Joseph
+        # insertion point.
+        if math.isfinite(_obs_mean_abs_cp_delta_mm):
+            _pf_prev_cp_delta_mm = _obs_mean_abs_cp_delta_mm
+        # If nan (e.g. no postfit pairs), keep the last finite value.
+        # ─────────────────────────────────────────────────────────────────────
 
 
         # Documents exactly which array feeds each printed metric.
@@ -5662,6 +5747,31 @@ def _ppp_pass(epochs, sp3t, sp, sc, clkd, osb, ah, nom, iclk, izwd,
         nproc += 1
 
     # ── End-of-pass summary ───────────────────────────────────────────────────
+    # ── STAGE-7B: POS-FLOOR-DIAG pass-end summary (diagnostic only; P untouched)
+    print(f"\n{'='*72}")
+    print(f"[STAGE-7B-POS-FLOOR-DIAG-SUMMARY]  (floor computed but NEVER applied to P)")
+    _pf_n_total = nproc if nproc > 0 else 1
+    print(f"  Would-fire epochs       : {_pf_floor_active_n}/{_pf_n_total}"
+          f"  ({100*_pf_floor_active_n/_pf_n_total:.1f}%)"
+          f"  ← epochs where natural P_pos < floor threshold")
+    if _pf_floor_mm_list:
+        _pf_mean_floor = sum(_pf_floor_mm_list) / len(_pf_floor_mm_list)
+        _pf_max_floor  = max(_pf_floor_mm_list)
+        _pf_min_floor  = min(_pf_floor_mm_list)
+        _pf_mean_orig  = sum(_pf_sigma_orig_list) / len(_pf_sigma_orig_list)
+        print(f"  Mean floor threshold    : {_pf_mean_floor:.1f} mm"
+              f"  (min={_pf_min_floor:.1f}  max={_pf_max_floor:.1f})")
+        print(f"  Mean natural pos_sigma  : {_pf_mean_orig:.1f} mm"
+              f"  (when below floor; = collapse depth)")
+        if _pf_mean_floor > 0:
+            print(f"  Mean collapse ratio     : {_pf_mean_orig/_pf_mean_floor:.3f}×"
+                  f"  (natural/floor; <1.0 = pos_sigma collapsed below floor)")
+    else:
+        print(f"  Would-fire: NEVER — natural pos_sigma stayed above floor every epoch.")
+        print(f"  ✓ P_pos is NOT collapsing without the floor — floor was the sole cause.")
+    print(f"{'='*72}")
+    # ── END STAGE-7B POS-FLOOR-DIAG SUMMARY ──────────────────────────────────
+
     print(f"\n{'='*72}")
     print(f"[PASS-SUMMARY]  pass={pass_label}  label={label}")
     print(f"  Total epochs processed : {nproc}")
