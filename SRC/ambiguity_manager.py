@@ -508,7 +508,7 @@ class AmbiguityManager:
         )
 
 
-# ── Convenience factories (unchanged API) ────────────────────────────────────
+# ── Convenience factories(unchanged API) ────────────────────────────────────
 
 def open_snapshot_csv(directory: str, label: str = 'FWD'):
     path = os.path.join(directory, f'ambiguity_manager_snapshot_{label}.csv')
@@ -521,4 +521,4 @@ def open_lifecycle_trace_csv(directory: str, label: str = 'GE'):
     path = os.path.join(directory, f'ambiguity_lifecycle_trace_{label}.csv')
     fh = open(path, 'w')
     fh.write(AmbiguityManager.lifecycle_trace_header())
-    return fh
+    return fh 
