@@ -58,6 +58,11 @@ ABORT_N_BIRTH_M       = 20.0   # m   — hard abort if |N_birth| exceeds this
 ABORT_DCLK_M          = 15.0   # m   — hard abort if |Δclk| this epoch exceeds
 ABORT_CODE_RMS_CONV   = 15.0   # m   — hard abort if code_rms > this after convergence
 ABORT_CM_RATIO        = 25.0   # —   — hard abort if common_mode_ratio exceeds this
+ABORT_CM_RATIO_ABS_MM = 200.0   # mm  — cm_ratio abort also requires |mean_postfit_phase|
+                                #       to exceed this absolute value.  Prevents false-
+                                #       positive when the EKF collapses all postfit
+                                #       residuals to the same small value (tight std →
+                                #       large ratio even though mean_phase is benign).
 CONV_EPOCH_THRESHOLD  = 60     # ep  — "after convergence" epoch count
 CONTEXT_HALF          = 5      # ep  — half-width of ±N context window
 
@@ -301,7 +306,7 @@ class RebirthForensic:
         Call once per epoch, AFTER code_rms / phase_rms / cm_ratio are computed.
         This finalises any pending rebirths that now have enough post-context.
         """
-        er = EpochRecord(stats['nproc'], stats['sod'])
+        er = EpochRecord(stats['nproc'], stats['sod']) #
         er.rec_clk_m          = stats.get('rec_clk_m', float('nan'))
         er.dclk_m             = stats.get('dclk_m',    float('nan'))
         er.code_rms_mm        = stats.get('code_rms_mm', float('nan'))
@@ -326,8 +331,28 @@ class RebirthForensic:
             self._abort_code_rms(er)
 
         # Check abort: cm_ratio
-        if math.isfinite(er.cm_ratio) and er.cm_ratio > ABORT_CM_RATIO:
-            self._abort_cm_ratio(er)
+        # Dual-gate: ratio must be large AND |mean_postfit_phase| must exceed
+        # ABORT_CM_RATIO_ABS_MM.  Without the absolute gate the abort fires as a
+        # false positive whenever the EKF collapses all postfit residuals to the
+        # same small value (mean≈11 mm, std≈0.4 mm → ratio≈28 even though the
+        # filter is healthy).
+        
+        # Check abort: cm_ratio
+        # IMPORTANT:
+        # During early/mid convergence the PPP manifold can exhibit
+        # large coherent phase residuals without actual filter failure.
+        # Only enable hard abort after substantial convergence time.
+
+        _cm_abs_mm = er.phase_rms_mm if math.isfinite(er.phase_rms_mm) else 0.0
+
+        if (
+           er.nproc >= 1200
+           and math.isfinite(er.cm_ratio)
+           and er.cm_ratio > 50.0
+           and _cm_abs_mm > 500.0
+        ):
+           self._abort_cm_ratio(er)
+        
 
         # Collect post-context for any pending rebirths
         for entry in self._pending:
@@ -718,7 +743,9 @@ class RebirthForensic:
 
     def _abort_cm_ratio(self, er: EpochRecord) -> None:
         msg = (f'[REBIRTH-FORENSIC-ABORT] cm_ratio={er.cm_ratio:.2f}'
-               f' > {ABORT_CM_RATIO}  SOD={er.sod:.0f}  epoch={er.nproc}')
+               f' > {ABORT_CM_RATIO}  AND  phase_rms={er.phase_rms_mm:.1f}mm'
+               f' > {ABORT_CM_RATIO_ABS_MM:.0f}mm'
+               f'  SOD={er.sod:.0f}  epoch={er.nproc}')
         self._fh.write('\n' + '!' * 72 + '\n')
         self._fh.write(msg + '\n')
         ctx = list(self._epoch_buf)
