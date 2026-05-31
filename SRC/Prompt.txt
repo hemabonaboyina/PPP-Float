@@ -1,0 +1,346 @@
+You are performing a CONTROLLED REDUCTION extraction on a GPS PPP EKF codebase.
+
+# FILES
+
+* ppp_gps_glabforensic.py
+* ambiguity_manager.py
+* rebirth_forensic.py
+* kf.py
+
+# PRIMARY GOAL
+
+Extract the MINIMAL scientifically-valid float PPP engine from the current codebase.
+
+The target is:
+
+* clean
+* understandable
+* reproducible
+* gLAB-equivalent physics
+* minimal hidden heuristics
+* minimal experimental contamination
+
+IMPORTANT:
+This is NOT a rewrite-from-scratch task.
+
+The new baseline MUST be extracted FROM the CURRENT WORKING CODE to preserve:
+
+* validated math
+* validated observation equations
+* validated geometry
+* validated parsing behavior
+* validated EKF flow
+
+DO NOT redesign the PPP engine.
+
+DO NOT optimize architecture aesthetics.
+
+DO NOT add features.
+
+DO NOT preserve every experiment.
+
+# OBJECTIVE
+
+Create a new reduced engine:
+
+PPP_CORE_BASELINE
+
+that contains ONLY:
+
+* essential PPP physics
+* essential EKF mechanics
+* essential ambiguity handling
+* essential parsing
+* essential outputs
+
+and REMOVES:
+
+* forensic layers
+* experiment history
+* startup hacks
+* zombie ecosystem
+* lifecycle remnants
+* duplicate diagnostics
+* hidden heuristics
+* observability patches
+* research scaffolding
+
+# CRITICAL REQUIREMENTS
+
+1. Preserve correct PPP physics.
+2. Preserve correct float ambiguity behavior.
+3. Preserve correct IF observation equations.
+4. Preserve proper APC handling.
+5. Preserve proper SP3/CLK interpolation.
+6. Preserve proper relativity and Earth rotation.
+7. Preserve proper troposphere mapping.
+8. Preserve proper phase/code separation.
+9. Preserve correct EKF update ordering.
+10. Preserve reproducibility.
+11. DO NOT preserve every forensic patch.
+12. DO NOT preserve every experiment.
+13. DO NOT preserve dormant systems.
+14. DO NOT preserve legacy scaffolding.
+
+# TARGET ARCHITECTURE
+
+ppp_core_baseline.py
+
+with ONLY these sections:
+
+## SECTION 1 — CONFIG
+
+Only:
+
+* physical constants
+* essential PPP thresholds
+* essential Q/R settings
+* elevation masks
+* ambiguity birth sigma
+* troposphere prior sigma
+
+NO:
+
+* Stage-X experiments
+* observability patches
+* forensic toggles
+* lifecycle toggles
+* startup hacks
+
+## SECTION 2 — PARSING
+
+Keep:
+
+* RINEX parsing
+* SP3 parsing
+* CLK parsing
+* BIA parsing
+* ATX parsing
+
+Delete:
+
+* unused formats
+* dormant parsers
+* duplicate parsing helpers
+
+## SECTION 3 — GEOMETRY
+
+Keep:
+
+* interpolation
+* LOS geometry
+* Earth rotation
+* relativity
+* az/el
+* windup
+* coordinate transforms
+
+Delete:
+
+* duplicate geometry diagnostics
+* geometry forensic tracing
+
+## SECTION 4 — OBSERVATION MODEL
+
+Keep:
+
+* IF code
+* IF phase
+* APC corrections
+* troposphere mapping
+* residual formation
+
+Delete:
+
+* startup information scaling
+* observability patches
+* Stage-X residual experiments
+* duplicate residual audits
+
+## SECTION 5 — EKF
+
+Keep ONLY:
+
+* propagation
+* Q construction
+* H construction
+* R construction
+* filter_standard OR Joseph form (choose ONE)
+* covariance symmetrization
+* basic PSD protection
+
+Delete:
+
+* duplicate EKF forensic blocks
+* gain decomposition
+* eigenmode audits
+* collapse trackers
+* innovation reconstruction audits
+* PATCH-X instrumentation
+
+## SECTION 6 — AMBIGUITIES
+
+Keep ONLY:
+
+* slot allocation
+* ambiguity birth
+* ambiguity propagation
+* ambiguity reset
+* gap recovery
+
+Delete:
+
+* zombie ecosystem
+* zombie soften
+* health scoring
+* lifecycle remnants
+* mobility audits
+* stiffness audits
+* rebirth forensic
+* ambiguity genealogy
+* Stage-1C experiments
+* experimental reset suppression
+
+## SECTION 7 — OUTPUTS
+
+Keep ONLY:
+
+* solution output
+* residual output
+* covariance output
+* basic convergence plots
+* RMS plots
+
+Delete:
+
+* forensic CSVs
+* audit CSVs
+* spectral diagnostics
+* startup forensic traces
+* innovation decomposition outputs
+* observability audit outputs
+
+# TASKS
+
+## PHASE 1 — IDENTIFY MINIMAL OPERATIONAL PIPELINE
+
+Determine the MINIMAL set of functions required for:
+
+* scientifically-valid float PPP
+* gLAB-equivalent operation
+* stable EKF convergence
+
+For each function classify:
+
+* ESSENTIAL
+* OPTIONAL
+* FORENSIC
+* LEGACY
+* EXPERIMENTAL
+
+## PHASE 2 — BUILD KEEP/DELETE MAP
+
+Create a COMPLETE inventory.
+
+For every:
+
+* function
+* class
+* global
+* diagnostic block
+* CSV writer
+* experiment patch
+* helper function
+
+Specify:
+
+* KEEP
+* DELETE
+* OPTIONAL
+* REVISIT LATER
+
+with rationale.
+
+## PHASE 3 — IDENTIFY HIDDEN DEPENDENCIES
+
+Before deletion:
+
+* identify hidden dependencies
+* identify side effects
+* identify shared mutable state
+* identify runtime ordering assumptions
+
+Especially:
+
+* x mutations
+* P mutations
+* ambiguity slot ownership
+* startup assumptions
+* observation ordering
+
+## PHASE 4 — DEFINE CLEAN BASELINE
+
+Define the final:
+PPP_CORE_BASELINE
+
+configuration.
+
+The baseline should:
+
+* resemble a clean float PPP engine
+* resemble gLAB-style operational behavior
+* avoid hidden heuristics
+* avoid layered experiments
+* avoid silent exclusions
+
+Identify:
+
+* which current experiments should NOT survive
+* which current heuristics may still be scientifically useful
+* which mechanisms should become OPTIONAL later
+
+## PHASE 5 — SAFE REDUCTION ORDER
+
+Provide the SAFEST deletion order.
+
+For each deletion:
+
+* what can break
+* how to validate
+* rollback difficulty
+* numerical risk
+
+## PHASE 6 — VALIDATION STRATEGY
+
+Define:
+
+* how to compare against current engine
+* how to compare against gLAB behavior
+* what metrics matter
+* what residual behavior matters
+* what convergence metrics matter
+
+IMPORTANT:
+DO NOT optimize for beauty.
+DO NOT optimize for modular purity.
+DO NOT create many tiny files.
+DO NOT redesign the EKF mathematically.
+
+The target is:
+minimal,
+clean,
+scientifically-valid,
+reproducible float PPP.
+
+# FINAL OUTPUT
+
+1. Essential operational pipeline
+2. Keep/Delete inventory
+3. Minimal float PPP architecture
+4. Hidden dependency warnings
+5. Safe deletion order
+6. Validation strategy
+7. Recommended retained heuristics
+8. Recommended removed experiments
+9. Proposed PPP_CORE_BASELINE structure
+10. Immediate implementation steps
